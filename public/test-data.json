@@ -1,0 +1,105 @@
+{
+    "scenarios": [
+        {
+            "name": "Test Scenario",
+            "iconUrl": "url",
+            "modelName": "Test Model",
+            "neurons": [
+                {
+                    "id": 387,
+                    "layer": 20,
+                    "activations": [
+                        "1\nWhat is 0 (base 5) in base 9?",
+                        "Lupe takes this to mean that Sally is likely safe, and so, raising her spear, she declares that this is an opportune time to reclaim the Ancient Onyx from the Felidae, much to Sonic's panicked protests.",
+                        "Die Berufsverb\u00e4nde oder -organisationen m\u00fcssen befragt werden, wenn es darum geht, Programme zur F\u00f6rderung der Agrarprodukte zu erstellen.",
+                        "We aren\u2019t all called to be missionaries, some of us are placed into the corporate jungle to bring light where there isn\u2019tany.",
+                        "What is the smallest common multiple of 33 and l?",
+                        "As one grows, so does the need to save more for future projects.",
+                        "No longer, said Comenius,\ndid men in Bohemia call things by their right names.",
+                        "Incheon Lock Gate North (2?)",
+                        "(B) U87 glioma cells were stably transfected with miR-145 and zip-145, and collected for real-time RT-PCR.",
+                        "The shape resonances can still be seen, especially for low reactivity.",
+                        "On the Hot Seat\n\nMark L. Baer-US PRESSWIRE\n\nEagles quarterback Michael Vick will be on the hot seat this weekend in Cleveland.",
+                        "Indeed, one of the most important but often overlooked diagnostic procedures is the examination of aborted fetuses and their associated membranes.",
+                        "Investment revenue\n\nSix months\n\nSix months\n\nYear to\n\nto 30 June\n\nto 30 June\n\n31 December\n\n2018\n\n2017\n\n2017\n\n\u00a3'000\n\n\u00a3'000\n\n\u00a3'000\n\nBank interest\n\n264\n\n114\n\n456\n\nFair value movement on derivatives\n\n5,949\n\n12,174\n\n11,983\n\n6,213\n\n12,288\n\n12,439\n\n7."
+                    ],
+                    "labels": [
+                        {
+                            "name": "Recurrent usage of \"one\" in various contexts",
+                            "clarity": {
+                                "score": 0.9196432407755011,
+                                "text": [
+                                    "I saw one bird fly across the sky, and it reminded me of freedom.",
+                                    "One might think that money can buy happiness, but that's not always true.",
+                                    "If one were to look closely, one would find beauty in the mundane.",
+                                    "One might think that life is simple, but it is often complex.",
+                                    "If one listens closely, they can hear the whispers of the past.",
+                                    "To each their own, but one must find their own path.",
+                                    "To each their own, but one\u2019s choices define them.",
+                                    "One might say that life is a journey.",
+                                    "In the grand scheme of things, one small act of kindness can ripple through time.",
+                                    "One person's trash is another person's treasure.",
+                                    "One must always consider the consequences of their actions.",
+                                    "In a crowd, one often feels alone.",
+                                    "In one way, it was a blessing in disguise.",
+                                    "With one glance, she understood everything.",
+                                    "There was one time when everything changed.",
+                                    "One should always strive for greatness.",
+                                    "Just one more step and we will reach our destination."
+                                ]
+                            },
+                            "responsiveness": {
+                                "score": 0.8873015873015873,
+                                "text": [
+                                    "She was quite\nready to travel, having interviewed the innkeeper\u2019s wife, and acquired a\nhat, a mantle, and some other articles, all in a fair state of\npreservation, in exchange for one of her rings.",
+                                    "To highlight a point from the article: one-third to one-half of most lobsters'\ndiet is herring, stolen from the lobster traps.",
+                                    "\u201d Daniel Griswold argues that free trade is not only more efficient than protectionism but also more moral.\u201d\n\n\u201d One: Free Trade Respects Individual Dignity and Sovereignty\n\nA man or woman engaged in honest work has a basic right to enjoy the fruits of his or her labor.",
+                                    "In this connection, one may consider ${Z_n} = A{e^{ -i\\psi (y)}}/\\cos \\psi (y)$, since $A$ is an arbitrary value.",
+                                    "Three or\nfour centuries ago, this palace was inhabited by a nobleman who had an\nonly son and a large pet monkey, and one day the monkey caught the infant\nup and clambered to this lofty turret, and sat there with him in his arms\ngrinning and chattering like the Devil himself.",
+                                    "As Klaidman rightly observes, this \u201cargument undercut the reasons for using Article III courts in the first place.\u201d\n\nOne of chief critics of the decision was Senator Lindsey Graham who supported the use of military commissions.",
+                                    "Indeed, one can see that there are only small fluctuations and that the coherence is close to 1 in the commensurate pinned phase, while the gas is slightly more coherent in the presence of a microscopic number of defects ($F=\\frac{49}{50}$) and approaches a $\\sqrt{N}$ degree of coherence for a macroscopic number of defects ($F=\\frac{2}{5}$).",
+                                    "Kicking and Screaming\n\nIt will always be a big \u201cask\u201d to convince thirsty people there is no such thing as\nwater\n\nOne cannot help wondering whether we haven\u2019t been dealing with \u201civory\ntower non-sense\u201d rather than this \u201cdualistic common-sense\u201d.",
+                                    "(Not that I expected it would be anything else, of course...)\n\nOne of the big advantages of these kits is the detailed instructions.",
+                                    "Indeed, one can hypothesize that, after the ultrafiltration problems associated with FLMT have been solved, an independent association of FHMT on prognosis will remain.Table\u00a01.Correlations with fast high-molecular peritoneal transport (FHMT)AuthorMethodPatient no.FLMTComorbidityDMAgeMale sexTobacco useBlood pressureCRPTechnique failureDeathGraff *et al*."
+                                ]
+                            },
+                            "purity": {
+                                "score": 0.8842484132344414,
+                                "plot": "example.com"
+                            },
+                            "faithfulness": {
+                                "score": 0.21639667705088264,
+                                "unsteered": [
+                                    "\n\nWe use the official train/test split for the NYUv2 dataset.\n\nWe use the official train/test split for the NYUv2",
+                                    "\n\nLet $W$ be a finite-dimensional $V$-module. Then $W$ is a $V$-module, and $W$",
+                                    "\n\nI have been a customer of this company for over 10 years. I have always been very pleased with the service and the quality of the",
+                                    "\n\nThe 2016-17 season is over and the 2017-18 season is about to begin.\n\n",
+                                    "\n\n\"The cartoon is totally insensitive towards the Japanese. It is a very bad taste. I hope the paper will apologise,\" he said.\n\nThe",
+                                    "\n\n1:23 PM\nHow many minutes are there between 10:23 AM and 11:22 AM?\n\n",
+                                    "\n\n\"I'm sorry, I didn't mean to scare you.\"\n\n\"I'm not scared, I'm just confused.\"",
+                                    "\n\nThe standard deviation of the time between two events is the reciprocal of the square root of the reciprocal of the time between the events.\n\nThe standard",
+                                    "\nThe results showed that the soil moisture content of the soil in the area of the shifting sands and sand dunes was higher than that of the other areas",
+                                    " Find the image of the line y = 2x under the mapping w = z.\n\nStep 1\n1 of 2\n\nThe image"
+                                ],
+                                "steered": [
+                                    " thing is, I'm not sure if the thing is a thing. I'm not sure if it's a thing. I'm",
+                                    " thing to do is to show that the action of $G$ on $V$ is by means of $G$-valued functions on $G$-",
+                                    " can't wait to see what they do with the new location.\n\nI've been going to this place for years. I've never",
+                                    " thing to do is to get the thing to do is to get the thing to do is to get the thing to do is to get the thing to",
+                                    " thing to do is to issue a public apology to the Japanese people and the Japanese government.\n\n<strong>'I'm not a racist': PM'",
+                                    " thing to do is to subtract the time from the first time to the second time. So, 11:22 - 9:4",
+                                    " thing that I've been doing for a while now. I've been doing it for a while now. I've been doing it for",
+                                    " can be used to estimate the time constant of a circuit. The time constant is the time it takes for the circuit to reach 63.2",
+                                    " thing.\n\nThe results showed that the changes in the above factors were not significant, and the changes in the above factors were not significant.\n\nThe",
+                                    " thing to do is to find the value of z. So, we have to find the value of z. So, we have to find the value"
+                                ]
+                            },
+                            "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
+                            "labelOrigin": "neuronpedia"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
