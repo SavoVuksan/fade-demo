@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Store } from '@ngrx/store';
+import { selectDemoData } from '../../state/data.selectors';
+import { AsyncPipe, JsonPipe } from '@angular/common';
 
 @Component({
   selector: 'app-scenario-select-page',
-  imports: [],
+  imports: [JsonPipe, AsyncPipe],
   templateUrl: './scenario-select-page.component.html',
   styleUrl: './scenario-select-page.component.scss'
 })
 export class ScenarioSelectPageComponent {
-
+  private store = inject(Store);
+  data$ = this.store.select(selectDemoData);
+  constructor() {
+  }
 }
