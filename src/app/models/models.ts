@@ -6,7 +6,7 @@ export interface DemoData {
 export interface Neuron {
     id: number;
     layer: number;
-    activations: string[], // Todo: Change to proper format
+    activations: Activation[], // Todo: Change to proper format
     labels: Label[];
 }
 
@@ -39,4 +39,13 @@ export interface Label {
     };
     additionalInfo?: string;
     labelOrigin: 'neuronpedia' | 'fade' | 'human';
+}
+
+export interface Activation {
+    activationText: ActivationToken[]
+}
+
+export interface ActivationToken {
+    text: string;
+    activationValue: number;
 }
