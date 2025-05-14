@@ -35,11 +35,11 @@ export const routes: Routes = [
             },
             {
                 path: 'scenario-select/:scenario-id',
-                redirectTo: 'scenario-select/:scenario-id/neuron-select'
+                redirectTo: 'scenario-select'
             },
             {
                 path: 'scenario-select/:scenario-id/neuron-select/:neuron-id',
-                title: 'Label Details',
+                title: 'Neuron Select',
                 data: {
                     id: 2
                 },

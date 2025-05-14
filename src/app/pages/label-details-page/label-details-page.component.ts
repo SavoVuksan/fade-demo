@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './label-details-page.component.scss'
 })
 export class LabelDetailsPageComponent {
-
 }

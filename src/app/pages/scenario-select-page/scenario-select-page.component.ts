@@ -1,5 +1,4 @@
 import { Component, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { selectDemoData } from '../../state/demo-data.selectors';
 import { AsyncPipe, JsonPipe } from '@angular/common';
@@ -13,6 +12,4 @@ import { AsyncPipe, JsonPipe } from '@angular/common';
 export class ScenarioSelectPageComponent {
   private store = inject(Store);
   data$ = this.store.select(selectDemoData);
-  constructor() {
-  }
 }
