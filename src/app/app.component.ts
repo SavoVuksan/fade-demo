@@ -1,15 +1,18 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NeuronSelectPageComponent } from "./pages/neuron-select-page/neuron-select-page.component";
 import { HeaderComponent } from "./header/header.component";
-import { DataLoadingService } from './services/data-loading.service';
+import { Store } from '@ngrx/store';
+import { selectDemoData } from './state/demo-data.selectors';
+import { AsyncPipe, JsonPipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent],
+  imports: [RouterOutlet, HeaderComponent, AsyncPipe, JsonPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'fade-demo';
+  private store = inject(Store);
+
+  demoData$ = this.store.select(selectDemoData);
 }
