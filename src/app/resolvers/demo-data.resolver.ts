@@ -4,12 +4,11 @@ import { DataLoadingService } from '../services/data-loading.service';
 import { DemoData } from '../models/models';
 import { Store } from '@ngrx/store';
 import { tap } from 'rxjs';
-import { DataApiActions } from '../state/data.actions';
-import { selectDemoData } from '../state/data.selectors';
+import { DemoDataActions } from '../state/demo-data.actions';
+import { selectDemoData } from '../state/demo-data.selectors';
 
-export const dataResolver: ResolveFn<DemoData> = (route, state) => {
-  const dataService = inject(DataLoadingService);
+export const demoDataResolver: ResolveFn<DemoData> = (route, state) => {
   const store = inject(Store);
-  store.dispatch(DataApiActions.loadData());
+  store.dispatch(DemoDataActions.loadDemoData());
   return store.select(selectDemoData);
 };

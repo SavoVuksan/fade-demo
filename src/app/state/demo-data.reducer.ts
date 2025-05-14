@@ -1,6 +1,6 @@
 import { createReducer, on } from "@ngrx/store";
 import { DemoData } from "../models/models";
-import { DataApiActions } from "./data.actions";
+import { DemoDataActions } from "./demo-data.actions";
 
 export const initialState: Readonly<DemoData> = {
     scenarios: [],
@@ -9,5 +9,5 @@ export const initialState: Readonly<DemoData> = {
 
 export const dataReducer = createReducer(
     initialState,
-    on(DataApiActions.dataLoadedSuccessfully, (_state, { data }) => data)
+    on(DemoDataActions.demoDataLoadedSuccessfully, (_state, { demoData }) => demoData)
 )
