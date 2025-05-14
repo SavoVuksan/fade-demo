@@ -9,5 +9,5 @@ export const initialState: Readonly<DemoData> = {
 
 export const dataReducer = createReducer(
     initialState,
-    on(DataApiActions.loadData, (_state, { data }) => data)
+    on(DataApiActions.dataLoadedSuccessfully, (_state, { data }) => data)
 )
