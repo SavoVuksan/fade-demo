@@ -3,10 +3,17 @@ import { demoDataResolver } from './resolvers/demo-data.resolver';
 import { ScenarioSelectPageComponent } from './pages/scenario-select-page/scenario-select-page.component';
 import { NeuronSelectPageComponent } from './pages/neuron-select-page/neuron-select-page.component';
 import { LabelDetailsPageComponent } from './pages/label-details-page/label-details-page.component';
+import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 
 export const routes: Routes = [
     {
         path: 'app',
+        redirectTo: 'app/scenario-select',
+        pathMatch: 'full'
+    },
+    {
+        path: 'app',
+        component: LayoutPageComponent,
         resolve: { data: demoDataResolver },
         children: [
             {
@@ -47,6 +54,10 @@ export const routes: Routes = [
                 component: LabelDetailsPageComponent
             }
         ]
+    },
+    {
+        path: '**',
+        redirectTo: 'app/scenario-select'
     }
 
 ];

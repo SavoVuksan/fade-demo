@@ -1,0 +1,9 @@
+@if(demoData$ | async; as demoData){
+@if (demoData.neurons.length !== 0) {
+<app-header></app-header>
+<router-outlet></router-outlet>
+}@else {
+<!-- Todo: Add proper loading animations -->
+Loading...
+}
+}
