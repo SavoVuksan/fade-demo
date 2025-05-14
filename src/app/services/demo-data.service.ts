@@ -5,15 +5,15 @@ import { DemoData } from '../models/models';
 @Injectable({
   providedIn: 'root'
 })
-export class DataLoadingService {
+export class DemoDataService {
   private http = inject(HttpClient);
-  readonly DATA_URL = "/test-data.json"
+  readonly DEMO_DATA_URL = "/test-data.json"
 
   constructor() {
   }
 
-  getData() {
-    return this.http.get<DemoData>(this.DATA_URL);
+  loadDemoData() {
+    return this.http.get<DemoData>(this.DEMO_DATA_URL);
   }
 
 
