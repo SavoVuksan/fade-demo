@@ -6,7 +6,7 @@ export interface DemoData {
 export interface Neuron {
     id: number;
     layer: number;
-    activations: Activation[], // Todo: Change to proper format
+    activations: Activation[],
     labels: Label[];
 }
 
