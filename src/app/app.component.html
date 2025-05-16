@@ -1,2 +1,10 @@
+@if (!store.isLoadingDemoData()) {
 <app-header></app-header>
-<app-neuron-select-page></app-neuron-select-page>
+<router-outlet></router-outlet>
+}@else {
+<!-- Todo: Add proper loading animations -->
+Loading...
+}
+@if(store.failedLoadingDemoData && store.failedLoadingDemoData()){
+{{store.failedLoadingDemoData()}}
+}
