@@ -1,6 +1,8 @@
 export interface DemoData {
     scenarios: Scenario[];
     neurons: Neuron[];
+    loadingDemoData: boolean;
+    failedLoadingDemoData?: string;
 }
 
 export interface Neuron {

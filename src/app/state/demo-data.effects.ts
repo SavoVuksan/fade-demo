@@ -9,6 +9,6 @@ export const loadDemoDataEffect = createEffect((actions$ = inject(Actions), data
         ofType(DemoDataActions.loadDemoData),
         exhaustMap(() => dataService.loadDemoData().pipe(
             map((demoData) => DemoDataActions.demoDataLoadedSuccessfully({ demoData })),
-            catchError((error: { message: string }) => of(DemoDataActions.demoDataLoadFailure({ errorMsg: error.message })))
+            catchError((error: { message: string }) => of(DemoDataActions.demoDataLoadFailure({ errorMsg: 'Failed loading demo data.' })))
         )))
 }, { functional: true });
