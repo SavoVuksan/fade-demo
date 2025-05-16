@@ -1,15 +1,14 @@
 import { ApplicationConfig, isDevMode, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter, withRouterConfig } from '@angular/router';
+import { inject, provideAppInitializer } from '@angular/core';
 
 import { routes } from './app.routes';
-import { provideStore } from '@ngrx/store';
+import { provideStore, Store } from '@ngrx/store';
 import { provideHttpClient } from '@angular/common/http';
-import { dataReducer } from './state/demo-data.reducer';
-import { provideEffects } from '@ngrx/effects';
-import * as dataEffects from './state/demo-data.effects';
 import { provideRouterStore, routerReducer } from '@ngrx/router-store';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
 
+import { DemoDataStore } from './state/demo-data.store';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -17,7 +16,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideHttpClient(),
     provideStore({
-      demoData: dataReducer,
       router: routerReducer,
     }),
     provideStoreDevtools({ // Todo: Remove when building for production
@@ -28,7 +26,10 @@ export const appConfig: ApplicationConfig = {
       traceLimit: 75, // maximum stack trace frames to be stored (in case trace option was provided as true)
       connectInZone: true // If set to true, the connection is established within the Angular zone
     }),
-    provideEffects(dataEffects),
-    provideRouterStore()
+    provideRouterStore(),
+    provideAppInitializer(async () => {
+      const demoDataStore = inject(DemoDataStore);
+      await demoDataStore.loadDemoData();
+    })
   ]
 };

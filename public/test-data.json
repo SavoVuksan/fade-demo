@@ -7,7 +7,7 @@
             "neuronIds": [
                 387
             ],
-            "iconURL": "example.com"
+            "iconUrl": "http://example.com/icon"
         }
     ],
     "neurons": [
@@ -1006,7 +1006,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "example.com"
+                        "plot": "http://example.com/plot"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,

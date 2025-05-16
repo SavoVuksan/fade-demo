@@ -1,51 +1,67 @@
-export interface DemoData {
-    scenarios: Scenario[];
-    neurons: Neuron[];
-}
+import { z } from 'zod';
 
-export interface Neuron {
-    id: number;
-    layer: number;
-    activations: Activation[],
-    labels: Label[];
-}
+export const ActivationTokenSchema = z.object({
+    text: z.string(),
+    activationValue: z.number().gte(0).lte(1)
+});
 
-export interface Scenario {
-    name: string;
-    iconUrl: string;
-    modelName: string;
-    description: string;
-    neuronIds: number[];
-}
 
-export interface Label {
-    name: string;
-    clarity: {
-        score: number;
-        text: string[];
-    };
-    responsivness: {
-        score: number;
-        text: string[];
-    };
-    purity: {
-        score: number;
-        plot: string;
-    };
-    faithfulness: {
-        score: number;
-        unsteered: string[];
-        steered: string[];
-    };
-    additionalInfo?: string;
-    labelOrigin: 'neuronpedia' | 'fade' | 'human';
-}
+export const ActivationSchema = z.object({
+    activationText: ActivationTokenSchema.array()
+})
 
-export interface Activation {
-    activationText: ActivationToken[]
-}
 
-export interface ActivationToken {
-    text: string;
-    activationValue: number;
-}
+export const LabelSchema = z.object({
+    name: z.string(),
+    clarity: z.object({
+        score: z.number().gte(0).lte(1),
+        text: z.string().array(),
+    }),
+    responsivness: z.object({
+        score: z.number().gte(0).lte(1),
+        text: z.string().array()
+    }),
+    purity: z.object({
+        score: z.number().gte(0).lte(1),
+        plot: z.string().url()
+    }),
+    faithfulness: z.object({
+        score: z.number().gte(0).lte(1),
+        unsteered: z.string().array(),
+        steered: z.string().array()
+    }),
+    additionalInfo: z.string().optional(),
+    labelOrigin: z.enum(['neuronpedia', 'fade', 'human'])
+})
+
+
+export const NeuronSchema = z.object({
+    id: z.number().nonnegative(),
+    layer: z.number().nonnegative(),
+    activations: ActivationSchema.array(),
+    labels: LabelSchema.array()
+})
+
+
+export const ScenarioSchema = z.object({
+    name: z.string(),
+    iconUrl: z.string().url(),
+    modelName: z.string(),
+    description: z.string(),
+    neuronIds: z.number().array()
+})
+
+
+export const DemoDataSchema = z.object({
+    scenarios: ScenarioSchema.array(),
+    neurons: NeuronSchema.array(),
+    isLoadingDemoData: z.boolean().default(true),
+    failedLoadingDemoData: z.string().optional(),
+})
+
+export type ActivationToken = z.infer<typeof ActivationTokenSchema>;
+export type Activation = z.infer<typeof ActivationSchema>
+export type Label = z.infer<typeof LabelSchema>
+export type Neuron = z.infer<typeof NeuronSchema>
+export type Scenario = z.infer<typeof ScenarioSchema>
+export type DemoData = z.infer<typeof DemoDataSchema>

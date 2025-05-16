@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { demoDataResolver } from './resolvers/demo-data.resolver';
 import { ScenarioSelectPageComponent } from './pages/scenario-select-page/scenario-select-page.component';
 import { NeuronSelectPageComponent } from './pages/neuron-select-page/neuron-select-page.component';
 import { LabelDetailsPageComponent } from './pages/label-details-page/label-details-page.component';
@@ -14,7 +13,6 @@ export const routes: Routes = [
     {
         path: 'app',
         component: LayoutPageComponent,
-        resolve: { data: demoDataResolver },
         children: [
             {
                 path: 'scenario-select',
@@ -23,7 +21,6 @@ export const routes: Routes = [
                 },
                 title: 'Scenario',
                 component: ScenarioSelectPageComponent,
-                resolve: { data: demoDataResolver },
             },
             {
                 path: 'scenario-select/:scenario-id/neuron-select',

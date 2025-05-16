@@ -1,19 +1,14 @@
 import { Component, inject } from '@angular/core';
-import { ActivatedRoute, RouterOutlet } from '@angular/router';
-import { Store } from '@ngrx/store';
-import { selectDemoData } from '../../state/demo-data.selectors';
+import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "../../components/header/header.component";
-import { AsyncPipe } from '@angular/common';
+import { DemoDataStore } from '../../state/demo-data.store';
 
 @Component({
   selector: 'app-layout-page',
-  imports: [HeaderComponent, RouterOutlet, AsyncPipe],
+  imports: [HeaderComponent, RouterOutlet],
   templateUrl: './layout-page.component.html',
   styleUrl: './layout-page.component.scss'
 })
 export class LayoutPageComponent {
-  private store = inject(Store);
-  activatedRoute = inject(ActivatedRoute);
-
-  demoData$ = this.store.select(selectDemoData);
+  readonly store = inject(DemoDataStore);
 }
