@@ -1,12 +1,10 @@
-@if(demoData$ | async; as demoData){
-@if (!demoData.isLoadingDemoData) {
+@if (!store.isLoadingDemoData()) {
 <app-header></app-header>
 <router-outlet></router-outlet>
 }@else {
 <!-- Todo: Add proper loading animations -->
 Loading...
 }
-@if(demoData.failedLoadingDemoData){
-{{demoData.failedLoadingDemoData}}
-}
+@if(store.failedLoadingDemoData && store.failedLoadingDemoData()){
+{{store.failedLoadingDemoData()}}
 }

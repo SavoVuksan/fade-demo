@@ -1,18 +1,14 @@
-import { Component, inject } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
-import { Store } from '@ngrx/store';
-import { selectDemoData } from './state/demo-data.selectors';
-import { AsyncPipe, JsonPipe } from '@angular/common';
+import { DemoDataStore } from './state/demo-data.store';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, AsyncPipe, JsonPipe],
+  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  private store = inject(Store);
-
-  demoData$ = this.store.select(selectDemoData);
+  readonly store = inject(DemoDataStore);
 }
