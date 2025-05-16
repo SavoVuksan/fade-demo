@@ -1,10 +1,10 @@
-import { APP_INITIALIZER, ApplicationConfig, inject, provideAppInitializer, provideZoneChangeDetection } from '@angular/core';
+import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { inject, provideAppInitializer } from '@angular/core';
 
 import { routes } from './app.routes';
-import { provideStore, Store } from '@ngrx/store';
 import { provideHttpClient } from '@angular/common/http';
-import { provideEffects } from '@ngrx/effects';
+
 import { DemoDataStore } from './state/demo-data.store';
 
 export const appConfig: ApplicationConfig = {
