@@ -1,5 +1,5 @@
 @if(demoData$ | async; as demoData){
-@if (!demoData.loadingDemoData) {
+@if (!demoData.isLoadingDemoData) {
 <app-header></app-header>
 <router-outlet></router-outlet>
 }@else {

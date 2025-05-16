@@ -1,11 +1,11 @@
 import { createReducer, on } from "@ngrx/store";
-import { DemoData } from "../models/models";
+import { DemoData, DemoDataSchema } from "../models/models";
 import { DemoDataActions } from "./demo-data.actions";
 
 export const initialState: Readonly<DemoData> = {
     scenarios: [],
     neurons: [],
-    loadingDemoData: true
+    isLoadingDemoData: true
 };
 
 export const dataReducer = createReducer(
@@ -19,7 +19,7 @@ export const dataReducer = createReducer(
         (_state, { errorMsg }) => ({
             scenarios: [],
             neurons: [],
-            loadingDemoData: false,
+            isLoadingDemoData: false,
             failedLoadingDemoData: errorMsg
         })
     )

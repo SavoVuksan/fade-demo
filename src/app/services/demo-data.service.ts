@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { DemoData } from '../models/models';
+import { DemoData, DemoDataSchema } from '../models/models';
+import { tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,8 +14,8 @@ export class DemoDataService {
   }
 
   loadDemoData() {
-    return this.http.get<DemoData>(this.DEMO_DATA_URL);
+    return this.http.get<DemoData>(this.DEMO_DATA_URL).pipe(tap((demoData) => {
+      const result = DemoDataSchema.parse(demoData);
+    }));
   }
-
-
 }
