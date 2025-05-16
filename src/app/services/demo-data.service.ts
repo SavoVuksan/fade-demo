@@ -10,9 +10,6 @@ export class DemoDataService {
   private http = inject(HttpClient);
   readonly DEMO_DATA_URL = "/test-data.json"
 
-  constructor() {
-  }
-
   loadDemoData() {
     return this.http.get<DemoData>(this.DEMO_DATA_URL).pipe(tap((demoData) => {
       const result = DemoDataSchema.parse(demoData);
