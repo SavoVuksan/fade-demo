@@ -1,1 +1,5 @@
 <p>neuron-select-page works!</p>
+@if (this.store.selectedScenario) {
+{{this.store.selectedScenario() | json }}
+<app-neuron-select></app-neuron-select>
+}
