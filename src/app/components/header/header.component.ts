@@ -1,6 +1,4 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, inject } from '@angular/core';
-import { Store } from '@ngrx/store';
-import { selectIsOnRootPage, selectTitle } from './state/header.selectors';
+import { Component, inject } from '@angular/core';
 import { AsyncPipe, } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 
@@ -11,9 +9,5 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  private store = inject(Store);
   activatedRoute = inject(ActivatedRoute);
-
-  title$ = this.store.select(selectTitle);
-  isOnRootPage$ = this.store.select(selectIsOnRootPage);
 }
