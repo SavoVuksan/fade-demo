@@ -1,13 +1,14 @@
 {
     "scenarios": [
         {
+            "id": 0,
             "name": "unfaithful label or neuron",
             "description": "example scenario. We would write something about how you can understand this scenario",
             "modelName": "Gemmascope 2",
             "neuronIds": [
                 387
             ],
-            "iconUrl": "http://example.com/icon"
+            "iconUrl": "./icons/favorite_icon.svg"
         }
     ],
     "neurons": [
