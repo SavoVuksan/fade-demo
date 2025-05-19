@@ -5,10 +5,11 @@ import { Observable } from 'rxjs';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { NeuronSelectComponent } from "./components/neuron-select/neuron-select.component";
 import { ActivationComponent } from './components/activation/activation.component';
+import { FadePlotComponent } from "./components/fade-plot/fade-plot.component";
 
 @Component({
   selector: 'app-neuron-select-page',
-  imports: [AsyncPipe, JsonPipe, NeuronSelectComponent, ActivationComponent, RouterLink],
+  imports: [AsyncPipe, JsonPipe, NeuronSelectComponent, ActivationComponent, RouterLink, FadePlotComponent],
   templateUrl: './neuron-select-page.component.html',
   styleUrl: './neuron-select-page.component.scss'
 })

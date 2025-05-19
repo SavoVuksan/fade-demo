@@ -4,19 +4,22 @@
 }
 
 @if (this.selectedNeuron()) {
-<h2>Activations</h2>
 <div>
-    @for (activation of this.selectedNeuron()!.activations; track $index) {
-    <app-activation [activation]="activation"></app-activation>
-    }
+    <h2>Activations</h2>
+    <div>
+        @for (activation of this.selectedNeuron()!.activations; track $index) {
+        <app-activation [activation]="activation"></app-activation>
+        }
+    </div>
+    <h2>Labels</h2>
+    <div class="m-3">
+        @for (label of this.selectedNeuron()!.labels; track $index) {
+        <a [routerLink]="`./label-details/${label.id}`" class="bg-blue-500 text-white p-2 m-2 rounded-md">
+            {{label.name}}</a>
+        }
+    </div>
 </div>
-<h2>Labels</h2>
-<div class="m-3">
-    @for (label of this.selectedNeuron()!.labels; track $index) {
-    <a [routerLink]="`./label-details/${label.id}`" class="bg-blue-500 text-white p-2 m-2 rounded-md">
-        {{label.name}}</a>
-    }
-</div>
-FADE Plot
+
+<app-fade-plot></app-fade-plot>
 
 }
