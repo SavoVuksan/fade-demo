@@ -24,7 +24,7 @@ export const LabelSchema = z.object({
     }),
     purity: z.object({
         score: z.number().gte(0).lte(1),
-        plot: z.string().url()
+        plot: z.string()
     }),
     faithfulness: z.object({
         score: z.number().gte(0).lte(1),

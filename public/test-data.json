@@ -1008,7 +1008,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "http://example.com/plot"
+                        "plot": "purity-plots/example-purity-plot.svg"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -2038,7 +2038,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "http://example.com/plot"
+                        "plot": "purity-plots/example-purity-plot.svg"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -3068,7 +3068,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "http://example.com/plot"
+                        "plot": "purity-plots/example-purity-plot.svg"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
