@@ -1,6 +1,6 @@
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { Component, effect, inject, Input, InputSignalWithTransform, InputOptionsWithTransform, input, computed } from '@angular/core';
-import { Params } from '@angular/router';
+import { Params, RouterLink } from '@angular/router';
 import { Observable } from 'rxjs';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { NeuronSelectComponent } from "./components/neuron-select/neuron-select.component";
@@ -8,7 +8,7 @@ import { ActivationComponent } from './components/activation/activation.componen
 
 @Component({
   selector: 'app-neuron-select-page',
-  imports: [AsyncPipe, JsonPipe, NeuronSelectComponent, ActivationComponent],
+  imports: [AsyncPipe, JsonPipe, NeuronSelectComponent, ActivationComponent, RouterLink],
   templateUrl: './neuron-select-page.component.html',
   styleUrl: './neuron-select-page.component.scss'
 })

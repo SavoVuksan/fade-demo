@@ -12,6 +12,7 @@ export const ActivationSchema = z.object({
 
 
 export const LabelSchema = z.object({
+    id: z.number().nonnegative(),
     name: z.string(),
     clarity: z.object({
         score: z.number().gte(0).lte(1),

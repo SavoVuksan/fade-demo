@@ -967,6 +967,7 @@
             ],
             "labels": [
                 {
+                    "id": 1,
                     "name": "Recurrent usage of \"one\" in various contexts",
                     "clarity": {
                         "score": 0.9196432407755011,
@@ -1996,6 +1997,7 @@
             ],
             "labels": [
                 {
+                    "id": 0,
                     "name": "Recurrent usage of \"one\" in various contexts",
                     "clarity": {
                         "score": 0.9196432407755011,
@@ -3025,6 +3027,7 @@
             ],
             "labels": [
                 {
+                    "id": 0,
                     "name": "Recurrent usage of \"one\" in various contexts",
                     "clarity": {
                         "score": 0.9196432407755011,
