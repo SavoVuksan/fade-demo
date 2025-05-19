@@ -1,6 +1,17 @@
-<p>neuron-select-page works!</p>
 @if (this.store.selectedScenario) {
-{{this.store.selectedScenario() | json }}
 <app-neuron-select [neurons]="this.store.neurons()"
     [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
+}
+
+@if (this.selectedNeuron()) {
+<h2>Activations</h2>
+<div>
+    @for (activation of this.selectedNeuron()!.activations; track $index) {
+    <app-activation [activation]="activation"></app-activation>
+    }
+</div>
+<h2>Labels</h2>
+<div></div>
+FADE Plot
+
 }
