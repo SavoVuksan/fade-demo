@@ -1,1 +1,47 @@
-<p>label-details-page works!</p>
+@if(this.label()){
+<div>
+    <h2>Clarity</h2>
+    @for (text of this.label()!.clarity.text; track $index) {
+    <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
+        {{text}}
+    </p>
+    }
+</div>
+<div>
+    <h2>Responsivness</h2>
+    @for (text of this.label()!.responsivness.text; track $index) {
+    <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
+        {{text}}
+    </p>
+    }
+</div>
+<div>
+    <h2>Faithfulness</h2>
+    <div class="flex flex-row">
+        <div>
+            <h3>Steered</h3>
+            @for (text of this.label()!.faithfulness.steered; track $index) {
+            <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
+                {{text}}
+            </p>
+            }
+        </div>
+        <div>
+            <h3>Unsteered</h3>
+            @for (text of this.label()!.faithfulness.unsteered; track $index) {
+            <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
+                {{text}}
+            </p>
+            }
+        </div>
+    </div>
+</div>
+<div>
+    <h2>Purity</h2>
+    <img [ngSrc]="this.label()!.purity.plot" width="500" height="300">
+    <h3>Additional Info</h3>
+    <p>
+        {{this.label()!.additionalInfo}}
+    </p>
+</div>
+}
