@@ -1,5 +1,6 @@
 <p>neuron-select-page works!</p>
 @if (this.store.selectedScenario) {
 {{this.store.selectedScenario() | json }}
-<app-neuron-select></app-neuron-select>
+<app-neuron-select [neurons]="this.store.neurons()"
+    [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
 }
