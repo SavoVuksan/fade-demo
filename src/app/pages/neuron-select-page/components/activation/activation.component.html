@@ -1,0 +1,7 @@
+<div class="rounded-md border-1 border-slate-300 p-2 m-2">
+    @for (text of activation().activationText; track $index) {
+    <span [style.backgroundColor]="`rgba(255,255,${text.activationValue * 255}, 0.5)`">
+        {{text.text}}
+    </span>
+    }
+</div>

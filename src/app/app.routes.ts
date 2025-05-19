@@ -33,12 +33,16 @@ export const routes: Routes = [
         component: NeuronSelectPageComponent
     },
     {
-        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details',
+        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details/:label-name',
         title: 'Label Details',
         data: {
             id: 2
         },
         component: LabelDetailsPageComponent
+    },
+    {
+        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details',
+        redirectTo: 'scenario-select/:scenario-id/neuron-select/:neuron-id'
     },
     {
         path: '**',
