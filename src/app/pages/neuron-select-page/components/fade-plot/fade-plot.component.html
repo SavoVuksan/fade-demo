@@ -34,8 +34,9 @@
     <line [attr.x1]="25 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="50 * this.plotSize"
         [attr.y2]="25 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
 
-    @for (label of labels; track $index) {
-    <polygon [attr.points]="calcPoints(label)" [attr.fill]="label.color"></polygon>
+    @for (label of labels(); track $index) {
+    <polygon class="insert-container" style="--index: {{$index}}" [attr.points]="calcPoints(label)"
+        [attr.fill]="getLabelColor(label)"></polygon>
     }
 
 </svg>

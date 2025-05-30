@@ -6,6 +6,7 @@ import { DemoDataStore } from '../../state/demo-data.store';
 import { NeuronSelectComponent } from "./components/neuron-select/neuron-select.component";
 import { ActivationComponent } from './components/activation/activation.component';
 import { FadePlotComponent } from "./components/fade-plot/fade-plot.component";
+import { Label } from '../../models/models';
 
 @Component({
   selector: 'app-neuron-select-page',
@@ -31,8 +32,25 @@ export class NeuronSelectPageComponent {
     }
   })
 
+  readonly onNeuronSelect = effect(() => {
+    if (this.neuronId()) {
+      const selectedNeuronId = parseInt(this.neuronId().toString());
+      const selectedNeuron = this.store.neurons().find((neuron) => neuron.id === selectedNeuronId);
+      this.store.setSelectedNeuron(selectedNeuron);
+    }
+  });
+
   onScenarioIdChange = effect(() => {
     this.store.changeScenario(this.scenarioId());
   })
+
+  onMouseEnter(label: Label) {
+    this.store.changeHighlightedLabel(label);
+
+  }
+
+  onMouseLeave(label: Label) {
+    this.store.changeHighlightedLabel(undefined);
+  }
 
 }
