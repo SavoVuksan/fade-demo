@@ -1,45 +1,65 @@
 @if(this.label()){
-<div>
-    <h2>Clarity</h2>
-    @for (text of this.label()!.clarity.text; track $index) {
-    <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
-        {{text}}
-    </p>
-    }
-</div>
-<div>
-    <h2>Responsivness</h2>
-    @for (text of this.label()!.responsivness.text; track $index) {
-    <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
-        {{text}}
-    </p>
-    }
-</div>
-<div>
-    <h2>Faithfulness</h2>
-    <div class="flex flex-row">
-        <div>
-            <h3>Steered</h3>
-            @for (text of this.label()!.faithfulness.steered; track $index) {
-            <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
-                {{text}}
-            </p>
-            }
-        </div>
-        <div>
-            <h3>Unsteered</h3>
-            @for (text of this.label()!.faithfulness.unsteered; track $index) {
-            <p class="border rounded-md border-slate-300 p-2 m-1 inline-block">
-                {{text}}
-            </p>
-            }
-        </div>
+<div class="">
+    <div class="flex gap-2 items-center">
+        <img src="/icons/clarity-icon.svg" alt="">
+        <h2>Clarity</h2>
+    </div>
+    <div class="flex gap-3 flex-col">
+
+        @for (text of this.label()!.clarity.text; track $index) {
+        <p>
+            {{text}}
+        </p>
+        }
     </div>
 </div>
 <div>
-    <h2>Purity</h2>
+    <div class="flex gap-2 items-center">
+        <img src="/icons/responsivness-icon.svg" alt="">
+        <h2>Responsivness</h2>
+    </div>
+    <div class="flex gap-3 flex-col">
+        @for (text of this.label()!.responsivness.text; track $index) {
+        <p>
+            {{text}}
+        </p>
+        }
+    </div>
+</div>
+<div>
+    <div class="flex gap-2 items-center">
+        <img src="/icons/faithfulness-icon.svg" alt="">
+        <h2>Faithfulness</h2>
+    </div>
+    <div class="flex gap-3 flex-col">
+        @for (text of this.label()!.faithfulness.steered; track $index) {
+        <p>
+            {{text}}
+        </p>
+        }
+
+    </div>
+    <div class="flex gap-3 flex-col">
+        @for (text of this.label()!.faithfulness.unsteered; track $index) {
+        <p>
+            {{text}}
+        </p>
+        }
+    </div>
+</div>
+<div>
+    <div class="flex gap-2 items-center">
+        <img src="/icons/purity-icon.svg" alt="">
+        <h2>Purity</h2>
+    </div>
     <img [ngSrc]="this.label()!.purity.plot" width="500" height="300">
-    <h3>Additional Info</h3>
+
+</div>
+<div>
+    <div class="flex gap-2 items-center">
+        <img src="/icons/info-icon.svg" alt="">
+        <h2>Additional Info</h2>
+    </div>
     <p>
         {{this.label()!.additionalInfo}}
     </p>
