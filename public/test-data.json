@@ -1038,7 +1038,9 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "#3b82f6",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         },
@@ -2068,7 +2070,9 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "#3b82f6",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         },
@@ -3098,7 +3102,9 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "#3b82f6",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         }

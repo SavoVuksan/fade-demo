@@ -3,6 +3,8 @@
     <div class="flex gap-2 items-center">
         <img src="/icons/clarity-icon.svg" alt="">
         <h2>Clarity</h2>
+        <app-progress-bar [progress]="this.label()?.clarity?.score" [color]="this.label()?.primaryColor"
+            [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
     <div class="flex gap-3 flex-col">
 
@@ -17,6 +19,8 @@
     <div class="flex gap-2 items-center">
         <img src="/icons/responsivness-icon.svg" alt="">
         <h2>Responsivness</h2>
+        <app-progress-bar [progress]="this.label()?.responsivness?.score" [color]="this.label()?.primaryColor"
+            [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
     <div class="flex gap-3 flex-col">
         @for (text of this.label()!.responsivness.text; track $index) {
@@ -30,6 +34,8 @@
     <div class="flex gap-2 items-center">
         <img src="/icons/faithfulness-icon.svg" alt="">
         <h2>Faithfulness</h2>
+        <app-progress-bar [progress]="this.label()?.faithfulness?.score" [color]="this.label()?.primaryColor"
+            [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
     <div class="flex gap-3 flex-col">
         @for (text of this.label()!.faithfulness.steered; track $index) {
@@ -51,6 +57,8 @@
     <div class="flex gap-2 items-center">
         <img src="/icons/purity-icon.svg" alt="">
         <h2>Purity</h2>
+        <app-progress-bar [progress]="this.label()?.purity?.score" [color]="this.label()?.primaryColor"
+            [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
     <img [ngSrc]="this.label()!.purity.plot" width="500" height="300">
 
