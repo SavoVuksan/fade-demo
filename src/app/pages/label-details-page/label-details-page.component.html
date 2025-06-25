@@ -6,7 +6,7 @@
         <app-progress-bar [progress]="this.label()?.clarity?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
-    <div class="flex gap-3 flex-col">
+    <div class="flex gap-3 flex-col max-h-[30vh] overflow-y-auto">
 
         @for (text of this.label()!.clarity.text; track $index) {
         <p>
@@ -22,7 +22,7 @@
         <app-progress-bar [progress]="this.label()?.responsivness?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
-    <div class="flex gap-3 flex-col">
+    <div class="flex gap-3 flex-col max-h-[30vh] overflow-y-auto">
         @for (text of this.label()!.responsivness.text; track $index) {
         <p>
             {{text}}
@@ -37,20 +37,21 @@
         <app-progress-bar [progress]="this.label()?.faithfulness?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
-    <div class="flex gap-3 flex-col">
-        @for (text of this.label()!.faithfulness.steered; track $index) {
-        <p>
-            {{text}}
-        </p>
-        }
-
-    </div>
-    <div class="flex gap-3 flex-col">
-        @for (text of this.label()!.faithfulness.unsteered; track $index) {
-        <p>
-            {{text}}
-        </p>
-        }
+    <div class="max-h-[30vh] overflow-y-auto">
+        <div class="flex gap-3 flex-col">
+            @for (text of this.label()!.faithfulness.steered; track $index) {
+            <p>
+                {{text}}
+            </p>
+            }
+        </div>
+        <div class="flex gap-3 flex-col">
+            @for (text of this.label()!.faithfulness.unsteered; track $index) {
+            <p>
+                {{text}}
+            </p>
+            }
+        </div>
     </div>
 </div>
 <div>
