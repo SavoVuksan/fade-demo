@@ -1,6 +1,5 @@
-import { Component, computed, effect, inject, input } from '@angular/core';
-import { delay, of, tap } from 'rxjs';
-import { DemoDataStore } from '../../../../state/demo-data.store';
+import { Component, computed, inject, } from '@angular/core';
+import { DemoDataStore } from '@app/state/demo-data.store';
 
 type PlotLabelData = {
   clarity: number;
