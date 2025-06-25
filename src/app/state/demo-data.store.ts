@@ -1,5 +1,5 @@
 import { inject } from "@angular/core";
-import { DemoData, Scenario } from "../models/models";
+import { DemoData, Label, Neuron, Scenario } from "../models/models";
 import { patchState, signalStore, withMethods, withState } from '@ngrx/signals'
 import { DemoDataService } from "../services/demo-data.service";
 import { lastValueFrom } from "rxjs";
@@ -7,6 +7,8 @@ import { lastValueFrom } from "rxjs";
 type DemoRuntimeData = {
     isLoadingDemoData: boolean;
     selectedScenario?: Scenario;
+    selectedNeuron?: Neuron;
+    highlightedLabel?: Label;
 }
 
 const initialState: DemoData & DemoRuntimeData = {
@@ -20,7 +22,9 @@ const initialState: DemoData & DemoRuntimeData = {
         modelName: '',
         name: 'test',
         neuronIds: []
-    }
+    },
+    highlightedLabel: undefined,
+    selectedNeuron: undefined,
 }
 
 export const DemoDataStore = signalStore(
@@ -41,8 +45,12 @@ export const DemoDataStore = signalStore(
 
                 patchState(store, { selectedScenario: newScenario });
             }
-
-
+        },
+        setSelectedNeuron(neuron?: Neuron) {
+            patchState(store, { selectedNeuron: neuron })
+        },
+        changeHighlightedLabel(label?: Label) {
+            patchState(store, { highlightedLabel: label });
         }
     }))
 )
