@@ -1008,7 +1008,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -1084,7 +1084,7 @@
                     },
                     "purity": {
                         "score": 0.4,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.6,
@@ -1160,7 +1160,7 @@
                     },
                     "purity": {
                         "score": 0.6,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0,
@@ -2192,7 +2192,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -3224,7 +3224,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
