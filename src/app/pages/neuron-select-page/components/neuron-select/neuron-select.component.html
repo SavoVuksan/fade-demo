@@ -1,13 +1,1 @@
-@for (neuron of transformedNeurons(); track $index) {
-<!-- Todo: See if it is possible to make the links relative -->
-@if (neuron.isActive) {
-<a [ngClass]="{'border-slate-300': !neuron.isActive}" [routerLink]="`/scenario-select/0/neuron-select/${neuron.id}`"
-    routerLinkActive="border-sky-400" class="border rounded-md p-3 m-3 inline-block">
-    {{neuron.id}}
-</a>
-}@else {
-<a [ngClass]="{'border-slate-300': !neuron.isActive}" class="border rounded-md p-3 m-3 inline-block">
-    {{neuron.id}}
-</a>
-}
-}
+<app-neuron neuronId="1024" layerId="12"></app-neuron>
