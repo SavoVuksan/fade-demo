@@ -1,7 +1,19 @@
-@if (this.store.selectedScenario) {
-<app-neuron-select [neurons]="this.store.neurons()"
-    [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
-}
+<div class="flex flex-col gap-4 text-gray-500 items-center ">
+    @if(!this.selectedNeuron()){
+    <div class="gap-2 flex flex-col">
+        <p>
+            Select a neuron to see its labels
+        </p>
+        <p>
+            Scroll to explore the neurons
+        </p>
+    </div>
+    }
+    @if (this.store.selectedScenario) {
+    <app-neuron-select [neurons]="this.store.neurons()"
+        [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
+    }
+</div>
 
 @if (this.selectedNeuron()) {
 <div>

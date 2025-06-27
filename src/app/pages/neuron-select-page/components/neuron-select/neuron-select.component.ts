@@ -1,8 +1,9 @@
-import { Component, computed, effect, HostListener, input, signal } from '@angular/core';
+import { Component, computed, effect, HostListener, inject, input, signal } from '@angular/core';
 import { Neuron } from '../../../../models/models';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { NgClass } from '@angular/common';
 import { NeuronComponent, NeuronState } from "../neuron/neuron.component";
+import { DemoDataStore } from '@app/state/demo-data.store';
 
 @Component({
   selector: 'app-neuron-select',
@@ -13,7 +14,12 @@ import { NeuronComponent, NeuronState } from "../neuron/neuron.component";
 export class NeuronSelectComponent {
   neurons = input.required<Array<Neuron>>();
   activeNeuronIds = input.required<Array<number>>();
+
+  selectedNeuron = signal<Neuron | null>(null);
   currentPrimaryNeuronIndex = signal(1);
+
+  store = inject(DemoDataStore);
+
   currentVisibleNeurons = computed(() => {
     const previousIndex = this.currentPrimaryNeuronIndex() - 1 > 0 ? this.currentPrimaryNeuronIndex() - 1 : this.neurons().length - 1;
     const nextIndex = this.currentPrimaryNeuronIndex() + 1 < this.neurons().length ? this.currentPrimaryNeuronIndex() + 1 : 0;
@@ -29,10 +35,6 @@ export class NeuronSelectComponent {
 
   neededScrollDelta = 100;
   currentScrollDelta = 0;
-
-  get neuronStates() {
-    return NeuronState;
-  }
 
   transformedNeurons = computed(() => {
     const neurons = this.neurons();
@@ -51,7 +53,6 @@ export class NeuronSelectComponent {
     if (Math.abs(this.currentScrollDelta) > this.neededScrollDelta) {
       const scrollDir = Math.sign(this.currentScrollDelta);
       this.currentScrollDelta = 0;
-      console.log(scrollDir);
 
 
       this.currentPrimaryNeuronIndex.set(this.currentPrimaryNeuronIndex() + scrollDir);
@@ -63,6 +64,13 @@ export class NeuronSelectComponent {
       }
     }
     event.preventDefault()
+  }
+
+  onNeuronClick(neuron: Neuron) {
+    const neuronIndex = this.neurons().indexOf(neuron);
+    this.selectedNeuron.set(neuron);
+    this.currentPrimaryNeuronIndex.set(neuronIndex);
+    this.store.setSelectedNeuron(neuron)
   }
 
 }

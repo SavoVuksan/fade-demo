@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
 :host {
     display: flex;
+    @apply justify-center;
 }

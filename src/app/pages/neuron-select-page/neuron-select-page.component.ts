@@ -28,7 +28,7 @@ export class NeuronSelectPageComponent {
       const selectedNeuronId = parseInt(this.neuronId().toString());
       return this.store.neurons().find((neuron) => neuron.id === selectedNeuronId);
     } else {
-      return undefined;
+      return this.store.selectedNeuron!();
     }
   })
 
