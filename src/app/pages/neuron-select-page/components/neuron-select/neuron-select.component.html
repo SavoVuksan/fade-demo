@@ -1,1 +1,4 @@
-<app-neuron neuronId="1024" layerId="12"></app-neuron>
+@for (neuron of this.currentVisibleNeurons(); track $index){
+<app-neuron [neuronId]="neuron.id" [layerId]="neuron.layer"
+    [state]="$index === 1 ? this.neuronState.Primary : this.neuronState.Secondary"></app-neuron>
+}

@@ -19,11 +19,11 @@ export enum NeuronState {
   }
 })
 export class NeuronComponent {
-  neuronId = input<string>();
-  layerId = input<string>();
+  neuronId = input<number>();
+  layerId = input<number>();
   primaryColor = input<string>();
   onClick = output();
-  state = input<NeuronState>(NeuronState.Primary);
+  state = input<NeuronState>(NeuronState.Secondary);
 
   get neuronState() {
     return NeuronState;

@@ -1,4 +1,8 @@
+@import "tailwindcss";
+
 :host {
+    @apply gap-4;
     display: flex;
     flex-direction: column;
+
 }
