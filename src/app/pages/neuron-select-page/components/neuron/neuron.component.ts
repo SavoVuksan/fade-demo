@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, HostListener, input, output } from '@angular/core';
 
 export enum NeuronState {
   Selected,
@@ -22,8 +22,16 @@ export class NeuronComponent {
   neuronId = input<string>();
   layerId = input<string>();
   primaryColor = input<string>();
+  onClick = output();
   state = input<NeuronState>(NeuronState.Primary);
+
   get neuronState() {
     return NeuronState;
   }
+
+  @HostListener('click', ['$event'])
+  onClicked(e: Event) {
+    this.onClick.emit();
+  }
+
 }
