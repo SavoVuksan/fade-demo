@@ -1,6 +1,6 @@
 import { Component, computed, effect, HostListener, inject, input, signal } from '@angular/core';
 import { Neuron } from '../../../../models/models';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterLinkActive } from '@angular/router';
 import { NgClass } from '@angular/common';
 import { NeuronComponent, NeuronState } from "../neuron/neuron.component";
 import { DemoDataStore } from '@app/state/demo-data.store';
@@ -19,6 +19,7 @@ export class NeuronSelectComponent {
   currentPrimaryNeuronIndex = signal(1);
 
   store = inject(DemoDataStore);
+  route = inject(ActivatedRoute);
 
   currentVisibleNeurons = computed(() => {
     const previousIndex = this.currentPrimaryNeuronIndex() - 1 > 0 ? this.currentPrimaryNeuronIndex() - 1 : this.neurons().length - 1;
@@ -28,6 +29,15 @@ export class NeuronSelectComponent {
     const current = this.neurons()[this.currentPrimaryNeuronIndex()];
     return [previous, current, next];
   });
+
+  onNeuronSelect = effect(() => {
+    if (this.store.selectedNeuron!()) {
+      console.log(this.store.selectedNeuron!());
+
+      this.selectedNeuron.set(this.store.selectedNeuron!()!)
+      this.currentPrimaryNeuronIndex.set(this.store.neurons().findIndex((n) => n.id === this.store.selectedNeuron!()?.id))
+    }
+  })
 
   get neuronState() {
     return NeuronState;
