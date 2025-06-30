@@ -35,8 +35,8 @@
         [attr.y2]="25 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
 
     @for (label of labels(); track $index) {
-    <polygon class="insert-container hover-effect" style="--index: {{$index}}" [attr.points]="calcPoints(label)"
-        [attr.fill]="getLabelColor(label)"></polygon>
+    <polygon class="insert-container hover-effect" [class.highlighted]="label.isHighlighted" style="--index: {{$index}}"
+        [attr.points]="calcPoints(label)" [attr.fill]="getLabelColor(label)"></polygon>
     }
 
 </svg>
