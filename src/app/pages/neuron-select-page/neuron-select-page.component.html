@@ -1,6 +1,6 @@
 <div class="flex flex-col gap-4 text-gray-500 items-center animate-position flex-1">
-    <div class="flex flex-row gap-2">
-        <div class="flex flex-col items-center gap-4">
+    <div class="flex flex-row gap-2 h-full ">
+        <div class="flex flex-col items-center gap-4 ">
             <div class="gap-2 flex flex-col animate-tutorial-text overflow-hidden text-nowrap "
                 [class.hide-tutorial-text]="this.selectedNeuron()">
                 <p>
@@ -15,7 +15,7 @@
                 [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
             }
         </div>
-        <div class="h-120 w-[2px] bg-gray-300 opacity-0 animate-bar" [class.opacity-100]="this.selectedNeuron()"></div>
+        <div class="h-140 w-[2px] bg-gray-300 opacity-0 animate-bar" [class.opacity-100]="this.selectedNeuron()"></div>
     </div>
 </div>
 <div class="flex-0 animate-position overflow-hidden" [class.flex-4]="this.selectedNeuron()">
