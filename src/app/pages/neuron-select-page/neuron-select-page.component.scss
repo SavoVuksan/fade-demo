@@ -2,7 +2,7 @@
 
 :host {
     display: flex;
-    @apply justify-center;
+    @apply justify-center gap-6;
     transition: all 1s;
 }
 
@@ -25,4 +25,8 @@
     @starting-style {
         opacity: 0;
     }
+}
+
+.animate-bar {
+    transition: opacity 0.5s ease-in 0.8s;
 }
