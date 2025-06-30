@@ -20,13 +20,8 @@
 </div>
 <div class="flex-0 animate-position overflow-hidden" [class.flex-4]="this.selectedNeuron()">
     @if (this.selectedNeuron()) {
-    <div class="appear-anim">
-        <h2>Activations</h2>
-        <div>
-            @for (activation of this.selectedNeuron()!.activations; track $index) {
-            <app-activation [activation]="activation"></app-activation>
-            }
-        </div>
+    <div class="appear-anim flex flex-row">
+
         <h2>Labels</h2>
         <div class="m-3">
             @for (label of this.selectedNeuron()!.labels; track $index) {
@@ -36,6 +31,15 @@
             }
         </div>
         <app-fade-plot></app-fade-plot>
+        <div class="flex flex-col max-w-100">
+            <h2 class="!text-xl !font-normal italic text-gray-800">Activations</h2>
+            <h3 class="!text-base !font-normal italic text-gray-500">The text that activated the neuron</h3>
+            <div class="overflow-auto max-h-[75vh]">
+                @for (activation of this.selectedNeuron()!.activations; track $index) {
+                <app-activation [activation]="activation"></app-activation>
+                }
+            </div>
+        </div>
     </div>
 
     }
