@@ -20,7 +20,7 @@ type PlotLabelData = {
 export class FadePlotComponent {
   store = inject(DemoDataStore);
   plotStrokeColor = "#99999988"
-  plotSize = 2;
+  plotSize = 4;
   // Todo: Think about where to save the colors for the labels? 
   plotColors = ['#e846e855', '#e846e8ff', '#f54b4055', '#f54b40ff', '#9b49e655', '#9b49e6ff', '#c9b66955', '#c9b669bb'];
 

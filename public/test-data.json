@@ -1038,11 +1038,12 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(62.3% 0.214 259.815)"
                 },
                 {
                     "id": 2,
-                    "name": "Recurrent usage of \"one\" in various contexts",
+                    "name": "Why are dogs our friends",
                     "clarity": {
                         "score": 0.2,
                         "text": [
@@ -1112,11 +1113,12 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(79.5% 0.184 86.047)"
                 },
                 {
                     "id": 3,
-                    "name": "Recurrent usage of \"one\" in various contexts",
+                    "name": "Random assignments to integer variables",
                     "clarity": {
                         "score": 0.9,
                         "text": [
@@ -1186,7 +1188,8 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(62.7% 0.265 303.9)"
                 }
             ]
         },
@@ -2216,7 +2219,8 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(62.3% 0.214 259.815)"
                 }
             ]
         },
@@ -3246,7 +3250,8 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(79.5% 0.184 86.047)"
                 }
             ]
         },
@@ -4276,7 +4281,8 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "#aa0000"
                 }
             ]
         },
@@ -5306,7 +5312,8 @@
                         ]
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
-                    "labelOrigin": "neuronpedia"
+                    "labelOrigin": "neuronpedia",
+                    "primaryColor": "oklch(62.7% 0.265 303.9)"
                 }
             ]
         }
