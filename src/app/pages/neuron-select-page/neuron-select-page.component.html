@@ -1,6 +1,5 @@
-<div class="flex flex-col gap-4 text-gray-500 items-center ">
-    @if(!this.selectedNeuron()){
-    <div class="gap-2 flex flex-col">
+<div class="flex flex-col gap-4 text-gray-500 items-center animate-position flex-1">
+    <div class="gap-2 flex flex-col animate-tutorial-text" [class.hide-tutorial-text]="this.selectedNeuron()">
         <p>
             Select a neuron to see its labels
         </p>
@@ -8,31 +7,30 @@
             Scroll to explore the neurons
         </p>
     </div>
-    }
     @if (this.store.selectedScenario) {
     <app-neuron-select [neurons]="this.store.neurons()"
         [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
     }
 </div>
+<div class="flex-0 animate-position overflow-hidden" [class.flex-4]="this.selectedNeuron()">
+    @if (this.selectedNeuron()) {
+    <div class="appear-anim">
+        <h2>Activations</h2>
+        <div>
+            @for (activation of this.selectedNeuron()!.activations; track $index) {
+            <app-activation [activation]="activation"></app-activation>
+            }
+        </div>
+        <h2>Labels</h2>
+        <div class="m-3">
+            @for (label of this.selectedNeuron()!.labels; track $index) {
+            <a [routerLink]="`./label-details/${label.id}`" (mouseenter)="onMouseEnter(label)"
+                (mouseleave)="onMouseLeave(label)" class="bg-blue-500 text-white p-2 m-2 rounded-md">
+                {{label.name}}</a>
+            }
+        </div>
+        <app-fade-plot></app-fade-plot>
+    </div>
 
-@if (this.selectedNeuron()) {
-<div>
-    <h2>Activations</h2>
-    <div>
-        @for (activation of this.selectedNeuron()!.activations; track $index) {
-        <app-activation [activation]="activation"></app-activation>
-        }
-    </div>
-    <h2>Labels</h2>
-    <div class="m-3">
-        @for (label of this.selectedNeuron()!.labels; track $index) {
-        <a [routerLink]="`./label-details/${label.id}`" (mouseenter)="onMouseEnter(label)"
-            (mouseleave)="onMouseLeave(label)" class="bg-blue-500 text-white p-2 m-2 rounded-md">
-            {{label.name}}</a>
-        }
-    </div>
+    }
 </div>
-
-<app-fade-plot></app-fade-plot>
-
-}
