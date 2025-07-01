@@ -1,10 +1,11 @@
 import { Component, computed, inject, input } from '@angular/core';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { JsonPipe, NgOptimizedImage } from '@angular/common';
+import { ProgressBarComponent } from "../../components/progress-bar/progress-bar.component";
 
 @Component({
   selector: 'app-label-details-page',
-  imports: [JsonPipe, NgOptimizedImage],
+  imports: [JsonPipe, NgOptimizedImage, ProgressBarComponent],
   templateUrl: './label-details-page.component.html',
   styleUrl: './label-details-page.component.scss'
 })
