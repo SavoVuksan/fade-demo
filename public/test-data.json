@@ -1008,7 +1008,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -1039,7 +1039,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(62.3% 0.214 259.815)"
+                    "primaryColor": "oklch(62.3% 0.214 259.815)",
+                    "secondaryColor": "#bfdbfe"
                 },
                 {
                     "id": 2,
@@ -1083,7 +1084,7 @@
                     },
                     "purity": {
                         "score": 0.4,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.6,
@@ -1114,7 +1115,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(79.5% 0.184 86.047)"
+                    "primaryColor": "oklch(79.5% 0.184 86.047)",
+                    "secondaryColor": "#bfdbfe"
                 },
                 {
                     "id": 3,
@@ -1158,7 +1160,7 @@
                     },
                     "purity": {
                         "score": 0.6,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0,
@@ -1189,7 +1191,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(62.7% 0.265 303.9)"
+                    "primaryColor": "oklch(62.7% 0.265 303.9)",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         },
@@ -2189,7 +2192,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -2220,7 +2223,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(62.3% 0.214 259.815)"
+                    "primaryColor": "oklch(62.3% 0.214 259.815)",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         },
@@ -3220,7 +3224,7 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/purity-example-plot.png"
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -3251,7 +3255,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(79.5% 0.184 86.047)"
+                    "primaryColor": "oklch(79.5% 0.184 86.047)",
+                    "secondaryColor": "#aa0000"
                 }
             ]
         },
@@ -4282,7 +4287,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "#aa0000"
+                    "primaryColor": "#aa0000",
+                    "secondaryColor": "#aa0000"
                 }
             ]
         },
@@ -5313,7 +5319,8 @@
                     },
                     "additionalInfo": "As you can see in this example, the label does not seem to be very faithful. The steered sequences are all over the place. :'(",
                     "labelOrigin": "neuronpedia",
-                    "primaryColor": "oklch(62.7% 0.265 303.9)"
+                    "primaryColor": "oklch(62.7% 0.265 303.9)",
+                    "secondaryColor": "#bfdbfe"
                 }
             ]
         }

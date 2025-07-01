@@ -1,5 +1,16 @@
+@import "tailwindcss";
+
 :host {
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: auto;
+    @apply px-20 gap-12;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+p {
+    @apply text-base text-gray-500;
 }

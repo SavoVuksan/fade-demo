@@ -33,7 +33,8 @@ export const LabelSchema = z.object({
     }),
     additionalInfo: z.string().optional(),
     labelOrigin: z.enum(['neuronpedia', 'fade', 'human']),
-    primaryColor: z.string()
+    primaryColor: z.string(),
+    secondaryColor: z.string()
 })
 
 
