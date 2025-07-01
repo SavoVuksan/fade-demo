@@ -11,6 +11,8 @@ Loading...
 @if(store.failedLoadingDemoData && store.failedLoadingDemoData()){
 {{store.failedLoadingDemoData()}}
 }
-<div class="flex justify-end text-xs">
-    <a routerLink="./legal-info">Legal Info</a>
+<div class="flex  absolute right-4 bottom-4 text-xs text-gray-500 gap-1">
+    <span>© 2025 Fraunhofer-Gesellschaft</span>
+    <span>|</span>
+    <a class="underline" routerLink="./legal-info">Legal Info</a>
 </div>
