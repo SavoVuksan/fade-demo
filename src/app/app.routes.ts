@@ -17,19 +17,17 @@ export const routes: Routes = [
         data: {
             id: 1
         },
-        children: [
-            {
-                path: ':neuron-id',
-                title: 'Neuron Select',
-                data: {
-                    id: 1
-                },
-                component: NeuronSelectPageComponent,
-            },
-        ],
         title: 'Neuron Select',
         component: NeuronSelectPageComponent,
 
+    },
+    {
+        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id',
+        title: 'Neuron Select',
+        data: {
+            id: 1
+        },
+        component: NeuronSelectPageComponent
     },
     {
         path: 'scenario-select/:scenario-id',
