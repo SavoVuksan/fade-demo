@@ -50,6 +50,7 @@ export const ScenarioSchema = z.object({
     id: z.number().int().nonnegative(),
     name: z.string(),
     iconUrl: z.string(),
+    primaryColor: z.string(),
     modelName: z.string(),
     description: z.string(),
     neuronIds: z.number().array()

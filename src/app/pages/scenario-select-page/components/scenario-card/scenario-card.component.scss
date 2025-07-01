@@ -1,0 +1,32 @@
+:host:hover .color-rect {
+    scale: 1.1;
+}
+
+.color-rect {
+    transition: scale 0.3s ease-out;
+
+}
+
+.scale-anim {
+    animation-duration: 1.5s;
+    animation-name: full-screen-scale;
+    animation-fill-mode: forwards;
+}
+
+@keyframes full-screen-scale {
+    0% {
+        scale: 0.7;
+        z-index: 10;
+    }
+
+    50% {
+        scale: 1.3;
+        z-index: 10;
+    }
+
+    100% {
+        scale: 40;
+        z-index: 10;
+
+    }
+}

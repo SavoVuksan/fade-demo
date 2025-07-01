@@ -8,7 +8,30 @@
             "neuronIds": [
                 387
             ],
-            "iconUrl": "./icons/favorite_icon.svg"
+            "iconUrl": "./icons/favorite_icon.svg",
+            "primaryColor": "oklch(62.3% 0.214 259.815)"
+        },
+        {
+            "id": 1,
+            "name": "Polysemanticity",
+            "description": "Why do bad labels happen to good neurons",
+            "modelName": "Gemmascope 2",
+            "neuronIds": [
+                387
+            ],
+            "iconUrl": "./icons/favorite_icon.svg",
+            "primaryColor": "oklch(79.5% 0.184 86.047)"
+        },
+        {
+            "id": 2,
+            "name": "Labels and semantics",
+            "description": "example scenario. We would write something about how you can understand this scenario",
+            "modelName": "Gemmascope 2",
+            "neuronIds": [
+                387
+            ],
+            "iconUrl": "./icons/favorite_icon.svg",
+            "primaryColor": "oklch(62.7% 0.265 303.9)"
         }
     ],
     "neurons": [

@@ -21,7 +21,8 @@ const initialState: DemoData & DemoRuntimeData = {
         id: 0,
         modelName: '',
         name: 'test',
-        neuronIds: []
+        neuronIds: [],
+        primaryColor: ''
     },
     highlightedLabel: undefined,
     selectedNeuron: undefined,
