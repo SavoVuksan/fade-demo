@@ -1,0 +1,42 @@
+<span class="col-start-2 row-start-1 size-fit justify-self-center">F</span>
+<span class="col-start-1 row-start-2 size-fit self-center">C</span>
+<span class="col-start-3 row-start-2 size-fit self-center">R</span>
+<span class="col-start-2 row-start-3 size-fit justify-self-center">P</span>
+<svg class="col-start-2 row-start-2" [attr.viewBox]="`0 0 ${100 * this.plotSize} ${100 * this.plotSize}`"
+    [attr.width]="100 * this.plotSize" [attr.height]="100 * this.plotSize">
+    <!-- Horizontal & Vertical Lines -->
+    <line [attr.x1]="50 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="0 * this.plotSize"
+        [attr.y2]="100 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+    <line [attr.x1]="0 * this.plotSize" [attr.x2]="100 * this.plotSize" [attr.y1]="50 * this.plotSize"
+        [attr.y2]="50 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+
+    <!-- Outer Diamond -->
+    <line [attr.x1]="50 * this.plotSize" [attr.x2]="100 * this.plotSize" [attr.y1]="0 * this.plotSize"
+        [attr.y2]="50 * this.plotSize" [attr.stroke]="plotStrokeColor">
+    </line>
+    <line [attr.x1]="100 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="50 * this.plotSize"
+        [attr.y2]="100 * this.plotSize" [attr.stroke]="plotStrokeColor">
+    </line>
+    <line [attr.x1]="50 * this.plotSize" [attr.x2]="0 * this.plotSize" [attr.y1]="100 * this.plotSize"
+        [attr.y2]="50 * this.plotSize" [attr.stroke]="plotStrokeColor">
+    </line>
+    <line [attr.x1]="0 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="50 * this.plotSize"
+        [attr.y2]="0 * this.plotSize" [attr.stroke]="plotStrokeColor">
+    </line>
+
+    <!-- Inner Diamond -->
+    <line [attr.x1]="50 * this.plotSize" [attr.x2]="75 * this.plotSize" [attr.y1]="25 * this.plotSize"
+        [attr.y2]="50 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+    <line [attr.x1]="75 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="50 * this.plotSize"
+        [attr.y2]="75 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+    <line [attr.x1]="50 * this.plotSize" [attr.x2]="25 * this.plotSize" [attr.y1]="75 * this.plotSize"
+        [attr.y2]="50 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+    <line [attr.x1]="25 * this.plotSize" [attr.x2]="50 * this.plotSize" [attr.y1]="50 * this.plotSize"
+        [attr.y2]="25 * this.plotSize" [attr.stroke]="plotStrokeColor"></line>
+
+    @for (label of labels(); track $index) {
+    <polygon class="insert-container hover-effect" [class.highlighted]="label.isHighlighted" style="--index: {{$index}}"
+        [attr.points]="calcPoints(label)" [attr.fill]="getLabelColor(label)"></polygon>
+    }
+
+</svg>

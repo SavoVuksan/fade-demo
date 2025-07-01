@@ -12,6 +12,7 @@ export const ActivationSchema = z.object({
 
 
 export const LabelSchema = z.object({
+    id: z.number().nonnegative(),
     name: z.string(),
     clarity: z.object({
         score: z.number().gte(0).lte(1),
@@ -23,7 +24,7 @@ export const LabelSchema = z.object({
     }),
     purity: z.object({
         score: z.number().gte(0).lte(1),
-        plot: z.string().url()
+        plot: z.string()
     }),
     faithfulness: z.object({
         score: z.number().gte(0).lte(1),
@@ -31,7 +32,9 @@ export const LabelSchema = z.object({
         steered: z.string().array()
     }),
     additionalInfo: z.string().optional(),
-    labelOrigin: z.enum(['neuronpedia', 'fade', 'human'])
+    labelOrigin: z.enum(['neuronpedia', 'fade', 'human']),
+    primaryColor: z.string(),
+    secondaryColor: z.string()
 })
 
 
@@ -44,8 +47,9 @@ export const NeuronSchema = z.object({
 
 
 export const ScenarioSchema = z.object({
+    id: z.number().int().nonnegative(),
     name: z.string(),
-    iconUrl: z.string().url(),
+    iconUrl: z.string(),
     modelName: z.string(),
     description: z.string(),
     neuronIds: z.number().array()

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:host {
+    display: flex;
+    @apply justify-center gap-6;
+    transition: all 1s;
+}
+
+.animate-tutorial-text {
+    transition: opacity 0.3s ease-out 0.2s;
+}
+
+.hide-tutorial-text {
+    opacity: 0;
+}
+
+.animate-position {
+    transition: all 1s ease-out 0.4s;
+}
+
+.appear-anim {
+    transition: opacity 0.5s ease-in 0.8s;
+    opacity: 1;
+
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.animate-bar {
+    transition: opacity 0.5s ease-in 0.8s;
+    opacity: 1;
+
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.flex-anim {
+    flex: 4;
+    transition: flex 1s ease-out 0.4s;
+
+    @starting-style {
+        flex: 0;
+    }
+}

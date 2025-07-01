@@ -20,10 +20,7 @@ export const routes: Routes = [
         },
         title: 'Neuron Select',
         component: NeuronSelectPageComponent,
-    },
-    {
-        path: 'scenario-select/:scenario-id',
-        redirectTo: 'scenario-select'
+
     },
     {
         path: 'scenario-select/:scenario-id/neuron-select/:neuron-id',
@@ -34,7 +31,11 @@ export const routes: Routes = [
         component: NeuronSelectPageComponent
     },
     {
-        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details',
+        path: 'scenario-select/:scenario-id',
+        redirectTo: 'scenario-select'
+    },
+    {
+        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details/:label-id',
         title: 'Label Details',
         data: {
             id: 2
@@ -42,12 +43,16 @@ export const routes: Routes = [
         component: LabelDetailsPageComponent
     },
     {
+        component: LegalInfoPageComponent,
         path: 'legal-info',
         title: 'Legal Info',
         data: {
             id: 3
         },
-        component: LegalInfoPageComponent
+    },
+    {
+        path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details',
+        redirectTo: 'scenario-select/:scenario-id/neuron-select/:neuron-id'
     },
     {
         path: '**',

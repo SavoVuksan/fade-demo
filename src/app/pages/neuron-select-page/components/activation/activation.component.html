@@ -1,0 +1,7 @@
+<div>
+    @for (text of activation().activationText; track $index) {
+    <span class="text-gray-500" [style.backgroundColor]="`rgba(255,255,${text.activationValue * 255}, 0.5)`">
+        {{text.text}}
+    </span>
+    }
+</div>
