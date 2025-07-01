@@ -19,10 +19,7 @@ export const routes: Routes = [
         },
         title: 'Neuron Select',
         component: NeuronSelectPageComponent,
-    },
-    {
-        path: 'scenario-select/:scenario-id',
-        redirectTo: 'scenario-select'
+
     },
     {
         path: 'scenario-select/:scenario-id/neuron-select/:neuron-id',
@@ -31,6 +28,10 @@ export const routes: Routes = [
             id: 1
         },
         component: NeuronSelectPageComponent
+    },
+    {
+        path: 'scenario-select/:scenario-id',
+        redirectTo: 'scenario-select'
     },
     {
         path: 'scenario-select/:scenario-id/neuron-select/:neuron-id/label-details/:label-id',

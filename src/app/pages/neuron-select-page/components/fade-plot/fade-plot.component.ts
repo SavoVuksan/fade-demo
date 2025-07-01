@@ -20,9 +20,8 @@ type PlotLabelData = {
 export class FadePlotComponent {
   store = inject(DemoDataStore);
   plotStrokeColor = "#99999988"
-  plotSize = 2;
+  plotSize = 4;
   // Todo: Think about where to save the colors for the labels? 
-  plotColors = ['#e846e855', '#e846e8ff', '#f54b4055', '#f54b40ff', '#9b49e655', '#9b49e6ff', '#c9b66955', '#c9b669bb'];
 
   readonly labels = computed(() => {
     return this.store.selectedNeuron!()?.labels.map((label, index) => {
@@ -31,8 +30,7 @@ export class FadePlotComponent {
         faithfulness: label.faithfulness.score,
         responsivness: label.responsivness.score,
         purity: label.purity.score,
-        color: this.plotColors[index * 2],
-        highlightColor: this.plotColors[index * 2 + 1],
+        color: label.primaryColor,
         isHighlighted: this.store.highlightedLabel!() === label ? true : false
       } as PlotLabelData;
       return l;
@@ -44,7 +42,7 @@ export class FadePlotComponent {
   }
 
   getLabelColor(label: PlotLabelData) {
-    return label.isHighlighted ? label.highlightColor : label.color;
+    return label.color;
   }
 
 }
