@@ -10,7 +10,7 @@ import { DemoDataStore } from '@app/state/demo-data.store';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  activatedRoute = inject(ActivatedRoute);
-  store = inject(DemoDataStore);
+  readonly activatedRoute = inject(ActivatedRoute);
+  readonly store = inject(DemoDataStore);
 
 }
