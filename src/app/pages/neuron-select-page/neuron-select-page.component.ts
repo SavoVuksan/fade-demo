@@ -39,10 +39,10 @@ export class NeuronSelectPageComponent {
       this.store.setSelectedNeuron(undefined);
     }
   });
-
-  onScenarioIdChange = effect(() => {
+  readonly onScenarioIdChange = effect(() => {
     this.store.changeScenario(this.scenarioId());
   })
+
 
   onMouseEnter(label: Label) {
     this.store.changeHighlightedLabel(label);
