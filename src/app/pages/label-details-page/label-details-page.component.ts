@@ -11,9 +11,10 @@ import { ProgressBarComponent } from "../../components/progress-bar/progress-bar
 })
 export class LabelDetailsPageComponent implements OnInit, OnDestroy {
 
+  readonly store = inject(DemoDataStore);
+
   readonly neuronId = input.required<number>({ alias: 'neuron-id' });
   readonly labelId = input.required<number>({ alias: 'label-id' });
-  readonly store = inject(DemoDataStore);
 
   readonly label = computed(() => {
     const neuronId = parseInt(this.neuronId().toString())
