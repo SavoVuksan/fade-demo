@@ -1,10 +1,9 @@
-import { NgOptimizedImage } from '@angular/common';
 import { Component, inject, input, signal, } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-scenario-card',
-  imports: [RouterLink, NgOptimizedImage],
+  imports: [],
   templateUrl: './scenario-card.component.html',
   styleUrl: './scenario-card.component.scss'
 })

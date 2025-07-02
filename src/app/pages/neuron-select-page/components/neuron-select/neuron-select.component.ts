@@ -1,13 +1,12 @@
 import { Component, computed, effect, HostListener, inject, input, signal } from '@angular/core';
 import { Neuron } from '../../../../models/models';
-import { ActivatedRoute, RouterLink, RouterLinkActive } from '@angular/router';
-import { NgClass } from '@angular/common';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { NeuronComponent, NeuronState } from "../neuron/neuron.component";
 import { DemoDataStore } from '@app/state/demo-data.store';
 
 @Component({
   selector: 'app-neuron-select',
-  imports: [RouterLink, RouterLinkActive, NgClass, NeuronComponent],
+  imports: [RouterLink, NeuronComponent],
   templateUrl: './neuron-select.component.html',
   styleUrl: './neuron-select.component.scss'
 })
