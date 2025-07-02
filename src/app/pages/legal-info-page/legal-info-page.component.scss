@@ -9,7 +9,12 @@
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    @apply mt-8 mb-0;
+    @apply mt-8 mb-0 text-gray-800;
+}
+
+section,
+p {
+    @apply text-gray-700;
 }
 
 ul {
