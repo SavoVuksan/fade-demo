@@ -5,4 +5,10 @@
 </a>
 }
 }
-<h1 class="flex-1 !m-0 text-center !mt-1 !text-2xl text-gray-800">{{activatedRoute.firstChild?.title | async}}</h1>
+<h1 class="flex-1 !m-0 text-center !mt-1 !text-2xl text-gray-800">
+    @if(this.store.customHeaderTitle()){
+    {{this.store.customHeaderTitle()}}
+    }@else{
+    {{activatedRoute.firstChild?.title | async}}
+    }
+</h1>

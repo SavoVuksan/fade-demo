@@ -1,4 +1,4 @@
-import { Component, computed, inject, input } from '@angular/core';
+import { Component, computed, inject, input, OnDestroy, OnInit } from '@angular/core';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { JsonPipe, NgOptimizedImage } from '@angular/common';
 import { ProgressBarComponent } from "../../components/progress-bar/progress-bar.component";
@@ -9,7 +9,8 @@ import { ProgressBarComponent } from "../../components/progress-bar/progress-bar
   templateUrl: './label-details-page.component.html',
   styleUrl: './label-details-page.component.scss'
 })
-export class LabelDetailsPageComponent {
+export class LabelDetailsPageComponent implements OnInit, OnDestroy {
+
   readonly neuronId = input.required<number>({ alias: 'neuron-id' });
   readonly labelId = input.required<number>({ alias: 'label-id' });
   readonly store = inject(DemoDataStore);
@@ -21,4 +22,11 @@ export class LabelDetailsPageComponent {
     const selectedLabel = selectedNeuron?.labels.find((label) => label.id === labelId);
     return selectedLabel;
   })
+
+  ngOnDestroy(): void {
+    this.store.changeHeaderTitle(null);
+  }
+  ngOnInit(): void {
+    this.store.changeHeaderTitle(this.label()!.name)
+  }
 }
