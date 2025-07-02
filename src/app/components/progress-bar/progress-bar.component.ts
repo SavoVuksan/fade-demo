@@ -11,7 +11,7 @@ export class ProgressBarComponent {
   color = input<string>();
   backgroundColor = input<string>();
 
-  @HostBinding('style.backgroundColor') get bgColor() {
+  @HostBinding('style.backgroundColor') get hostBackgroundColor() {
     return this.backgroundColor();
   }
 }
