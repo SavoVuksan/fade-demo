@@ -3,7 +3,7 @@
 :host {
     display: flex;
     flex-direction: column;
-    @apply mx-30 overflow-auto h-[100%];
+    @apply mx-30 pb-15 overflow-hidden max-h-[100%];
 }
 
 h1 {
