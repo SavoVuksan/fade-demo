@@ -6,19 +6,18 @@
     @apply mx-30 pb-15 overflow-hidden max-h-[100%];
 }
 
-
 section,
 p {
     @apply text-gray-700;
 }
 
+section {
+    @apply mb-3;
+}
+
 ul {
     list-style: circle inside;
     @apply text-gray-700;
-}
-
-section {
-    @apply mb-3;
 }
 
 a {
