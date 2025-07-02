@@ -12,7 +12,7 @@ export class DemoDataService {
 
   loadDemoData() {
     return this.http.get<DemoData>(this.DEMO_DATA_URL).pipe(tap((demoData) => {
-      // Todo: Find out if there is a better rxjs operator thatn tap for this 
+      // Todo: Find out if there is a better rxjs operator than tap for this 
       const result = DemoDataSchema.parse(demoData);
     }));
   }

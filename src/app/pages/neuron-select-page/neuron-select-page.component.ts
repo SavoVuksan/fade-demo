@@ -49,7 +49,7 @@ export class NeuronSelectPageComponent {
 
   }
 
-  onMouseLeave(label: Label) {
+  onMouseLeave() {
     this.store.changeHighlightedLabel(undefined);
   }
 

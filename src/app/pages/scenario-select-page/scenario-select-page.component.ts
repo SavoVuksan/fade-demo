@@ -1,6 +1,5 @@
 import { Component, inject } from '@angular/core';
 import { DemoDataStore } from '../../state/demo-data.store';
-import { Scenario } from '../../models/models';
 import { ScenarioCardComponent } from './components/scenario-card/scenario-card.component';
 
 @Component({

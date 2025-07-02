@@ -28,7 +28,7 @@
             <div class="flex flex-col gap-3 mx-3 mt-1 self-start">
                 @for (label of this.selectedNeuron()!.labels; track $index) {
                 <a [routerLink]="`./label-details/${label.id}`" (mouseenter)="onMouseEnter(label)"
-                    (mouseleave)="onMouseLeave(label)" class="text-blue-500 flex flex-row gap-2 underline">
+                    (mouseleave)="onMouseLeave()" class="text-blue-500 flex flex-row gap-2 underline">
                     <div class="w-6 h-6 rounded" [style.background-color]="label.primaryColor"></div>
                     {{label.name}}
                 </a>
