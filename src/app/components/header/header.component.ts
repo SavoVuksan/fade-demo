@@ -3,6 +3,7 @@ import { AsyncPipe, } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { of } from 'rxjs';
+import { DemoDataStore } from '@app/state/demo-data.store';
 
 @Component({
   selector: 'app-header',
@@ -12,4 +13,6 @@ import { of } from 'rxjs';
 })
 export class HeaderComponent {
   activatedRoute = inject(ActivatedRoute);
+  store = inject(DemoDataStore);
+
 }

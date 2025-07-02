@@ -1,4 +1,4 @@
-import { Component, computed, inject, } from '@angular/core';
+import { Component, computed, HostListener, inject, signal, } from '@angular/core';
 import { DemoDataStore } from '@app/state/demo-data.store';
 
 type PlotLabelData = {
@@ -20,8 +20,10 @@ type PlotLabelData = {
 export class FadePlotComponent {
   store = inject(DemoDataStore);
   plotStrokeColor = "#99999988"
-  plotSize = 4;
-  // Todo: Think about where to save the colors for the labels? 
+  windowWidth = signal<number>(1920);
+  plotSize = computed(() => {
+    return this.windowWidth() < 1000 ? 2 : 4;
+  });
 
   readonly labels = computed(() => {
     return this.store.selectedNeuron!()?.labels.map((label, index) => {
@@ -38,11 +40,17 @@ export class FadePlotComponent {
   })
 
   calcPoints(label: PlotLabelData) {
-    return `${50 * this.plotSize},${50 * this.plotSize - 50 * label.faithfulness * this.plotSize} ${50 * this.plotSize + 50 * label.responsivness * this.plotSize},${50 * this.plotSize} ${50 * this.plotSize},${50 * this.plotSize + 50 * label.purity * this.plotSize} ${50 - 50 * label.clarity},${50 * this.plotSize}`;
+    return `${50 * this.plotSize()},${50 * this.plotSize() - 50 * label.faithfulness * this.plotSize()} ${50 * this.plotSize() + 50 * label.responsivness * this.plotSize()},${50 * this.plotSize()} ${50 * this.plotSize()},${50 * this.plotSize() + 50 * label.purity * this.plotSize()} ${50 - 50 * label.clarity},${50 * this.plotSize()}`;
   }
 
   getLabelColor(label: PlotLabelData) {
     return label.color;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event) {
+    const window = event.target as Window;
+    this.windowWidth.set(window.innerWidth);
   }
 
 }

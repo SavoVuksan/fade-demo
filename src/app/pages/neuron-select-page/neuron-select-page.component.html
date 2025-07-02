@@ -1,5 +1,5 @@
-<div class="flex flex-col gap-4 text-gray-500 items-center animate-position flex-1">
-    <div class="flex flex-row gap-2 h-full ">
+<div class="flex flex-col text-gray-500 items-center animate-position flex-1">
+    <div class="flex flex-row h-full ">
         <div class="flex flex-col items-center gap-4 ">
             <div class="gap-2 flex flex-col animate-tutorial-text overflow-hidden text-nowrap "
                 [class.hide-tutorial-text]="this.selectedNeuron()">
@@ -20,12 +20,12 @@
 </div>
 <div class="flex-0 animate-position overflow-hidden" [class.flex-anim]="this.selectedNeuron()">
     @if (this.selectedNeuron()) {
-    <div class="appear-anim flex flex-row">
-        <div class="flex-1 flex flex-col gap-4 items-center">
+    <div class="appear-anim flex flex-row ml-4">
+        <div class="flex-1 flex flex-col items-center mr-4">
             <app-fade-plot></app-fade-plot>
-            <div class="h-[2px] bg-gray-300 w-[80%]"></div>
-            <h2 class="!text-xl !font-normal italic self-start">Labels</h2>
-            <div class="flex flex-col gap-3 m-3 self-start">
+            <div class="h-[2px] bg-gray-300 w-[80%] my-4"></div>
+            <h2 class="!text-xl !font-normal italic self-start ml-3">Labels</h2>
+            <div class="flex flex-col gap-3 mx-3 mt-1 self-start">
                 @for (label of this.selectedNeuron()!.labels; track $index) {
                 <a [routerLink]="`./label-details/${label.id}`" (mouseenter)="onMouseEnter(label)"
                     (mouseleave)="onMouseLeave(label)" class="text-blue-500 flex flex-row gap-2 underline">

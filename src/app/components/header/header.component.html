@@ -1,8 +1,14 @@
-<div class="flex p-2">
-    @if(activatedRoute.firstChild?.data | async; as data){
-    @if(data['id'] !== 0){
-    <a class="button" [routerLink]="['../']" [relativeTo]="activatedRoute.firstChild">Back</a>
+@if(activatedRoute.firstChild?.data | async; as data){
+@if(data['id'] !== 0){
+<a class="button absolute" [routerLink]="['../']" [relativeTo]="activatedRoute.firstChild">
+    <img class="w-8" src="/icons/chevron-left-icon.svg" alt="">
+</a>
+}
+}
+<h1 class="flex-1 !m-0 text-center !mt-1 !text-2xl text-gray-800">
+    @if(this.store.customHeaderTitle()){
+    {{this.store.customHeaderTitle()}}
+    }@else{
+    {{activatedRoute.firstChild?.title | async}}
     }
-    }
-    <h1 class="flex-1 text-center text-3xl">{{activatedRoute.firstChild?.title | async}}</h1>
-</div>
+</h1>

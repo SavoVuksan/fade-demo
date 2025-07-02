@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+:host {
+    @apply cursor-pointer;
+}
+
 :host:hover .color-rect {
     scale: 1.1;
 }
