@@ -1,3 +1,7 @@
+@if(this.state() === neuronState.Primary && this.state() !== neuronState.Selected){
+<div class="absolute bg-blue-500 w-[100%] h-[100%] rounded-full -z-10 animate-[ping_2s_ease_2s_infinite] scale-[0.75] ">
+</div>
+}
 <span class="absolute top-0 mt-1" [class.text-gray-300]="this.state() === neuronState.Secondary"
     [class.text-gray-400]="this.state() === neuronState.Primary || this.state() === neuronState.Selected">{{this.layerId()}}</span>
 <span class="text-lg" [class.text-blue-500]="this.state() === neuronState.Selected"
