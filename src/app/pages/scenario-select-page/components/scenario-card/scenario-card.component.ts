@@ -14,11 +14,19 @@ export class ScenarioCardComponent {
   iconUrl = input.required<string>();
   primaryColor = input<string>();
 
-  clicked = signal(false);
+  selected = signal(false);
   private router = inject(Router);
 
-  async onClick() {
-    this.clicked.set(true);
+  onKeyPress(event: KeyboardEvent) {
+    console.log(event.key);
+
+    if (event.key === ' ') {
+      this.onSelect();
+    }
+  }
+
+  async onSelect() {
+    this.selected.set(true);
     await new Promise((resolve) => {
       setTimeout(() => {
         resolve('done');
@@ -26,6 +34,6 @@ export class ScenarioCardComponent {
     });
 
     this.router.navigate(['/scenario-select', this.id(), 'neuron-select'])
-    // this.clicked.set(false);
   }
+
 }

@@ -26,7 +26,7 @@ export class FadePlotComponent {
   });
 
   readonly labels = computed(() => {
-    return this.store.selectedNeuron!()?.labels.map((label, index) => {
+    return this.store.selectedNeuron!()?.labels.map((label) => {
       const l = {
         clarity: label.clarity.score,
         faithfulness: label.faithfulness.score,

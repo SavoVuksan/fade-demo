@@ -22,7 +22,7 @@ export class NeuronComponent {
   neuronId = input<number>();
   layerId = input<number>();
   primaryColor = input<string>();
-  click = output();
+  neuronSelect = output();
   state = input<NeuronState>(NeuronState.Secondary);
 
   get neuronState() {
@@ -31,7 +31,7 @@ export class NeuronComponent {
 
   @HostListener('click', ['$event'])
   onClicked() {
-    this.click.emit();
+    this.neuronSelect.emit();
   }
 
 }

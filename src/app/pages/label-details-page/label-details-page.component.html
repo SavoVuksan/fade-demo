@@ -61,7 +61,8 @@
         <app-progress-bar [progress]="this.label()?.purity?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
-    <img class="rounded-md" [ngSrc]="this.label()!.purity.plot" width="500" height="300">
+    <img class="rounded-md" [ngSrc]="this.label()!.purity.plot" alt="Plot describing purity data" width="500"
+        height="300">
 
 </div>
 <div>

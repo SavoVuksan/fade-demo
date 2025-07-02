@@ -2,6 +2,6 @@
 <a [routerLink]="['/','scenario-select',this.store.selectedScenario!()!.id, 'neuron-select', neuron.id]">
     <app-neuron [neuronId]="neuron.id" [layerId]="neuron.layer"
         [state]="this.selectedNeuron() === neuron ? this.neuronState.Selected : $index === 1 ? this.neuronState.Primary : this.neuronState.Secondary"
-        (click)="onNeuronClick(neuron)"></app-neuron>
+        (neuronSelect)="onNeuronClick(neuron)"></app-neuron>
 </a>
 }

@@ -11,8 +11,8 @@ import { DemoDataStore } from '@app/state/demo-data.store';
   styleUrl: './neuron-select.component.scss'
 })
 export class NeuronSelectComponent {
-  neurons = input.required<Array<Neuron>>();
-  activeNeuronIds = input.required<Array<number>>();
+  neurons = input.required<Neuron[]>();
+  activeNeuronIds = input.required<number[]>();
 
   selectedNeuron = signal<Neuron | null>(null);
   currentPrimaryNeuronIndex = signal(1);
