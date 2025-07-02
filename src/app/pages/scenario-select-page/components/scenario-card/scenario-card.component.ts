@@ -8,14 +8,13 @@ import { Router } from '@angular/router';
   styleUrl: './scenario-card.component.scss'
 })
 export class ScenarioCardComponent {
-  title = input<string>();
-  subtitle = input<string>();
-  id = input.required<number>();
-  iconUrl = input.required<string>();
-  primaryColor = input<string>();
+  readonly title = input<string>();
+  readonly subtitle = input<string>();
+  readonly id = input.required<number>();
+  readonly primaryColor = input<string>();
 
-  selected = signal(false);
-  private router = inject(Router);
+  readonly selected = signal(false);
+  private readonly router = inject(Router);
 
   onKeyPress(event: KeyboardEvent) {
     console.log(event.key);

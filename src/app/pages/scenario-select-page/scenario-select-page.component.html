@@ -3,7 +3,7 @@
 </p>
 <div class="flex flex-row gap-10">
     @for (scenario of store.scenarios(); track $index) {
-    <app-scenario-card [iconUrl]="scenario.iconUrl" [id]="scenario.id" [title]="scenario.name"
-        [subtitle]="scenario.description" [primaryColor]="scenario.primaryColor"></app-scenario-card>
+    <app-scenario-card [id]="scenario.id" [title]="scenario.name" [subtitle]="scenario.description"
+        [primaryColor]="scenario.primaryColor"></app-scenario-card>
     }
 </div>

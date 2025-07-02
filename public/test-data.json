@@ -8,7 +8,6 @@
             "neuronIds": [
                 387
             ],
-            "iconUrl": "./icons/favorite_icon.svg",
             "primaryColor": "oklch(62.3% 0.214 259.815)"
         },
         {
@@ -19,7 +18,6 @@
             "neuronIds": [
                 387
             ],
-            "iconUrl": "./icons/favorite_icon.svg",
             "primaryColor": "oklch(79.5% 0.184 86.047)"
         },
         {
@@ -30,7 +28,6 @@
             "neuronIds": [
                 387
             ],
-            "iconUrl": "./icons/favorite_icon.svg",
             "primaryColor": "oklch(62.7% 0.265 303.9)"
         }
     ],

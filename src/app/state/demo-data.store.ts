@@ -18,7 +18,6 @@ const initialState: DemoData & DemoRuntimeData = {
     scenarios: [],
     selectedScenario: {
         description: '',
-        iconUrl: '',
         id: 0,
         modelName: '',
         name: 'test',
