@@ -1,4 +1,4 @@
-import { Component, inject, input, signal, } from '@angular/core';
+import { Component, ElementRef, inject, input, signal, } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -14,6 +14,7 @@ export class ScenarioCardComponent {
   readonly primaryColor = input<string>();
 
   readonly selected = signal(false);
+  readonly elementRef: ElementRef<HTMLElement> = inject(ElementRef);
   private readonly router = inject(Router);
 
   onKeyPress(event: KeyboardEvent) {
