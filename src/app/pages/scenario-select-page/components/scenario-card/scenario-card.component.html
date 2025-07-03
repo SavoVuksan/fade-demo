@@ -1,8 +1,8 @@
-<a (click)="onClick()" class="inline-flex flex-col items-center ">
-    <div class="rounded w-32 h-32 color-rect " [class.opacity-0]="this.clicked()"
+<a (click)="onSelect()" (keypress)="onKeyPress($event)" class="inline-flex flex-col items-center" tabindex="0">
+    <div class="rounded w-32 h-32 color-rect " [class.opacity-0]="this.selected()"
         [style.background-color]="this.primaryColor()"></div>
-    <div class="rounded w-32 h-32 color-rect absolute scale-anim" [class.scale-anim]="this.clicked()"
+    <div class="rounded w-32 h-32 color-rect absolute scale-anim" [class.scale-anim]="this.selected()"
         [style.background-color]="this.primaryColor()"></div>
-    <h2 class="!text-xl !font-bold capitalize !not-italic mt-4 text-center">{{this.title()}}</h2>
-    <h3 class="!text-base capitalize max-w-60 !not-italic text-center text-gray-500">{{this.subtitle()}}</h3>
+    <h2 class="capitalize !font-bold !not-italic mt-4 text-center">{{this.title()}}</h2>
+    <h4 class="capitalize max-w-60 text-center text-gray-500">{{this.subtitle()}}</h4>
 </a>

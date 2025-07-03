@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@use "tailwindcss";
 
 :host {
     display: flex;
@@ -6,18 +6,18 @@
     @apply mx-30 pb-15 overflow-hidden max-h-[100%];
 }
 
-h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    @apply mt-8 mb-0;
-}
-
-ul {
-    list-style: circle inside;
+section,
+p {
+    @apply text-gray-700;
 }
 
 section {
     @apply mb-3;
+}
+
+ul {
+    list-style: circle inside;
+    @apply text-gray-700;
 }
 
 a {

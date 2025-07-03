@@ -18,15 +18,17 @@ type PlotLabelData = {
   styleUrl: './fade-plot.component.scss'
 })
 export class FadePlotComponent {
-  store = inject(DemoDataStore);
-  plotStrokeColor = "#99999988"
-  windowWidth = signal<number>(1920);
-  plotSize = computed(() => {
+  readonly PLOT_STROKE_COLOR = "#99999988"
+
+  readonly store = inject(DemoDataStore);
+
+  readonly windowWidth = signal<number>(1920);
+
+  readonly plotSize = computed(() => {
     return this.windowWidth() < 1000 ? 2 : 4;
   });
-
   readonly labels = computed(() => {
-    return this.store.selectedNeuron!()?.labels.map((label, index) => {
+    return this.store.selectedNeuron!()?.labels.map((label) => {
       const l = {
         clarity: label.clarity.score,
         faithfulness: label.faithfulness.score,

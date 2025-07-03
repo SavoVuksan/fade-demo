@@ -1,8 +1,8 @@
 @if(this.label()){
-<div class="">
+<div>
     <div class="flex gap-2 items-center">
         <img src="/icons/clarity-icon.svg" alt="">
-        <h2>Clarity</h2>
+        <h1>Clarity</h1>
         <app-progress-bar [progress]="this.label()?.clarity?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
@@ -18,7 +18,7 @@
 <div>
     <div class="flex gap-2 items-center">
         <img src="/icons/responsivness-icon.svg" alt="">
-        <h2>Responsivness</h2>
+        <h1>Responsivness</h1>
         <app-progress-bar [progress]="this.label()?.responsivness?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
@@ -33,7 +33,7 @@
 <div>
     <div class="flex gap-2 items-center">
         <img src="/icons/faithfulness-icon.svg" alt="">
-        <h2>Faithfulness</h2>
+        <h1>Faithfulness</h1>
         <app-progress-bar [progress]="this.label()?.faithfulness?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
@@ -57,17 +57,18 @@
 <div>
     <div class="flex gap-2 items-center">
         <img src="/icons/purity-icon.svg" alt="">
-        <h2>Purity</h2>
+        <h1>Purity</h1>
         <app-progress-bar [progress]="this.label()?.purity?.score" [color]="this.label()?.primaryColor"
             [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
     </div>
-    <img class="rounded-md" [ngSrc]="this.label()!.purity.plot" width="500" height="300">
+    <img class="rounded-md" [ngSrc]="this.label()!.purity.plot" alt="Plot describing purity data" width="500"
+        height="300">
 
 </div>
 <div>
     <div class="flex gap-2 items-center">
         <img src="/icons/info-icon.svg" alt="">
-        <h3 class="text-xl">Additional Info</h3>
+        <h3>Additional Info</h3>
     </div>
     <p>
         {{this.label()!.additionalInfo}}

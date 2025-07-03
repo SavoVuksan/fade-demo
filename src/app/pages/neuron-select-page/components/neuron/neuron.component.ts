@@ -19,19 +19,19 @@ export enum NeuronState {
   }
 })
 export class NeuronComponent {
-  neuronId = input<number>();
-  layerId = input<number>();
-  primaryColor = input<string>();
-  onClick = output();
-  state = input<NeuronState>(NeuronState.Secondary);
+  readonly neuronId = input<number>();
+  readonly layerId = input<number>();
+  readonly primaryColor = input<string>();
+  readonly state = input<NeuronState>(NeuronState.Secondary);
+  readonly neuronSelect = output();
 
   get neuronState() {
     return NeuronState;
   }
 
   @HostListener('click', ['$event'])
-  onClicked(e: Event) {
-    this.onClick.emit();
+  onClicked() {
+    this.neuronSelect.emit();
   }
 
 }

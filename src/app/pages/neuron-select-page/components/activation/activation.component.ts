@@ -8,5 +8,5 @@ import { Activation } from '../../../../models/models';
   styleUrl: './activation.component.scss'
 })
 export class ActivationComponent {
-  activation = input.required<Activation>();
+  readonly activation = input.required<Activation>();
 }

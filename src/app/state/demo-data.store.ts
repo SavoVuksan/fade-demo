@@ -16,15 +16,7 @@ const initialState: DemoData & DemoRuntimeData = {
     isLoadingDemoData: true,
     neurons: [],
     scenarios: [],
-    selectedScenario: {
-        description: '',
-        iconUrl: '',
-        id: 0,
-        modelName: '',
-        name: 'test',
-        neuronIds: [],
-        primaryColor: ''
-    },
+    selectedScenario: undefined,
     highlightedLabel: undefined,
     selectedNeuron: undefined,
     customHeaderTitle: null

@@ -1,3 +1,5 @@
+@use "tailwindcss";
+
 /* FrutigerLTCom-Roman */
 @font-face {
     font-family: 'Frutiger LT';
@@ -60,40 +62,38 @@
 h1 {
     font-family: 'Frutiger LT';
     font-weight: 800;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    @apply mt-8 mb-0 text-gray-800 text-2xl;
 }
 
 h2 {
     font-family: 'Frutiger LT';
-    font-size: 1.5rem;
     font-style: italic;
     font-weight: normal;
+    @apply text-gray-800 text-xl;
 }
 
 h3 {
     font-family: 'Frutiger LT';
-    font-size: 1.5rem;
     font-style: italic;
     font-weight: normal;
+    @apply text-gray-800 text-lg;
 }
 
 h4 {
     line-height: 1.6rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+    @apply text-gray-800 text-base font-normal;
 }
 
 p,
 section {
     line-height: 1.3;
-    font-size: 1.0rem;
     font-family: 'Frutiger LT';
+    @apply text-base;
 }
 
 span {
     font-family: 'Frutiger LT';
+    @apply text-base;
 }
 
 .small-content-label {

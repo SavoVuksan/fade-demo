@@ -1,8 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { AsyncPipe, } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { toSignal } from '@angular/core/rxjs-interop';
-import { of } from 'rxjs';
 import { DemoDataStore } from '@app/state/demo-data.store';
 
 @Component({
@@ -12,7 +10,7 @@ import { DemoDataStore } from '@app/state/demo-data.store';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  activatedRoute = inject(ActivatedRoute);
-  store = inject(DemoDataStore);
+  readonly activatedRoute = inject(ActivatedRoute);
+  readonly store = inject(DemoDataStore);
 
 }

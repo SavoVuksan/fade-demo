@@ -7,33 +7,33 @@
     [attr.height]="100 * this.plotSize()">
     <!-- Horizontal & Vertical Lines -->
     <line [attr.x1]="50 * this.plotSize()" [attr.x2]="50 * this.plotSize()" [attr.y1]="0 * this.plotSize()"
-        [attr.y2]="100 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="100 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
     <line [attr.x1]="0 * this.plotSize()" [attr.x2]="100 * this.plotSize()" [attr.y1]="50 * this.plotSize()"
-        [attr.y2]="50 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="50 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
 
     <!-- Outer Diamond -->
     <line [attr.x1]="50 * this.plotSize()" [attr.x2]="100 * this.plotSize()" [attr.y1]="0 * this.plotSize()"
-        [attr.y2]="50 * this.plotSize()" [attr.stroke]="plotStrokeColor">
+        [attr.y2]="50 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR">
     </line>
     <line [attr.x1]="100 * this.plotSize()" [attr.x2]="50 * this.plotSize()" [attr.y1]="50 * this.plotSize()"
-        [attr.y2]="100 * this.plotSize()" [attr.stroke]="plotStrokeColor">
+        [attr.y2]="100 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR">
     </line>
     <line [attr.x1]="50 * this.plotSize()" [attr.x2]="0 * this.plotSize()" [attr.y1]="100 * this.plotSize()"
-        [attr.y2]="50 * this.plotSize()" [attr.stroke]="plotStrokeColor">
+        [attr.y2]="50 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR">
     </line>
     <line [attr.x1]="0 * this.plotSize()" [attr.x2]="50 * this.plotSize()" [attr.y1]="50 * this.plotSize()"
-        [attr.y2]="0 * this.plotSize()" [attr.stroke]="plotStrokeColor">
+        [attr.y2]="0 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR">
     </line>
 
     <!-- Inner Diamond -->
     <line [attr.x1]="50 * this.plotSize()" [attr.x2]="75 * this.plotSize()" [attr.y1]="25 * this.plotSize()"
-        [attr.y2]="50 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="50 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
     <line [attr.x1]="75 * this.plotSize()" [attr.x2]="50 * this.plotSize()" [attr.y1]="50 * this.plotSize()"
-        [attr.y2]="75 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="75 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
     <line [attr.x1]="50 * this.plotSize()" [attr.x2]="25 * this.plotSize()" [attr.y1]="75 * this.plotSize()"
-        [attr.y2]="50 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="50 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
     <line [attr.x1]="25 * this.plotSize()" [attr.x2]="50 * this.plotSize()" [attr.y1]="50 * this.plotSize()"
-        [attr.y2]="25 * this.plotSize()" [attr.stroke]="plotStrokeColor"></line>
+        [attr.y2]="25 * this.plotSize()" [attr.stroke]="PLOT_STROKE_COLOR"></line>
 
     @for (label of labels(); track $index) {
     <polygon class="insert-container hover-effect" [class.highlighted]="label.isHighlighted" style="--index: {{$index}}"

@@ -7,13 +7,12 @@ import { tap } from 'rxjs';
   providedIn: 'root'
 })
 export class DemoDataService {
-  private http = inject(HttpClient);
+  private readonly http = inject(HttpClient);
   readonly DEMO_DATA_URL = "/test-data.json"
 
   loadDemoData() {
     return this.http.get<DemoData>(this.DEMO_DATA_URL).pipe(tap((demoData) => {
-      // Todo: Find out if there is a better rxjs operator thatn tap for this 
-      const result = DemoDataSchema.parse(demoData);
+      DemoDataSchema.parse(demoData);
     }));
   }
 }
