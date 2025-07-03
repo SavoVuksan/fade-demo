@@ -1,0 +1,13 @@
+.appear-anim {
+    animation: appear 0.2s ease calc(1.5s + 0.01s * var(--index)) 1 forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

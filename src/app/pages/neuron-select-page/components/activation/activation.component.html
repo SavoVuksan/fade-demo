@@ -1,6 +1,7 @@
 <div>
     @for (text of activation().activationText; track $index) {
-    <span class="text-gray-500" [style.backgroundColor]="`rgba(255,255,${text.activationValue * 255}, 0.5)`">
+    <span class="text-gray-500 appear-anim opacity-0"
+        [style.backgroundColor]="`rgba(255,255,${text.activationValue * 255}, 0.5)`" [style]="`--index: ${$index}`">
         {{text.text}}
     </span>
     }
