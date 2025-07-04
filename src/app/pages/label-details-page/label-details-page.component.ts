@@ -1,4 +1,4 @@
-import { Component, computed, inject, input, OnDestroy, OnInit } from '@angular/core';
+import { Component, computed, effect, inject, input, OnDestroy, OnInit } from '@angular/core';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { NgOptimizedImage } from '@angular/common';
 import { ProgressBarComponent } from "../../components/progress-bar/progress-bar.component";
@@ -15,6 +15,7 @@ export class LabelDetailsPageComponent implements OnInit, OnDestroy {
 
   readonly neuronId = input.required<number>({ alias: 'neuron-id' });
   readonly labelId = input.required<number>({ alias: 'label-id' });
+  readonly scenarioId = input.required<number>({ alias: 'scenario-id' })
 
   readonly label = computed(() => {
     const neuronId = parseInt(this.neuronId().toString())
@@ -22,6 +23,10 @@ export class LabelDetailsPageComponent implements OnInit, OnDestroy {
     const selectedNeuron = this.store.neurons().find((neuron) => neuron.id === neuronId);
     const selectedLabel = selectedNeuron?.labels.find((label) => label.id === labelId);
     return selectedLabel;
+  })
+
+  readonly onScenarioIdChange = effect(() => {
+    this.store.changeScenario(this.scenarioId())
   })
 
   ngOnDestroy(): void {
