@@ -1,8 +1,9 @@
 <div class="flex flex-col text-gray-500 items-center animate-position flex-1">
     <div class="flex flex-row h-full ">
         <div class="flex flex-col items-center gap-4 ">
-            <div class="gap-2 flex flex-col animate-tutorial-text overflow-hidden text-nowrap "
-                [class.hide-tutorial-text]="this.selectedNeuron()">
+            <div class="gap-2 flex flex-col animate-tutorial-text overflow-hidden text-nowrap opacity-0 appear"
+                style="--delay: 0.2s" [class.hide-tutorial-text]="this.selectedNeuron()"
+                [class.appear]="!this.neuronId()" [class.opacity-0]="!this.neuronId()">
                 <p>
                     Select a neuron to see its labels
                 </p>
@@ -12,7 +13,8 @@
             </div>
             @if (this.store.selectedScenario) {
             <app-neuron-select [neurons]="this.store.neurons()"
-                [activeNeuronIds]="this.store.selectedScenario()!.neuronIds"></app-neuron-select>
+                [activeNeuronIds]="this.store.selectedScenario()!.neuronIds" [class.appear]="!this.neuronId()"
+                [class.opacity-0]="!this.neuronId()" style="--delay: 0.5s"></app-neuron-select>
             }
         </div>
         <div class="h-140 w-[2px] bg-gray-300 opacity-0" [class.animate-bar]="this.selectedNeuron()"></div>

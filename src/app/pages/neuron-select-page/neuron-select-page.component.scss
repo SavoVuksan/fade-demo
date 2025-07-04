@@ -44,3 +44,19 @@
         flex: 0;
     }
 }
+
+.appear {
+    animation: appear-anim-2 0.9s ease-out calc(0.5s + var(--delay)) 1 forwards;
+}
+
+@keyframes appear-anim-2 {
+    from {
+        translate: 0% -30px;
+        opacity: 0;
+    }
+
+    to {
+        translate: 0% 0px;
+        opacity: 1;
+    }
+}
