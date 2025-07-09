@@ -9,4 +9,5 @@ import { Activation } from '../../../../models/models';
 })
 export class ActivationComponent {
   readonly activation = input.required<Activation>();
+  readonly animationEnabled = input<boolean>();
 }

@@ -10,6 +10,7 @@ type DemoRuntimeData = {
     selectedNeuron?: Neuron;
     highlightedLabel?: Label;
     customHeaderTitle: string | null;
+    visitedNeuronSelectPage: boolean;
 }
 
 const initialState: DemoData & DemoRuntimeData = {
@@ -19,7 +20,8 @@ const initialState: DemoData & DemoRuntimeData = {
     selectedScenario: undefined,
     highlightedLabel: undefined,
     selectedNeuron: undefined,
-    customHeaderTitle: null
+    customHeaderTitle: null,
+    visitedNeuronSelectPage: false
 }
 
 export const DemoDataStore = signalStore(
@@ -49,6 +51,9 @@ export const DemoDataStore = signalStore(
         },
         changeHeaderTitle(title: string | null) {
             patchState(store, { customHeaderTitle: title })
+        },
+        changeVisitedNeuronSelectPage(visited: boolean) {
+            patchState(store, { visitedNeuronSelectPage: visited })
         }
     }))
 )
