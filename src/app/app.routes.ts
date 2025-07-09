@@ -15,11 +15,7 @@ export const routes: Routes = [
     },
     {
         path: 'scenario-select/:scenario-id/neuron-select',
-        data: {
-            id: 1
-        },
-        title: 'Neuron Select',
-        component: NeuronSelectPageComponent,
+        redirectTo: 'scenario-select'
 
     },
     {

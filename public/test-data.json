@@ -6,7 +6,8 @@
             "description": "example scenario. We would write something about how you can understand this scenario",
             "modelName": "Gemmascope 2",
             "neuronIds": [
-                387
+                387,
+                388
             ],
             "primaryColor": "oklch(62.3% 0.214 259.815)"
         },
@@ -16,7 +17,8 @@
             "description": "Why do bad labels happen to good neurons",
             "modelName": "Gemmascope 2",
             "neuronIds": [
-                387
+                387,
+                389
             ],
             "primaryColor": "oklch(79.5% 0.184 86.047)"
         },
@@ -26,7 +28,7 @@
             "description": "example scenario. We would write something about how you can understand this scenario",
             "modelName": "Gemmascope 2",
             "neuronIds": [
-                387
+                387,1402    
             ],
             "primaryColor": "oklch(62.7% 0.265 303.9)"
         }
