@@ -983,6 +983,954 @@
                             "activationValue": 0.291
                         }
                     ]
+                },
+                                {
+                    "activationText": [
+                        {
+                            "text": "1",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "What",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "is",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "0",
+                            "activationValue": 0.14
+                        },
+                        {
+                            "text": "(base",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "5)",
+                            "activationValue": 0.185
+                        },
+                        {
+                            "text": "in",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "base",
+                            "activationValue": 0.213
+                        },
+                        {
+                            "text": "9?",
+                            "activationValue": 0.239
+                        },
+                        {
+                            "text": "Lupe",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "takes",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "this",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "mean",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "that",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Sally",
+                            "activationValue": 0.108
+                        },
+                        {
+                            "text": "is",
+                            "activationValue": 0.082
+                        },
+                        {
+                            "text": "likely",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "safe,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "and",
+                            "activationValue": 0.107
+                        },
+                        {
+                            "text": "so,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "raising",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "her",
+                            "activationValue": 0.061
+                        },
+                        {
+                            "text": "spear,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "she",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "declares",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "that",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "this",
+                            "activationValue": 0.899
+                        },
+                        {
+                            "text": "is",
+                            "activationValue": 0.054
+                        },
+                        {
+                            "text": "an",
+                            "activationValue": 0.629
+                        },
+                        {
+                            "text": "opportune",
+                            "activationValue": 0.252
+                        },
+                        {
+                            "text": "time",
+                            "activationValue": 0.243
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.053
+                        },
+                        {
+                            "text": "reclaim",
+                            "activationValue": 0.569
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.4
+                        },
+                        {
+                            "text": "Ancient",
+                            "activationValue": 0.302
+                        },
+                        {
+                            "text": "Onyx",
+                            "activationValue": 0.483
+                        },
+                        {
+                            "text": "from",
+                            "activationValue": 0.636
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.859
+                        },
+                        {
+                            "text": "Felidae,",
+                            "activationValue": 0.305
+                        },
+                        {
+                            "text": "much",
+                            "activationValue": 0.603
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.362
+                        },
+                        {
+                            "text": "Sonic's",
+                            "activationValue": 0.711
+                        },
+                        {
+                            "text": "panicked",
+                            "activationValue": 0.279
+                        },
+                        {
+                            "text": "protests.",
+                            "activationValue": 0.735
+                        },
+                        {
+                            "text": "Die",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Berufsverb\u00e4nde",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "oder",
+                            "activationValue": 0.017
+                        },
+                        {
+                            "text": "-organisationen",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "m\u00fcssen",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "befragt",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "werden,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "wenn",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "es",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "darum",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "geht,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Programme",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "zur",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "F\u00f6rderung",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "der",
+                            "activationValue": 0.034
+                        },
+                        {
+                            "text": "Agrarprodukte",
+                            "activationValue": 0.199
+                        },
+                        {
+                            "text": "zu",
+                            "activationValue": 0.104
+                        },
+                        {
+                            "text": "erstellen.",
+                            "activationValue": 0.033
+                        },
+                        {
+                            "text": "We",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "aren\u2019t",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "all",
+                            "activationValue": 0.167
+                        },
+                        {
+                            "text": "called",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "be",
+                            "activationValue": 0.093
+                        },
+                        {
+                            "text": "missionaries,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "some",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "of",
+                            "activationValue": 0.119
+                        },
+                        {
+                            "text": "us",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "are",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "placed",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "into",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "corporate",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "jungle",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "bring",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "light",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "where",
+                            "activationValue": 0.172
+                        },
+                        {
+                            "text": "there",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "isn\u2019tany.",
+                            "activationValue": 0.105
+                        },
+                        {
+                            "text": "What",
+                            "activationValue": 0.015
+                        },
+                        {
+                            "text": "is",
+                            "activationValue": 0.187
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "smallest",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "common",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "multiple",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "of",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "33",
+                            "activationValue": 0.139
+                        },
+                        {
+                            "text": "and",
+                            "activationValue": 0.681
+                        },
+                        {
+                            "text": "l?",
+                            "activationValue": 0.98
+                        },
+                        {
+                            "text": "As",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "one",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "grows,",
+                            "activationValue": 0.054
+                        },
+                        {
+                            "text": "so",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "does",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "need",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "save",
+                            "activationValue": 0.776
+                        },
+                        {
+                            "text": "more",
+                            "activationValue": 0.666
+                        },
+                        {
+                            "text": "for",
+                            "activationValue": 0.991
+                        },
+                        {
+                            "text": "future",
+                            "activationValue": 0.78
+                        },
+                        {
+                            "text": "projects.",
+                            "activationValue": 0.822
+                        },
+                        {
+                            "text": "No",
+                            "activationValue": 0.135
+                        },
+                        {
+                            "text": "longer,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "said",
+                            "activationValue": 0.073
+                        },
+                        {
+                            "text": "Comenius,",
+                            "activationValue": 0.055
+                        },
+                        {
+                            "text": "did",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "men",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "in",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Bohemia",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "call",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "things",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "by",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "their",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "right",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "names.",
+                            "activationValue": 0.698
+                        },
+                        {
+                            "text": "Incheon",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Lock",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Gate",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "North",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "(2?)",
+                            "activationValue": 0.45
+                        },
+                        {
+                            "text": "(B)",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "U87",
+                            "activationValue": 0.015
+                        },
+                        {
+                            "text": "glioma",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "cells",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "were",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "stably",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "transfected",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "with",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "miR-145",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "and",
+                            "activationValue": 0.117
+                        },
+                        {
+                            "text": "zip-145,",
+                            "activationValue": 0.114
+                        },
+                        {
+                            "text": "and",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "collected",
+                            "activationValue": 0.672
+                        },
+                        {
+                            "text": "for",
+                            "activationValue": 0.518
+                        },
+                        {
+                            "text": "real-time",
+                            "activationValue": 0.994
+                        },
+                        {
+                            "text": "RT-PCR.",
+                            "activationValue": 0.451
+                        },
+                        {
+                            "text": "The",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "shape",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "resonances",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "can",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "still",
+                            "activationValue": 0.125
+                        },
+                        {
+                            "text": "be",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "seen,",
+                            "activationValue": 0.477
+                        },
+                        {
+                            "text": "especially",
+                            "activationValue": 0.244
+                        },
+                        {
+                            "text": "for",
+                            "activationValue": 0.499
+                        },
+                        {
+                            "text": "low",
+                            "activationValue": 0.026
+                        },
+                        {
+                            "text": "reactivity.",
+                            "activationValue": 0.536
+                        },
+                        {
+                            "text": "On",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Hot",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Seat",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Mark",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "L.",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Baer-US",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "PRESSWIRE",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Eagles",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "quarterback",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Michael",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Vick",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "will",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "be",
+                            "activationValue": 0.037
+                        },
+                        {
+                            "text": "on",
+                            "activationValue": 0.075
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.981
+                        },
+                        {
+                            "text": "hot",
+                            "activationValue": 0.817
+                        },
+                        {
+                            "text": "seat",
+                            "activationValue": 0.445
+                        },
+                        {
+                            "text": "this",
+                            "activationValue": 0.79
+                        },
+                        {
+                            "text": "weekend",
+                            "activationValue": 0.458
+                        },
+                        {
+                            "text": "in",
+                            "activationValue": 0.578
+                        },
+                        {
+                            "text": "Cleveland.",
+                            "activationValue": 0.249
+                        },
+                        {
+                            "text": "Indeed,",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "one",
+                            "activationValue": 0.019
+                        },
+                        {
+                            "text": "of",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "most",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "important",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "but",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "often",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "overlooked",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "diagnostic",
+                            "activationValue": 0.007
+                        },
+                        {
+                            "text": "procedures",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "is",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "the",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "examination",
+                            "activationValue": 0.06
+                        },
+                        {
+                            "text": "of",
+                            "activationValue": 0.552
+                        },
+                        {
+                            "text": "aborted",
+                            "activationValue": 0.355
+                        },
+                        {
+                            "text": "fetuses",
+                            "activationValue": 0.661
+                        },
+                        {
+                            "text": "and",
+                            "activationValue": 0.651
+                        },
+                        {
+                            "text": "their",
+                            "activationValue": 0.956
+                        },
+                        {
+                            "text": "associated",
+                            "activationValue": 0.978
+                        },
+                        {
+                            "text": "membranes.",
+                            "activationValue": 0.296
+                        },
+                        {
+                            "text": "Investment",
+                            "activationValue": 0.047
+                        },
+                        {
+                            "text": "revenue",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Six",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "months",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Six",
+                            "activationValue": 0.15
+                        },
+                        {
+                            "text": "months",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Year",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "30",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "June",
+                            "activationValue": 0.088
+                        },
+                        {
+                            "text": "to",
+                            "activationValue": 0.008
+                        },
+                        {
+                            "text": "30",
+                            "activationValue": 0.118
+                        },
+                        {
+                            "text": "June",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "31",
+                            "activationValue": 0.064
+                        },
+                        {
+                            "text": "December",
+                            "activationValue": 0.19
+                        },
+                        {
+                            "text": "2018",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "2017",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "2017",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "\u00a3'000",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "\u00a3'000",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "\u00a3'000",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Bank",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "interest",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "264",
+                            "activationValue": 0.106
+                        },
+                        {
+                            "text": "114",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "456",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "Fair",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "value",
+                            "activationValue": 0.146
+                        },
+                        {
+                            "text": "movement",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "on",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "derivatives",
+                            "activationValue": 0.0
+                        },
+                        {
+                            "text": "5,949",
+                            "activationValue": 0.792
+                        },
+                        {
+                            "text": "12,174",
+                            "activationValue": 0.079
+                        },
+                        {
+                            "text": "11,983",
+                            "activationValue": 0.756
+                        },
+                        {
+                            "text": "6,213",
+                            "activationValue": 0.32
+                        },
+                        {
+                            "text": "12,288",
+                            "activationValue": 0.582
+                        },
+                        {
+                            "text": "12,439",
+                            "activationValue": 0.291
+                        },
+                        {
+                            "text": "7.",
+                            "activationValue": 0.291
+                        }
+                    ]
                 }
             ],
             "labels": [

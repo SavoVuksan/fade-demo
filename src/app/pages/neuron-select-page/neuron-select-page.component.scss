@@ -60,3 +60,9 @@
         opacity: 1;
     }
 }
+
+app-activation:not(:last-of-type)::after {
+    content: "";
+    display: block;
+    @apply h-[2px] bg-gray-300 my-3 mx-15;
+}
