@@ -1,6 +1,6 @@
 @if(this.label()){
-<div class="flex flex-col justify-between min-w-90">
-    <div class="flex flex-col max-w-100 activation-transition overflow-auto pb-1">
+<div class="flex-1 flex flex-col justify-between min-w-90">
+    <div class="flex flex-col activation-transition overflow-auto pb-1">
         <h2>Activations</h2>
         <h4 class="text-gray-500 mb-3">The text that activated the neuron</h4>
         <div class="overflow-auto ">
@@ -9,7 +9,7 @@
             }
         </div>
     </div>
-    <div class="pb-5">
+    <div>
         <div class="flex gap-2 items-center">
             <img src="/icons/info-icon.svg" alt="">
             <h3>Additional Info</h3>
@@ -19,7 +19,7 @@
         </p>
     </div>
 </div>
-<div class="overflow-y-auto max-h-[90vh]">
+<div class="flex-5 overflow-y-auto">
     <div>
         <div class="flex gap-2 items-center">
             <img src="/icons/clarity-icon.svg" alt="">
@@ -27,7 +27,7 @@
             <app-progress-bar [progress]="this.label()?.clarity?.score" [color]="this.label()?.primaryColor"
                 [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
         </div>
-        <div class="flex gap-3 flex-col max-h-[25vh] overflow-y-hidden">
+        <div class="flex gap-3 flex-col">
 
             @for (text of this.label()!.clarity.text; track $index) {
             <p>
@@ -43,7 +43,7 @@
             <app-progress-bar [progress]="this.label()?.responsivness?.score" [color]="this.label()?.primaryColor"
                 [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
         </div>
-        <div class="flex gap-3 flex-col max-h-[25vh] overflow-y-hidden">
+        <div class="flex gap-3 flex-col ">
             @for (text of this.label()!.responsivness.text; track $index) {
             <p>
                 {{text}}
@@ -58,15 +58,18 @@
             <app-progress-bar [progress]="this.label()?.faithfulness?.score" [color]="this.label()?.primaryColor"
                 [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
         </div>
-        <div class="max-h-[25vh] overflow-y-hidden">
+        <div class="flex flex-row gap-4">
             <div class="flex gap-3 flex-col">
+                <h3>Steered</h3>
                 @for (text of this.label()!.faithfulness.steered; track $index) {
                 <p>
                     {{text}}
                 </p>
                 }
             </div>
+            <div class="h-auto my-5 min-w-1 max-w-1 bg-gray-300"></div>
             <div class="flex gap-3 flex-col">
+                <h3>Unsteered</h3>
                 @for (text of this.label()!.faithfulness.unsteered; track $index) {
                 <p>
                     {{text}}

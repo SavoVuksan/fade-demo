@@ -1,7 +1,7 @@
 @use "tailwindcss";
 
 :host {
-    @apply px-20 gap-12 flex max-h-[100%] overflow-auto;
+    @apply px-20 gap-12 flex max-h-[100%] overflow-auto pb-8;
 }
 
 h1 {
