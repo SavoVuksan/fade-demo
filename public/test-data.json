@@ -248,7 +248,13 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/purity-example-plot.png"
+                        "plot": "purity-plots/purity-example-plot.png",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -312,7 +318,13 @@
                     },
                     "purity": {
                         "score": 0.4,
-                        "plot": "purity-plots/purity-example-plot.png"
+                        "plot": "purity-plots/purity-example-plot.png",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.6,
@@ -388,7 +400,13 @@
                     },
                     "purity": {
                         "score": 0.6,
-                        "plot": "purity-plots/purity-example-plot.png"
+                        "plot": "purity-plots/purity-example-plot.png",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0,
@@ -1420,7 +1438,13 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/purity-example-plot.png"
+                        "plot": "purity-plots/purity-example-plot.png",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -2452,7 +2476,13 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/purity-example-plot.png"
+                        "plot": "purity-plots/purity-example-plot.png",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -3484,7 +3514,13 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/example-purity-plot.svg",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
@@ -4516,7 +4552,13 @@
                     },
                     "purity": {
                         "score": 0.8842484132344414,
-                        "plot": "purity-plots/example-purity-plot.svg"
+                        "plot": "purity-plots/example-purity-plot.svg",
+                        "text": [
+                            "puppetry, and stage craft to bring this character",
+                            "Stage-IV surveys, such",
+                            "morphosis may represent a stage of predisposition to opportunistic oral",
+                            "at the half way stage of this season,"
+                        ]
                     },
                     "faithfulness": {
                         "score": 0.21639667705088264,
