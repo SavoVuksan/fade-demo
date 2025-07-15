@@ -3,10 +3,11 @@ import { DemoDataStore } from '../../state/demo-data.store';
 import { NgOptimizedImage } from '@angular/common';
 import { ProgressBarComponent } from "../../components/progress-bar/progress-bar.component";
 import { ActivationComponent } from '../neuron-select-page/components/activation/activation.component';
+import { BaseDimension, Dimension, DimensionActivations, DimensionComponent, DimensionType, FaithfulnessDimension, FaithfulnessOptions, isResponsivnessOptions, ResponsivnessDimension, ResponsivnessOptions } from "./components/dimension/dimension.component";
 
 @Component({
   selector: 'app-label-details-page',
-  imports: [NgOptimizedImage, ProgressBarComponent, ActivationComponent],
+  imports: [NgOptimizedImage, ProgressBarComponent, ActivationComponent, DimensionComponent],
   templateUrl: './label-details-page.component.html',
   styleUrl: './label-details-page.component.scss'
 })
@@ -26,7 +27,7 @@ export class LabelDetailsPageComponent implements OnInit, OnDestroy {
     return selectedLabel;
   })
 
-  readonly selectedNeuron = computed(() =>{
+  readonly selectedNeuron = computed(() => {
     const neuronId = parseInt(this.neuronId().toString());
 
     const sNeuron = this.store.neurons().find((neuron) => neuron.id === neuronId);
@@ -43,5 +44,9 @@ export class LabelDetailsPageComponent implements OnInit, OnDestroy {
   }
   ngOnInit(): void {
     this.store.changeHeaderTitle(this.label()!.name)
+  }
+
+  labelToDimension(options: Dimension | FaithfulnessDimension | ResponsivnessDimension): Dimension | FaithfulnessDimension | ResponsivnessDimension {
+    return options;
   }
 }

@@ -1,0 +1,21 @@
+<div class="flex flex-row gap-2 pb-1">
+    <img [src]="this.dimension()!.iconUrl" alt="" height="24px" width="24px">
+    <div class="flex flex-col">
+        <h3>{{this.dimension()?.type}}</h3>
+        <app-progress-bar [color]="this.dimension()?.primaryColor" [backgroundColor]="this.dimension()?.backgroundColor"
+            [progress]="this.dimension()!.score"></app-progress-bar>
+    </div>
+</div>
+
+@if (this.isFaithfulnessDimension(this.dimension())) {
+
+}@else if (this.isResponsivenessDimension(this.dimension())) {
+
+}@else if (this.isDimension(this.dimension())) {
+@for (t of (this.asDimension()).activations; track $index) {
+<p class="!text-sm text-gray-500">
+    [...] {{t}} [...]
+</p>
+}
+
+}

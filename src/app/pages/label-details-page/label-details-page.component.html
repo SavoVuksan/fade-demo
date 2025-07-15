@@ -22,73 +22,53 @@
 <div class="flex-5 overflow-y-auto">
     <div>
         <div class="flex gap-2 items-center">
-            <img src="/icons/clarity-icon.svg" alt="">
-            <h1>Clarity</h1>
-            <app-progress-bar [progress]="this.label()?.clarity?.score" [color]="this.label()?.primaryColor"
-                [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
-        </div>
-        <div class="flex gap-3 flex-col">
-
-            @for (text of this.label()!.clarity.text; track $index) {
-            <p>
-                {{text}}
-            </p>
-            }
+            <app-dimension [dimension]="this.labelToDimension({
+                    iconUrl: '/icons/clarity-icon.svg',
+                    score: this.label()!.clarity.score,
+                    type: 'Clarity',
+                    activations: this.label()!.clarity.text,
+                    primaryColor: this.label()!.primaryColor,
+                    backgroundColor: this.label()!.secondaryColor
+                })"></app-dimension>
         </div>
     </div>
     <div>
         <div class="flex gap-2 items-center">
-            <img src="/icons/responsivness-icon.svg" alt="">
-            <h1>Responsivness</h1>
-            <app-progress-bar [progress]="this.label()?.responsivness?.score" [color]="this.label()?.primaryColor"
-                [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
-        </div>
-        <div class="flex gap-3 flex-col ">
-            @for (text of this.label()!.responsivness.text; track $index) {
-            <p>
-                {{text}}
-            </p>
-            }
+            <app-dimension [dimension]="this.labelToDimension({
+                    iconUrl: '/icons/responsivness-icon.svg',
+                    score: this.label()!.responsivness.score,
+                    type: 'Responsivness',
+                    primaryColor: this.label()!.primaryColor,
+                    backgroundColor: this.label()!.secondaryColor,
+                    randomActivations: [],
+                    topActivations: [] 
+                })"></app-dimension>
         </div>
     </div>
     <div>
         <div class="flex gap-2 items-center">
-            <img src="/icons/faithfulness-icon.svg" alt="">
-            <h1>Faithfulness</h1>
-            <app-progress-bar [progress]="this.label()?.faithfulness?.score" [color]="this.label()?.primaryColor"
-                [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
-        </div>
-        <div class="flex flex-row gap-4">
-            <div class="flex gap-3 flex-col">
-                <h3>Steered</h3>
-                @for (text of this.label()!.faithfulness.steered; track $index) {
-                <p>
-                    {{text}}
-                </p>
-                }
-            </div>
-            <div class="h-auto my-5 min-w-1 max-w-1 bg-gray-300"></div>
-            <div class="flex gap-3 flex-col">
-                <h3>Unsteered</h3>
-                @for (text of this.label()!.faithfulness.unsteered; track $index) {
-                <p>
-                    {{text}}
-                </p>
-                }
-            </div>
+            <app-dimension [dimension]="this.labelToDimension({
+                    iconUrl: '/icons/faithfulness-icon.svg',
+                    score: this.label()!.faithfulness.score,
+                    type: 'Faithfulness',
+                    primaryColor: this.label()!.primaryColor,
+                    backgroundColor: this.label()!.secondaryColor,
+                    steered: [],
+                    unsteered: []
+                })"></app-dimension>
         </div>
     </div>
     <div>
         <div class="flex gap-2 items-center">
-            <img src="/icons/purity-icon.svg" alt="">
-            <h1>Purity</h1>
-            <app-progress-bar [progress]="this.label()?.purity?.score" [color]="this.label()?.primaryColor"
-                [backgroundColor]="this.label()?.secondaryColor"></app-progress-bar>
+            <app-dimension [dimension]="this.labelToDimension({
+                    iconUrl: '/icons/purity-icon.svg',
+                    score: this.label()!.purity.score,
+                    type: 'Purity',
+                    primaryColor: this.label()!.primaryColor,
+                    backgroundColor: this.label()!.secondaryColor,
+                    activations: []
+                })"></app-dimension>
         </div>
-        <img class="rounded-md" [ngSrc]="this.label()!.purity.plot" alt="Plot describing purity data" width="500"
-            height="300">
-
     </div>
-
 </div>
 }
