@@ -10,16 +10,18 @@
         </div>
     </div>
     <div>
-        <div class="flex gap-2 items-center">
+        <div class="h-[2px] bg-gray-200 w-[100%]"></div>
+        <div class="flex gap-2 items-center mt-5 ">
             <img src="/icons/info-icon.svg" alt="">
             <h3>Additional Info</h3>
         </div>
-        <p>
+        <p class="!text-sm pr-4">
             {{this.label()!.additionalInfo}}
         </p>
     </div>
 </div>
-<div class="flex-5 overflow-y-auto">
+<div class="w-[2px] bg-gray-200 mr-12"></div>
+<div class="flex-5 overflow-y-auto flex flex-col gap-4">
     <div>
         <div class="flex gap-2 items-center">
             <app-dimension [dimension]="this.labelToDimension({
@@ -40,8 +42,8 @@
                     type: 'Responsivness',
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor,
-                    randomActivations: [],
-                    topActivations: [] 
+                    randomActivations: this.label()!.responsivness.randomActivations,
+                    topActivations: this.label()!.responsivness.topActivations
                 })"></app-dimension>
         </div>
     </div>
@@ -53,8 +55,8 @@
                     type: 'Faithfulness',
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor,
-                    steered: [],
-                    unsteered: []
+                    steered: this.label()!.faithfulness.steered,
+                    unsteered: this.label()!.faithfulness.unsteered
                 })"></app-dimension>
         </div>
     </div>

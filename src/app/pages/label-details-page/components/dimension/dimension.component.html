@@ -8,9 +8,43 @@
 </div>
 
 @if (this.isFaithfulnessDimension(this.dimension())) {
-
+<div class="flex flex-row gap-4">
+    <div>
+        <h4>Unsteered</h4>
+        @for (t of (this.asFaithfulnessDimension()).unsteered; track $index) {
+        <p class="!text-sm text-gray-500">
+            [...] {{t}} [...]
+        </p>
+        }
+    </div>
+    <div>
+        <h4>Steered</h4>
+        @for (t of (this.asFaithfulnessDimension()).unsteered; track $index) {
+        <p class="!text-sm text-gray-500">
+            [...] {{t}} [...]
+        </p>
+        }
+    </div>
+</div>
 }@else if (this.isResponsivenessDimension(this.dimension())) {
-
+<div class="flex flex-row gap-4">
+    <div>
+        <h4>Top Activations</h4>
+        @for (t of (this.asResponsivnessDimension()).topActivations; track $index) {
+        <p class="!text-sm text-gray-500">
+            [...] {{t}} [...]
+        </p>
+        }
+    </div>
+    <div>
+        <h4>Random Activations</h4>
+        @for (t of (this.asResponsivnessDimension()).randomActivations; track $index) {
+        <p class="!text-sm text-gray-500">
+            [...] {{t}} [...]
+        </p>
+        }
+    </div>
+</div>
 }@else if (this.isDimension(this.dimension())) {
 @for (t of (this.asDimension()).activations; track $index) {
 <p class="!text-sm text-gray-500">

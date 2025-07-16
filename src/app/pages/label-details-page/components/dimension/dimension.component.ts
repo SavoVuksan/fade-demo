@@ -46,6 +46,14 @@ export class DimensionComponent {
     return this.dimension() as Dimension;
   })
 
+  asFaithfulnessDimension = computed(() => {
+    return this.dimension() as FaithfulnessDimension;
+  })
+
+  asResponsivnessDimension = computed(() => {
+    return this.dimension() as ResponsivnessDimension;
+  })
+
   isFaithfulnessDimension(dimension: Dimension | FaithfulnessDimension | ResponsivnessDimension | undefined): dimension is FaithfulnessDimension {
     return (dimension as FaithfulnessDimension).steered !== undefined;
   }

@@ -20,7 +20,8 @@ export const LabelSchema = z.object({
     }),
     responsivness: z.object({
         score: z.number().gte(0).lte(1),
-        text: z.string().array()
+        topActivations: z.string().array(),
+        randomActivations: z.string().array()
     }),
     purity: z.object({
         score: z.number().gte(0).lte(1),
