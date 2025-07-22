@@ -9,47 +9,53 @@
 
 @if (this.isFaithfulnessDimension(this.dimension())) {
 <div class="flex flex-row gap-4">
-    <div>
+    <div class="flex-1">
         <h4>Unsteered</h4>
         @for (t of (this.asFaithfulnessDimension()).unsteered; track $index) {
-        <p class="!text-sm text-gray-500">
-            [...] {{t}} [...]
+        <p class="!text-sm text-gray-500 " [class.highlight]="t[1]">
+            [...] {{t[0]}} [...]
         </p>
         }
     </div>
-    <div>
+    <div class="flex-1">
         <h4>Steered</h4>
         @for (t of (this.asFaithfulnessDimension()).unsteered; track $index) {
-        <p class="!text-sm text-gray-500">
-            [...] {{t}} [...]
+        <p class="!text-sm text-gray-500 " [class.highlight]="t[1]">
+            [...] {{t[0]}} [...]
         </p>
         }
     </div>
 </div>
 }@else if (this.isResponsivenessDimension(this.dimension())) {
 <div class="flex flex-row gap-4">
-    <div>
+    <div class="flex-1">
         <h4>Top Activations</h4>
         @for (t of (this.asResponsivnessDimension()).topActivations; track $index) {
-        <p class="!text-sm text-gray-500">
-            [...] {{t}} [...]
+        <p class="!text-sm text-gray-500" [class.highlight]="t[1]">
+            [...] {{t[0]}} [...]
         </p>
         }
     </div>
-    <div>
+    <div class="flex-1">
         <h4>Random Activations</h4>
         @for (t of (this.asResponsivnessDimension()).randomActivations; track $index) {
-        <p class="!text-sm text-gray-500">
-            [...] {{t}} [...]
+        <p class="!text-sm text-gray-500 " [class.highlight]="t[1]">
+            [...] {{t[0]}} [...]
         </p>
         }
     </div>
 </div>
 }@else if (this.isDimension(this.dimension())) {
 @for (t of (this.asDimension()).activations; track $index) {
+@if (this.asDimension().type == 'Purity') {
+<p class="!text-sm text-gray-500" [class.highlight]="t[1]">
+    [...] {{t[0]}} [...]
+</p>
+}@else {
 <p class="!text-sm text-gray-500">
     [...] {{t}} [...]
 </p>
+}
 }
 
 }
