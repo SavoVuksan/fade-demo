@@ -1,0 +1,6 @@
+.neurons[].labels |= map(. +
+{
+    "primaryColor": "oklch(62.3% 0.214 259.815)",
+    "secondaryColor": "oklch(62.3% 0.214 259.815)"
+} ) |
+.neurons[].activations[].activationText |= flatten

@@ -28,7 +28,7 @@
                     iconUrl: 'icons/clarity-icon.svg',
                     score: this.label()!.clarity.score,
                     type: 'Clarity',
-                    activations: this.label()!.clarity.text,
+                    activations: this.label()!.clarity.synthetic_data,
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor
                 })"></app-dimension>
@@ -38,12 +38,12 @@
         <div class="flex gap-2 items-center">
             <app-dimension [dimension]="this.labelToDimension({
                     iconUrl: 'icons/responsivness-icon.svg',
-                    score: this.label()!.responsivness.score,
+                    score: this.label()!.responsiveness.score,
                     type: 'Responsivness',
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor,
-                    randomActivations: this.label()!.responsivness.randomActivations,
-                    topActivations: this.label()!.responsivness.topActivations
+                    randomActivations: this.label()!.responsiveness.randomActivations,
+                    topActivations: this.label()!.responsiveness.topActivations
                 })"></app-dimension>
         </div>
     </div>
@@ -51,7 +51,7 @@
         <div class="flex gap-2 items-center">
             <app-dimension [dimension]="this.labelToDimension({
                     iconUrl: 'icons/faithfulness-icon.svg',
-                    score: this.label()!.faithfulness.score,
+                    score: this.label()!.faithfulness.score!,
                     type: 'Faithfulness',
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor,
@@ -68,7 +68,7 @@
                     type: 'Purity',
                     primaryColor: this.label()!.primaryColor,
                     backgroundColor: this.label()!.secondaryColor,
-                    activations: this.label()!.purity.text
+                    activations: this.label()!.purity.topActivations
                 })"></app-dimension>
         </div>
     </div>

@@ -3,7 +3,7 @@ import { DemoDataStore } from '@app/state/demo-data.store';
 
 type PlotLabelData = {
   clarity: number;
-  responsivness: number;
+  responsiveness: number;
   purity: number;
   faithfulness: number;
   color: string;
@@ -32,7 +32,7 @@ export class FadePlotComponent {
       const l = {
         clarity: label.clarity.score,
         faithfulness: label.faithfulness.score,
-        responsivness: label.responsivness.score,
+        responsiveness: label.responsiveness.score,
         purity: label.purity.score,
         color: label.primaryColor,
         isHighlighted: this.store.highlightedLabel!() === label ? true : false
@@ -42,7 +42,7 @@ export class FadePlotComponent {
   })
 
   calcPoints(label: PlotLabelData) {
-    return `${50 * this.plotSize()},${50 * this.plotSize() - 50 * label.faithfulness * this.plotSize()} ${50 * this.plotSize() + 50 * label.responsivness * this.plotSize()},${50 * this.plotSize()} ${50 * this.plotSize()},${50 * this.plotSize() + 50 * label.purity * this.plotSize()} ${50 - 50 * label.clarity},${50 * this.plotSize()}`;
+    return `${50 * this.plotSize()},${50 * this.plotSize() - 50 * label.faithfulness * this.plotSize()} ${50 * this.plotSize() + 50 * label.responsiveness * this.plotSize()},${50 * this.plotSize()} ${50 * this.plotSize()},${50 * this.plotSize() + 50 * label.purity * this.plotSize()} ${50 - 50 * label.clarity},${50 * this.plotSize()}`;
   }
 
   getLabelColor(label: PlotLabelData) {

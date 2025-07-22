@@ -8,7 +8,7 @@ import { tap } from 'rxjs';
 })
 export class DemoDataService {
   private readonly http = inject(HttpClient);
-  readonly DEMO_DATA_URL = "test-data.json"
+  readonly DEMO_DATA_URL = "transformed-data.json"
 
   loadDemoData() {
     return this.http.get<DemoData>(this.DEMO_DATA_URL).pipe(tap((demoData) => {

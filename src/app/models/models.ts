@@ -16,25 +16,24 @@ export const LabelSchema = z.object({
     name: z.string(),
     clarity: z.object({
         score: z.number().gte(0).lte(1),
-        text: z.string().array(),
+        synthetic_data: z.string().array(),
     }),
-    responsivness: z.object({
+    responsiveness: z.object({
         score: z.number().gte(0).lte(1),
-        topActivations: z.string().array(),
-        randomActivations: z.string().array()
+        topActivations: z.any().array(),
+        randomActivations: z.any().array()
     }),
     purity: z.object({
         score: z.number().gte(0).lte(1),
-        plot: z.string(),
-        text: z.string().array()
+        topActivations: z.any().array()
     }),
     faithfulness: z.object({
-        score: z.number().gte(0).lte(1),
-        unsteered: z.string().array(),
-        steered: z.string().array()
+        score: z.number().gte(0).lte(1).nullable(),
+        unsteered: z.any().array(),
+        steered: z.any().array()
     }),
     additionalInfo: z.string().optional(),
-    labelOrigin: z.enum(['neuronpedia', 'fade', 'human']),
+    labelOrigin: z.enum(['Neuronpedia', 'Human', 'Broad', 'MaxAct', 'Improved', 'Narrow', 'Polysemantic Improved']),
     primaryColor: z.string(),
     secondaryColor: z.string()
 })
