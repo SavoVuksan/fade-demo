@@ -2,7 +2,7 @@
 
 :host {
     display: flex;
-    @apply justify-center;
+    @apply justify-center flex-1;
     transition: all 1s;
 }
 
