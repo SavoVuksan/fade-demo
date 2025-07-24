@@ -24,8 +24,16 @@ export class NeuronSelectPageComponent implements OnDestroy {
   readonly selectedNeuron = computed(() => {
     if (this.neuronId()) {
       const selectedNeuronId = parseInt(this.neuronId().toString());
-      return this.store.neurons().find((neuron) => neuron.id === selectedNeuronId);
+      const selectedNeuron = this.store.neurons().find((neuron) => neuron.id === selectedNeuronId);
+      selectedNeuron!.labels = selectedNeuron!.labels.map((label, index) => {
+        label.primaryColor = this.store.labelColorPalette()[index];
+
+        return label;
+      })
+      return selectedNeuron;
     } else {
+      const selectedNeuron = this.store.selectedNeuron!();
+
       return this.store.selectedNeuron!();
     }
   })

@@ -13,7 +13,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes,
       withComponentInputBinding(),
       withViewTransitions(),
-      withDebugTracing()
     ),
     provideHttpClient(),
     provideAppInitializer(async () => {
