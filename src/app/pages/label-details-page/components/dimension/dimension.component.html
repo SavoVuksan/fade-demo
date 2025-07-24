@@ -2,7 +2,7 @@
     <img [src]="this.dimension()!.iconUrl" alt="" height="24px" width="24px">
     <div class="flex flex-col">
         <h3>{{this.dimension()?.type}}</h3>
-        <app-progress-bar [color]="this.dimension()?.primaryColor" [backgroundColor]="this.dimension()?.backgroundColor"
+        <app-progress-bar [color]="this.dimension()?.primaryColor" [backgroundColor]="'gray-500'"
             [progress]="this.dimension()!.score"></app-progress-bar>
     </div>
 </div>

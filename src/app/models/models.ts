@@ -62,6 +62,7 @@ export const DemoDataSchema = z.object({
     neurons: NeuronSchema.array(),
     isLoadingDemoData: z.boolean().default(true),
     failedLoadingDemoData: z.string().optional(),
+    labelColorPalette: z.string().array()
 })
 
 export type ActivationToken = z.infer<typeof ActivationTokenSchema>;

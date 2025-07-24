@@ -21,7 +21,8 @@ const initialState: DemoData & DemoRuntimeData = {
     highlightedLabel: undefined,
     selectedNeuron: undefined,
     customHeaderTitle: null,
-    visitedNeuronSelectPage: false
+    visitedNeuronSelectPage: false,
+    labelColorPalette: ['']
 }
 
 export const DemoDataStore = signalStore(
