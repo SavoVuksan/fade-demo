@@ -1,7 +1,7 @@
 @if(activatedRoute.firstChild?.data | async; as data){
 @if(data['id'] !== 0){
 <a class="button absolute" [routerLink]="['../']" [relativeTo]="activatedRoute.firstChild">
-    <img class="w-8" src="/icons/chevron-left-icon.svg" alt="">
+    <img class="w-8" src="icons/chevron-left-icon.svg" alt="">
 </a>
 }
 }
