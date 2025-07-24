@@ -35,7 +35,7 @@
         5836
       ],
       "iconURL": "example.com",
-      "primaryColor": "oklch(62.3% 0.214 259.815)"
+      "primaryColor": "oklch(63.7% 0.237 25.331)"
     },
     {
       "id": 2,
@@ -47,7 +47,7 @@
         10666
       ],
       "iconURL": "example.com",
-      "primaryColor": "oklch(62.3% 0.214 259.815)"
+      "primaryColor": "oklch(62.7% 0.265 303.9)"
     }
   ],
   "neurons": [
