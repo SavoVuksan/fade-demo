@@ -8,7 +8,6 @@ export type BaseDimension = {
   score: number;
   iconUrl: string;
   primaryColor: string;
-  backgroundColor: string;
 }
 
 export type DimensionActivations = { activations: string[] };

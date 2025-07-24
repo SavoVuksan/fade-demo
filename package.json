@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "build": "ng build --base-href 'https://savovuksan.github.io/fade-demo/'",
-    "deploy": "npx angular-cli-ghpages --remote origin-github --dir=dist/fade-demo/browser --no-silent"
+    "deploy": "npx angular-cli-ghpages --remote origin-github --dir=dist/fade-demo/browser --no-silent",
+    "transform-data": "cat public/data.json | jq -f public/JQFilter > public/transformed-data.json"
   },
   "private": true,
   "dependencies": {

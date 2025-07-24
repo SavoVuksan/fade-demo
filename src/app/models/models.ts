@@ -35,7 +35,6 @@ export const LabelSchema = z.object({
     additionalInfo: z.string().optional(),
     labelOrigin: z.enum(['Neuronpedia', 'Human', 'Broad', 'MaxAct', 'Improved', 'Narrow', 'Polysemantic Improved']),
     primaryColor: z.string(),
-    secondaryColor: z.string()
 })
 
 
@@ -62,6 +61,7 @@ export const DemoDataSchema = z.object({
     neurons: NeuronSchema.array(),
     isLoadingDemoData: z.boolean().default(true),
     failedLoadingDemoData: z.string().optional(),
+    labelColorPalette: z.string().array()
 })
 
 export type ActivationToken = z.infer<typeof ActivationTokenSchema>;

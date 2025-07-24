@@ -1,7 +1,7 @@
 @if(activatedRoute.firstChild?.data | async; as data){
 @if(data['id'] !== 0){
 <a class="button absolute" [routerLink]="['../']" [relativeTo]="activatedRoute.firstChild">
-    <img class="w-8" src="/icons/chevron-left-icon.svg" alt="">
+    <img class="w-8" src="icons/chevron-left-icon.svg" alt="">
 </a>
 }
 }
@@ -12,7 +12,3 @@
     {{activatedRoute.firstChild?.title | async}}
     }
 </h1>
-@if(this.store.selectedScenario!()){
-<div class="absolute w-4 h-4 rounded right-4 top-3 appear-anim"
-    [style.background-color]="this.store.selectedScenario!()!.primaryColor" title="Selected Scenario"></div>
-}
