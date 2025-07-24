@@ -44,6 +44,7 @@
             <h4 class="text-gray-500 !text-sm !text-gray-500 mb-3">The text that activated the neuron</h4>
             <div class="overflow-auto max-h-[75vh]">
                 @for (activation of this.selectedNeuron()!.activations; track $index) {
+                {{$index}}
                 <app-activation [animationEnabled]="!this.store.visitedNeuronSelectPage()"
                     [activation]="activation"></app-activation>
                 }

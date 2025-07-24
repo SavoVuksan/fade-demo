@@ -40,17 +40,26 @@ export const isResponsivnessOptions = (options: ResponsivnessOptions | Faithfuln
 })
 export class DimensionComponent {
   dimension = input<Dimension | FaithfulnessDimension | ResponsivnessDimension>();
+  readonly SAMPLE_COUNT = 2;
 
   asDimension = computed(() => {
-    return this.dimension() as Dimension;
+    const dimension = this.dimension() as Dimension;
+    dimension.activations = dimension.activations.slice(0, this.SAMPLE_COUNT);
+    return dimension;
   })
 
   asFaithfulnessDimension = computed(() => {
-    return this.dimension() as FaithfulnessDimension;
+    const dimension = this.dimension() as FaithfulnessDimension;
+    dimension.steered = dimension.steered.slice(0, this.SAMPLE_COUNT);
+    dimension.unsteered = dimension.unsteered.slice(0, this.SAMPLE_COUNT);
+    return dimension;
   })
 
   asResponsivnessDimension = computed(() => {
-    return this.dimension() as ResponsivnessDimension;
+    const dimension = this.dimension() as ResponsivnessDimension;
+    dimension.topActivations = dimension.topActivations.slice(0, this.SAMPLE_COUNT);
+    dimension.randomActivations = dimension.randomActivations.slice(0, this.SAMPLE_COUNT);
+    return dimension;
   })
 
   isFaithfulnessDimension(dimension: Dimension | FaithfulnessDimension | ResponsivnessDimension | undefined): dimension is FaithfulnessDimension {

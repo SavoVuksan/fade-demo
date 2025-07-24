@@ -3,7 +3,7 @@
         [class.opacity-0]="this.animationEnabled()">[...]</span>
     @for (text of activation().activationText; track $index) {
     <span [class.appear-anim]="this.animationEnabled()" [class.opacity-0]="this.animationEnabled()"
-        class="text-gray-500 !text-sm py-1" [style.backgroundColor]="`rgba(255,255,${text.activationValue * 255}, 0.5)`"
+        class="text-gray-500 !text-sm" [style.backgroundColor]="`rgba(255,255,${255- text.activationValue * 255}, 0.5)`"
         [style]="`--index: ${$index}`">
         {{text.text}}
     </span>
