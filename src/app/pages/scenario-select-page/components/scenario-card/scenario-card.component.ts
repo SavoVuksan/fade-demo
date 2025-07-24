@@ -1,5 +1,6 @@
 import { Component, ElementRef, inject, input, signal, } from '@angular/core';
 import { Router } from '@angular/router';
+import { DemoDataStore } from '@app/state/demo-data.store';
 
 @Component({
   selector: 'app-scenario-card',
@@ -12,6 +13,7 @@ export class ScenarioCardComponent {
   readonly subtitle = input<string>();
   readonly id = input.required<number>();
   readonly primaryColor = input<string>();
+  readonly store = inject(DemoDataStore);
 
   readonly selected = signal(false);
   readonly elementRef: ElementRef<HTMLElement> = inject(ElementRef);
@@ -32,8 +34,10 @@ export class ScenarioCardComponent {
         resolve('done');
       }, 1500);
     });
+    
+    const firstNeuronId = this.store.scenarios()[this.id()].neuronIds[0];
 
-    this.router.navigate(['/scenario-select', this.id(), 'neuron-select'])
+    this.router.navigate(['/scenario-select', this.id(), 'neuron-select', firstNeuronId])
   }
 
 }

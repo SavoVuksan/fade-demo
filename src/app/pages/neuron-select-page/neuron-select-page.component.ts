@@ -1,4 +1,4 @@
-import { Component, effect, inject, input, computed } from '@angular/core';
+import { Component, effect, inject, input, computed, OnDestroy } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { DemoDataStore } from '../../state/demo-data.store';
 import { NeuronSelectComponent } from "./components/neuron-select/neuron-select.component";
@@ -12,7 +12,7 @@ import { Label } from '../../models/models';
   templateUrl: './neuron-select-page.component.html',
   styleUrl: './neuron-select-page.component.scss'
 })
-export class NeuronSelectPageComponent {
+export class NeuronSelectPageComponent implements OnDestroy {
   readonly store = inject(DemoDataStore);
   readonly scenarioId = input<number>(0, {
     alias: 'scenario-id',
@@ -43,6 +43,9 @@ export class NeuronSelectPageComponent {
     this.store.changeScenario(this.scenarioId());
   })
 
+  ngOnDestroy(): void {
+    this.store.changeVisitedNeuronSelectPage(true);
+  }
 
   onMouseEnter(label: Label) {
     this.store.changeHighlightedLabel(label);
@@ -52,5 +55,7 @@ export class NeuronSelectPageComponent {
   onMouseLeave() {
     this.store.changeHighlightedLabel(undefined);
   }
+
+
 
 }
