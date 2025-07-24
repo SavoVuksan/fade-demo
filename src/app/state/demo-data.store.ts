@@ -45,6 +45,12 @@ export const DemoDataStore = signalStore(
             }
         },
         setSelectedNeuron(neuron?: Neuron) {
+            if (neuron) {
+                neuron.labels.map((label, index) => {
+                    label.primaryColor = store.labelColorPalette()[index];
+                    return label;
+                })
+            }
             patchState(store, { selectedNeuron: neuron })
         },
         changeHighlightedLabel(label?: Label) {
