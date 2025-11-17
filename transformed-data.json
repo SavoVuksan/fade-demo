@@ -116,11 +116,7 @@
             {
               "text": "environment.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -236,11 +232,7 @@
             {
               "text": "teams.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -404,11 +396,7 @@
             {
               "text": "biography",
               "activationValue": 0.139
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -524,11 +512,7 @@
             {
               "text": "47.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -604,11 +588,7 @@
             {
               "text": "dangerous.”\n\nphoto-466\n\nSeatbelt.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -760,11 +740,7 @@
             {
               "text": "First.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -912,11 +888,7 @@
             {
               "text": "2018.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1056,11 +1028,7 @@
             {
               "text": "visitors.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1152,11 +1120,7 @@
             {
               "text": "heard.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1264,11 +1228,7 @@
             {
               "text": "development.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1360,11 +1320,7 @@
             {
               "text": "2011.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1516,11 +1472,7 @@
             {
               "text": "2018.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1640,11 +1592,7 @@
             {
               "text": "Laxatives!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1668,11 +1616,7 @@
             {
               "text": "more",
               "activationValue": 0.153
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1784,11 +1728,7 @@
             {
               "text": "proteins.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1868,11 +1808,7 @@
             {
               "text": "read.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -1960,11 +1896,7 @@
             {
               "text": "presentations.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2048,11 +1980,7 @@
             {
               "text": "more",
               "activationValue": 0.178
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2068,11 +1996,7 @@
             {
               "text": "more",
               "activationValue": 0.396
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2152,11 +2076,7 @@
             {
               "text": "more",
               "activationValue": 0.131
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2296,11 +2216,7 @@
             {
               "text": "more.",
               "activationValue": 0.29
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2420,11 +2336,7 @@
             {
               "text": "more.",
               "activationValue": 0.2
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2456,11 +2368,7 @@
             {
               "text": "I.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2540,11 +2448,7 @@
             {
               "text": "formula.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2572,11 +2476,7 @@
             {
               "text": "定位为Power，并不是夸大其词，因为它完全支持对象。其可读性，易用性，可以位居当前所有shell之首\r\n\r\nPowerShell功能十分强大。它旨在从命令行自动执行任务并解决配置管理的问题，由此创建了许多重要工具。PowerShell有很多优点：例如易于导入模块，能够访问核心API和远程命令，也正是由于这些优点使其成为攻击者执行无文件攻击的首选工具之一。使用本地或预先安装的工具来进行攻击已经越来越受欢迎，至少部分是",
               "activationValue": 0.309
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2652,11 +2552,7 @@
             {
               "text": "left).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -2996,11 +2892,7 @@
             {
               "text": "integration.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3088,11 +2980,7 @@
             {
               "text": "frustrating.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3176,11 +3064,7 @@
             {
               "text": "you.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3340,11 +3224,7 @@
             {
               "text": "story\n\nMar.",
               "activationValue": 0.446
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3504,11 +3384,7 @@
             {
               "text": "story\n\nMar.",
               "activationValue": 0.446
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3632,11 +3508,7 @@
             {
               "text": "decades.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3728,11 +3600,7 @@
             {
               "text": "more.",
               "activationValue": 0.255
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -3908,11 +3776,7 @@
             {
               "text": "ride.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -4012,11 +3876,7 @@
             {
               "text": "success!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -4136,11 +3996,7 @@
             {
               "text": "Set.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -4164,11 +4020,7 @@
             {
               "text": "more",
               "activationValue": 0.25
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -4260,11 +4112,7 @@
             {
               "text": "feedings.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -4336,11 +4184,7 @@
             {
               "text": "more",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6112,7 +5956,9 @@
           "labelOrigin": "Improved",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 123,
+      "positionY": 200
     },
     {
       "id": 4313,
@@ -6231,11 +6077,7 @@
             {
               "text": "word.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6323,11 +6165,7 @@
             {
               "text": "8th.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6423,11 +6261,7 @@
             {
               "text": "off-line?",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6471,11 +6305,7 @@
             {
               "text": "Phys. Rev.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6499,11 +6329,7 @@
             {
               "text": "\\[astro-ph.HE\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6523,11 +6349,7 @@
             {
               "text": "\\[arXiv:hep-ex/0111091\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6547,11 +6369,7 @@
             {
               "text": "\\[arXiv:hep-th/0111057\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6671,11 +6489,7 @@
             {
               "text": "Auction).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6783,11 +6597,7 @@
             {
               "text": "workforce.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6811,11 +6621,7 @@
             {
               "text": "\\[gr-qc\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6939,11 +6745,7 @@
             {
               "text": "system.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -6967,11 +6769,7 @@
             {
               "text": "\\[hep-th\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7071,11 +6869,7 @@
             {
               "text": "off-line?",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7095,11 +6889,7 @@
             {
               "text": "\\[arXiv:hep-th/0104066\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7155,11 +6945,7 @@
             {
               "text": "licence.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7183,11 +6969,7 @@
             {
               "text": "\\[hep-ph\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7219,11 +7001,7 @@
             {
               "text": "al.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7247,11 +7025,7 @@
             {
               "text": "\\[gr-qc\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7299,11 +7073,7 @@
             {
               "text": "Nucl. Phys.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7331,11 +7101,7 @@
             {
               "text": "\\[hep-ph\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7415,11 +7181,7 @@
             {
               "text": "T.W.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7443,11 +7205,7 @@
             {
               "text": "\\[hep-th\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7551,11 +7309,7 @@
             {
               "text": "unavailable\"?",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7575,11 +7329,7 @@
             {
               "text": "\\[arXiv:gr-qc/9506019\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7599,11 +7349,7 @@
             {
               "text": "\\[arXiv:1212.0049\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7667,11 +7413,7 @@
             {
               "text": "Phys.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7695,11 +7437,7 @@
             {
               "text": "\\[arXiv:hep-ph/0310188\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7723,11 +7461,7 @@
             {
               "text": "\\[arXiv:astro-ph/9804177\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7779,11 +7513,7 @@
             {
               "text": "[\\[]{}arXiv:1011.0348[\\]]{}.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7819,11 +7549,7 @@
             {
               "text": "(UTC)",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7847,11 +7573,7 @@
             {
               "text": "\\[hep-ex\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7875,11 +7597,7 @@
             {
               "text": "Phys. Rev.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7907,11 +7625,7 @@
             {
               "text": "\\[hep-ph\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7935,11 +7649,7 @@
             {
               "text": "\\[arXiv:hep-th/9812193\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -7963,11 +7673,7 @@
             {
               "text": "\\[arXiv:hep-ph/0701080\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -8007,11 +7713,7 @@
             {
               "text": "Fortschr.",
               "activationValue": 0.185
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -8035,11 +7737,7 @@
             {
               "text": "\\[gr-qc\\]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -8059,11 +7757,7 @@
             {
               "text": "\\[arXiv:hep-ex/0301020\\].",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -8103,11 +7797,7 @@
             {
               "text": "A. A.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10253,7 +9943,9 @@
           "labelOrigin": "Polysemantic Improved",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 1000,
+      "positionY": 300
     },
     {
       "id": 10666,
@@ -10324,11 +10016,7 @@
             {
               "text": "set.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10484,11 +10172,7 @@
             {
               "text": "standards.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10504,11 +10188,7 @@
             {
               "text": "Zoidberg?",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10608,11 +10288,7 @@
             {
               "text": "Zoiders!",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10712,11 +10388,7 @@
             {
               "text": "them!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10844,11 +10516,7 @@
             {
               "text": "FEC.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -10940,11 +10608,7 @@
             {
               "text": "speed.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11000,11 +10664,7 @@
             {
               "text": "loop.",
               "activationValue": 0.6
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11160,11 +10820,7 @@
             {
               "text": "crane.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11212,11 +10868,7 @@
             {
               "text": "arms.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11284,11 +10936,7 @@
             {
               "text": "scope.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11344,11 +10992,7 @@
             {
               "text": "droop.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11464,11 +11108,7 @@
             {
               "text": "\\varphi$.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11500,11 +11140,7 @@
             {
               "text": "set.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11544,11 +11180,7 @@
             {
               "text": "well.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11620,11 +11252,7 @@
             {
               "text": "c.c.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11716,11 +11344,7 @@
             {
               "text": "satisfactorily.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11772,11 +11396,7 @@
             {
               "text": "review.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11820,11 +11440,7 @@
             {
               "text": "structure.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -11932,11 +11548,7 @@
             {
               "text": "apply).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12068,11 +11680,7 @@
             {
               "text": "centres.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12084,11 +11692,7 @@
             {
               "text": "umul\t%o4,%o3,%g3\t!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12180,11 +11784,7 @@
             {
               "text": "Superman.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12336,11 +11936,7 @@
             {
               "text": "[@sns98].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12480,11 +12076,7 @@
             {
               "text": "Society.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12536,11 +12128,7 @@
             {
               "text": "Altius.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -12720,11 +12308,7 @@
             {
               "text": "body.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13032,11 +12616,7 @@
             {
               "text": ".",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13120,11 +12700,7 @@
             {
               "text": "found.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13164,11 +12740,7 @@
             {
               "text": "prescription.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13308,11 +12880,7 @@
             {
               "text": "illustrations.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13388,11 +12956,7 @@
             {
               "text": "exposure.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13540,11 +13104,7 @@
             {
               "text": "Suit.",
               "activationValue": 0.438
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13628,11 +13188,7 @@
             {
               "text": "10](#polymers-12-01681-t010){ref-type=\"table\"}.",
               "activationValue": 0.262
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13740,11 +13296,7 @@
             {
               "text": "API\nfunctions.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13876,11 +13428,7 @@
             {
               "text": "press.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -13928,11 +13476,7 @@
             {
               "text": "invariant.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -14004,11 +13548,7 @@
             {
               "text": "i.e.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -14164,11 +13704,7 @@
             {
               "text": "C.F.R.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -14996,7 +14532,9 @@
           "labelOrigin": "Neuronpedia",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 499,
+      "positionY": 500
     },
     {
       "id": 821,
@@ -15099,11 +14637,7 @@
             {
               "text": "transitions.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15135,11 +14669,7 @@
             {
               "text": "limitations:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15171,11 +14701,7 @@
             {
               "text": "reasons:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15283,11 +14809,7 @@
             {
               "text": "on.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15379,11 +14901,7 @@
             {
               "text": "nation.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15411,11 +14929,7 @@
             {
               "text": "tips:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15463,11 +14977,7 @@
             {
               "text": "follows:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15495,11 +15005,7 @@
             {
               "text": "reasons:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15519,11 +15025,7 @@
             {
               "text": "threefold:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15551,11 +15053,7 @@
             {
               "text": "following:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15583,11 +15081,7 @@
             {
               "text": "are:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15615,11 +15109,7 @@
             {
               "text": "that:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15639,11 +15129,7 @@
             {
               "text": "include:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15675,11 +15161,7 @@
             {
               "text": "advantages:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15703,11 +15185,7 @@
             {
               "text": "folds:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15735,11 +15213,7 @@
             {
               "text": "include:\n\n1\\.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15763,11 +15237,7 @@
             {
               "text": "observations:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15799,11 +15269,7 @@
             {
               "text": "advantages:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15847,11 +15313,7 @@
             {
               "text": "point:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15963,11 +15425,7 @@
             {
               "text": "services.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -15975,11 +15433,7 @@
             {
               "text": "Reasons:\n\n1\\.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16003,11 +15457,7 @@
             {
               "text": "because:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16059,11 +15509,7 @@
             {
               "text": "following:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16151,11 +15597,7 @@
             {
               "text": "above).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16187,11 +15629,7 @@
             {
               "text": "are:\n\n1\\.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16231,11 +15669,7 @@
             {
               "text": "enjoy:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16327,11 +15761,7 @@
             {
               "text": "pronounced.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16363,11 +15793,7 @@
             {
               "text": "reasons:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16407,11 +15833,7 @@
             {
               "text": ":\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16519,11 +15941,7 @@
             {
               "text": "devices.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16547,11 +15965,7 @@
             {
               "text": "consider:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16579,11 +15993,7 @@
             {
               "text": "\"reasons\":\n\n1\\.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16675,11 +16085,7 @@
             {
               "text": "petition:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16727,11 +16133,7 @@
             {
               "text": "that:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16915,11 +16317,7 @@
             {
               "text": "U.S.C.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16963,11 +16361,7 @@
             {
               "text": "follows:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -16991,11 +16385,7 @@
             {
               "text": "tips…\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -17059,11 +16449,7 @@
             {
               "text": "about:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -17107,11 +16493,7 @@
             {
               "text": "forbearance:\n\n1.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19225,7 +18607,9 @@
           "labelOrigin": "Improved",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 600,
+      "positionY": 550
     },
     {
       "id": 460,
@@ -19344,11 +18728,7 @@
             {
               "text": "since.",
               "activationValue": 0.128
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19460,11 +18840,7 @@
             {
               "text": "soups.",
               "activationValue": 0.281
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19564,11 +18940,7 @@
             {
               "text": "said.",
               "activationValue": 0.219
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19692,11 +19064,7 @@
             {
               "text": "deal.\"",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19832,11 +19200,7 @@
             {
               "text": "sauce.",
               "activationValue": 0.323
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -19940,11 +19304,7 @@
             {
               "text": "VELVEETA.",
               "activationValue": 0.432
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20056,11 +19416,7 @@
             {
               "text": "on.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20116,11 +19472,7 @@
             {
               "text": "oz.pkg.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20256,11 +19608,7 @@
             {
               "text": "favorite.",
               "activationValue": 0.207
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20328,11 +19676,7 @@
             {
               "text": "water.",
               "activationValue": 0.23
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20384,11 +19728,7 @@
             {
               "text": "tomatoes!",
               "activationValue": 0.446
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20516,11 +19856,7 @@
             {
               "text": "cookies.",
               "activationValue": 0.402
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20596,11 +19932,7 @@
             {
               "text": "stock.",
               "activationValue": 0.411
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20792,11 +20124,7 @@
             {
               "text": "room.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -20944,11 +20272,7 @@
             {
               "text": "prepare.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21076,11 +20400,7 @@
             {
               "text": "mush.",
               "activationValue": 0.384
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21204,11 +20524,7 @@
             {
               "text": "salt.",
               "activationValue": 0.152
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21388,11 +20704,7 @@
             {
               "text": "world!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21484,11 +20796,7 @@
             {
               "text": "born.",
               "activationValue": 0.204
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21620,11 +20928,7 @@
             {
               "text": "fun.",
               "activationValue": 0.248
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21708,11 +21012,7 @@
             {
               "text": "the\nChurch.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -21860,11 +21160,7 @@
             {
               "text": "market.",
               "activationValue": 0.127
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22020,11 +21316,7 @@
             {
               "text": "bitter.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22092,11 +21384,7 @@
             {
               "text": "Boxes.",
               "activationValue": 0.086
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22188,11 +21476,7 @@
             {
               "text": "ANYTHING)",
               "activationValue": 0.295
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22264,11 +21548,7 @@
             {
               "text": "(optional).",
               "activationValue": 0.137
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22316,11 +21596,7 @@
             {
               "text": "tuna!",
               "activationValue": 0.65
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22380,11 +21656,7 @@
             {
               "text": "corn.",
               "activationValue": 0.513
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22492,11 +21764,7 @@
             {
               "text": "Vine.",
               "activationValue": 0.097
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22624,11 +21892,7 @@
             {
               "text": "month.",
               "activationValue": 0.158
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22728,11 +21992,7 @@
             {
               "text": "babies.",
               "activationValue": 0.111
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22784,11 +22044,7 @@
             {
               "text": "Minneapolis.",
               "activationValue": 0.133
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22872,11 +22128,7 @@
             {
               "text": "two.",
               "activationValue": 0.227
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -22992,11 +22244,7 @@
             {
               "text": "paste.",
               "activationValue": 0.077
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -23072,11 +22320,7 @@
             {
               "text": "tuna.",
               "activationValue": 0.61
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -23104,11 +22348,7 @@
             {
               "text": "beer.",
               "activationValue": 0.257
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -23228,11 +22468,7 @@
             {
               "text": "skillet.",
               "activationValue": 0.205
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -23380,11 +22616,7 @@
             {
               "text": "leaves.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -23488,11 +22720,7 @@
             {
               "text": "bag.",
               "activationValue": 0.132
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -25710,7 +24938,9 @@
           "labelOrigin": "Broad",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 700,
+      "positionY": 700
     },
     {
       "id": 5836,
@@ -25841,11 +25071,7 @@
             {
               "text": "bribery.",
               "activationValue": 0.619
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -25945,11 +25171,7 @@
             {
               "text": "body.",
               "activationValue": 0.171
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26065,11 +25287,7 @@
             {
               "text": "wrongs.",
               "activationValue": 0.146
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26209,11 +25427,7 @@
             {
               "text": "corruption\".",
               "activationValue": 0.621
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26337,11 +25551,7 @@
             {
               "text": "violations.",
               "activationValue": 0.379
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26481,11 +25691,7 @@
             {
               "text": "Bhd.",
               "activationValue": 0.158
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26649,11 +25855,7 @@
             {
               "text": "expenses.",
               "activationValue": 0.138
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26785,11 +25987,7 @@
             {
               "text": "scheme.",
               "activationValue": 0.336
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -26973,11 +26171,7 @@
             {
               "text": "commit.",
               "activationValue": 0.214
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27077,11 +26271,7 @@
             {
               "text": "residents.",
               "activationValue": 0.277
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27217,11 +26407,7 @@
             {
               "text": "Ellis.",
               "activationValue": 0.186
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27377,11 +26563,7 @@
             {
               "text": "elections.",
               "activationValue": 0.417
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27485,11 +26667,7 @@
             {
               "text": "operate.",
               "activationValue": 0.107
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27521,11 +26699,7 @@
             {
               "text": "stealing.",
               "activationValue": 0.543
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27621,11 +26795,7 @@
             {
               "text": "population.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27749,11 +26919,7 @@
             {
               "text": "Corinthians.",
               "activationValue": 0.285
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27881,11 +27047,7 @@
             {
               "text": "capacity.\"",
               "activationValue": 0.155
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -27949,11 +27111,7 @@
             {
               "text": "corruption.",
               "activationValue": 0.852
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28049,11 +27207,7 @@
             {
               "text": "corporation.",
               "activationValue": 0.503
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28141,11 +27295,7 @@
             {
               "text": "\\[[@B13-sensors-18-02967]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28233,11 +27383,7 @@
             {
               "text": "conspiracy.",
               "activationValue": 0.291
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28325,11 +27471,7 @@
             {
               "text": "abroad.",
               "activationValue": 0.503
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28481,11 +27623,7 @@
             {
               "text": "said.",
               "activationValue": 0.199
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28585,11 +27723,7 @@
             {
               "text": "investigation.",
               "activationValue": 0.225
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28713,11 +27847,7 @@
             {
               "text": "tickets.",
               "activationValue": 0.198
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28837,11 +27967,7 @@
             {
               "text": "job.",
               "activationValue": 0.241
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -28905,11 +28031,7 @@
             {
               "text": "it.",
               "activationValue": 0.304
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29001,11 +28123,7 @@
             {
               "text": "say?",
               "activationValue": 0.143
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29101,11 +28219,7 @@
             {
               "text": "imprisonment.",
               "activationValue": 0.195
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29229,11 +28343,7 @@
             {
               "text": "trouble.",
               "activationValue": 0.231
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29353,11 +28463,7 @@
             {
               "text": "risks.",
               "activationValue": 0.261
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29497,11 +28603,7 @@
             {
               "text": "laws.",
               "activationValue": 0.33
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29597,11 +28699,7 @@
             {
               "text": "voting.\"",
               "activationValue": 0.143
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29621,11 +28719,7 @@
             {
               "text": "abound.",
               "activationValue": 0.702
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29729,11 +28823,7 @@
             {
               "text": "charged.\"",
               "activationValue": 0.354
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29845,11 +28935,7 @@
             {
               "text": "employees.",
               "activationValue": 0.24
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -29917,11 +29003,7 @@
             {
               "text": "all.",
               "activationValue": 0.357
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -30073,11 +29155,7 @@
             {
               "text": "places.",
               "activationValue": 0.191
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -30177,11 +29255,7 @@
             {
               "text": "loan.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32407,7 +31481,9 @@
           "labelOrigin": "Broad",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 50,
+      "positionY": 600
     },
     {
       "id": 5438,
@@ -32570,11 +31646,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32666,11 +31738,7 @@
             {
               "text": "anthem.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32726,11 +31794,7 @@
             {
               "text": "0.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32782,11 +31846,7 @@
             {
               "text": "06470-5506.",
               "activationValue": 0.212
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32842,11 +31902,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32902,11 +31958,7 @@
             {
               "text": "▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -32934,11 +31986,7 @@
             {
               "text": "▁▁▁P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33014,11 +32062,7 @@
             {
               "text": "USA.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33154,11 +32198,7 @@
             {
               "text": "www.Jimmydean.com.",
               "activationValue": 0.069
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33190,11 +32230,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33242,11 +32278,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33350,11 +32382,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33458,11 +32486,7 @@
             {
               "text": "98840.",
               "activationValue": 0.212
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33490,11 +32514,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33562,11 +32582,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33610,11 +32626,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33650,11 +32662,7 @@
             {
               "text": "Law\nP.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33722,11 +32730,7 @@
             {
               "text": "p.o.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33774,11 +32778,7 @@
             {
               "text": "O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33814,11 +32814,7 @@
             {
               "text": "92013.",
               "activationValue": 0.195
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -33918,11 +32914,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34046,11 +33038,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34066,11 +33054,7 @@
             {
               "text": "Institution\nP.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34142,11 +33126,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34178,11 +33158,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34266,11 +33242,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34342,11 +33314,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34498,11 +33466,7 @@
             {
               "text": "No.",
               "activationValue": 0.061
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34606,11 +33570,7 @@
             {
               "text": "recommended.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34670,11 +33630,7 @@
             {
               "text": "Tx.",
               "activationValue": 0.092
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34690,11 +33646,7 @@
             {
               "text": "▁▁▁▁P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34738,11 +33690,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34814,11 +33762,7 @@
             {
               "text": "0.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34890,11 +33834,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -34998,11 +33938,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -35066,11 +34002,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -35086,11 +34018,7 @@
             {
               "text": "P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -35130,11 +34058,7 @@
             {
               "text": "O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -35170,11 +34094,7 @@
             {
               "text": "▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁P.O.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -36665,7 +35585,9 @@
           "labelOrigin": "Improved",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 1400,
+      "positionY": 50
     },
     {
       "id": 742,
@@ -36768,11 +35690,7 @@
             {
               "text": "Hospital.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -36936,11 +35854,7 @@
             {
               "text": "Blvd.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -36980,11 +35894,7 @@
             {
               "text": "12pm-6:30pm.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37128,11 +36038,7 @@
             {
               "text": "$8.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37176,11 +36082,7 @@
             {
               "text": "21.",
               "activationValue": 0.127
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37244,11 +36146,7 @@
             {
               "text": "Ark.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37368,11 +36266,7 @@
             {
               "text": "www.CamelotTheatre.org.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37400,11 +36294,7 @@
             {
               "text": "2-5pm.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37496,11 +36386,7 @@
             {
               "text": "4!",
               "activationValue": 0.145
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37568,11 +36454,7 @@
             {
               "text": "4.",
               "activationValue": 0.197
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37788,11 +36670,7 @@
             {
               "text": "9.",
               "activationValue": 0.155
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -37916,11 +36794,7 @@
             {
               "text": "Barn.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38016,11 +36890,7 @@
             {
               "text": "p.m.",
               "activationValue": 0.131
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38180,11 +37050,7 @@
             {
               "text": "Blue.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38300,11 +37166,7 @@
             {
               "text": "Supermarkets.",
               "activationValue": 0.086
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38348,11 +37210,7 @@
             {
               "text": "breakfast.",
               "activationValue": 0.12
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38400,11 +37258,7 @@
             {
               "text": "1pm-8pm.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38540,11 +37394,7 @@
             {
               "text": "wife.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38680,11 +37530,7 @@
             {
               "text": "noon.",
               "activationValue": 0.189
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38756,11 +37602,7 @@
             {
               "text": "11am-3pm.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38848,11 +37690,7 @@
             {
               "text": "1-4.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38908,11 +37746,7 @@
             {
               "text": "am.",
               "activationValue": 0.096
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -38960,11 +37794,7 @@
             {
               "text": "Sunday.",
               "activationValue": 0.372
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39080,11 +37910,7 @@
             {
               "text": "Sunday.",
               "activationValue": 0.229
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39152,11 +37978,7 @@
             {
               "text": "p.m.",
               "activationValue": 0.138
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39352,11 +38174,7 @@
             {
               "text": "body!",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39472,11 +38290,7 @@
             {
               "text": "Pier.",
               "activationValue": 0.108
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39636,11 +38450,7 @@
             {
               "text": "Sunday.",
               "activationValue": 0.519
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39700,11 +38510,7 @@
             {
               "text": "Sunday)?",
               "activationValue": 0.547
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39824,11 +38630,7 @@
             {
               "text": "years.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39948,11 +38750,7 @@
             {
               "text": "p.m.",
               "activationValue": 0.092
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -39968,11 +38766,7 @@
             {
               "text": "2-4.",
               "activationValue": 0.95
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40040,11 +38834,7 @@
             {
               "text": "Sundays.",
               "activationValue": 0.429
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40188,11 +38978,7 @@
             {
               "text": "Voorhees.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40380,11 +39166,7 @@
             {
               "text": "am.",
               "activationValue": 0.079
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40528,11 +39310,7 @@
             {
               "text": "Wednesdays.",
               "activationValue": 0.133
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40696,11 +39474,7 @@
             {
               "text": "streets.",
               "activationValue": 0.084
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40800,11 +39574,7 @@
             {
               "text": "Assisi.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -40980,11 +39750,7 @@
             {
               "text": "lunch.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42407,7 +41173,9 @@
           "labelOrigin": "Broad",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 300,
+      "positionY": 100
     },
     {
       "id": 957,
@@ -42502,11 +41270,7 @@
             {
               "text": "others.",
               "activationValue": 0.486
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42650,11 +41414,7 @@
             {
               "text": "Scarface).",
               "activationValue": 0.458
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42726,11 +41486,7 @@
             {
               "text": "feat.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42818,11 +41574,7 @@
             {
               "text": "influences.",
               "activationValue": 0.153
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42902,11 +41654,7 @@
             {
               "text": "chart.",
               "activationValue": 0.26
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -42990,11 +41738,7 @@
             {
               "text": "Sevin.",
               "activationValue": 0.631
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43166,11 +41910,7 @@
             {
               "text": "Rap.",
               "activationValue": 0.27
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43210,11 +41950,7 @@
             {
               "text": "feat.",
               "activationValue": 0.953
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43354,11 +42090,7 @@
             {
               "text": "Case.",
               "activationValue": 0.301
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43506,11 +42238,7 @@
             {
               "text": "Fabolous.",
               "activationValue": 0.38
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43658,11 +42386,7 @@
             {
               "text": "Weezy.",
               "activationValue": 0.669
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43754,11 +42478,7 @@
             {
               "text": "skyrocketed.",
               "activationValue": 0.182
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -43902,11 +42622,7 @@
             {
               "text": "Beatz.",
               "activationValue": 0.338
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44038,11 +42754,7 @@
             {
               "text": "Starr.",
               "activationValue": 0.335
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44142,11 +42854,7 @@
             {
               "text": "more.",
               "activationValue": 0.386
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44226,11 +42934,7 @@
             {
               "text": "ones.",
               "activationValue": 0.4
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44326,11 +43030,7 @@
             {
               "text": "Art).",
               "activationValue": 0.427
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44466,11 +43166,7 @@
             {
               "text": "continued.",
               "activationValue": 0.282
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44562,11 +43258,7 @@
             {
               "text": "Dogg.",
               "activationValue": 0.357
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44614,11 +43306,7 @@
             {
               "text": "Feat.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44714,11 +43402,7 @@
             {
               "text": "Outkast.",
               "activationValue": 0.639
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44794,11 +43478,7 @@
             {
               "text": "Brutality\".",
               "activationValue": 0.439
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44898,11 +43578,7 @@
             {
               "text": "others.",
               "activationValue": 0.355
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -44974,11 +43650,7 @@
             {
               "text": "Smooth.",
               "activationValue": 0.479
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45034,11 +43706,7 @@
             {
               "text": "Mill.",
               "activationValue": 0.375
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45142,11 +43810,7 @@
             {
               "text": "others.",
               "activationValue": 0.521
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45262,11 +43926,7 @@
             {
               "text": "2013.",
               "activationValue": 0.571
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45314,11 +43974,7 @@
             {
               "text": "it.",
               "activationValue": 0.221
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45510,11 +44166,7 @@
             {
               "text": "nine…\n\n4.",
               "activationValue": 0.546
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45630,11 +44282,7 @@
             {
               "text": "others.",
               "activationValue": 0.485
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45682,11 +44330,7 @@
             {
               "text": "documented.",
               "activationValue": 0.756
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45806,11 +44450,7 @@
             {
               "text": "landslide.",
               "activationValue": 0.366
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45854,11 +44494,7 @@
             {
               "text": "Jeezy.",
               "activationValue": 0.448
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -45986,11 +44622,7 @@
             {
               "text": "Miami.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -46090,11 +44722,7 @@
             {
               "text": "more",
               "activationValue": 0.085
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -46174,11 +44802,7 @@
             {
               "text": "Bronson.",
               "activationValue": 0.337
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -46206,11 +44830,7 @@
             {
               "text": "OG\n16.",
               "activationValue": 1.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -46350,11 +44970,7 @@
             {
               "text": "band",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -46506,11 +45122,7 @@
             {
               "text": "Game.",
               "activationValue": 0.432
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -48716,7 +47328,9 @@
           "labelOrigin": "Narrow",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 300,
+      "positionY": 700
     },
     {
       "id": 15852,
@@ -48831,11 +47445,7 @@
             {
               "text": "axils.",
               "activationValue": 0.38
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49011,11 +47621,7 @@
             {
               "text": "[1](#F1){ref-type=\"fig\"}**).",
               "activationValue": 0.185
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49103,11 +47709,7 @@
             {
               "text": "abundance.",
               "activationValue": 0.284
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49203,11 +47805,7 @@
             {
               "text": "levels.",
               "activationValue": 0.113
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49355,11 +47953,7 @@
             {
               "text": "September.",
               "activationValue": 0.239
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49443,11 +48037,7 @@
             {
               "text": "stem.",
               "activationValue": 0.329
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49631,11 +48221,7 @@
             {
               "text": "petals.",
               "activationValue": 0.193
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49803,11 +48389,7 @@
             {
               "text": "pink.",
               "activationValue": 0.49
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49903,11 +48485,7 @@
             {
               "text": "seen\nbefore.",
               "activationValue": 0.107
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -49987,11 +48565,7 @@
             {
               "text": "flowers.",
               "activationValue": 0.381
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50187,11 +48761,7 @@
             {
               "text": "angle).",
               "activationValue": 0.089
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50251,11 +48821,7 @@
             {
               "text": "violet.",
               "activationValue": 0.508
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50383,11 +48949,7 @@
             {
               "text": "each.",
               "activationValue": 0.406
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50439,11 +49001,7 @@
             {
               "text": "fraud.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50583,11 +49141,7 @@
             {
               "text": "rose.",
               "activationValue": 0.619
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50695,11 +49249,7 @@
             {
               "text": "Scotland.",
               "activationValue": 0.292
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50827,11 +49377,7 @@
             {
               "text": "seed.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -50979,11 +49525,7 @@
             {
               "text": "coupons.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51051,11 +49593,7 @@
             {
               "text": "purple.",
               "activationValue": 0.539
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51159,11 +49697,7 @@
             {
               "text": "be.",
               "activationValue": 0.197
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51219,11 +49753,7 @@
             {
               "text": "observed.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51307,11 +49837,7 @@
             {
               "text": "floribundas.",
               "activationValue": 0.496
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51411,11 +49937,7 @@
             {
               "text": "habit.",
               "activationValue": 0.375
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51479,11 +50001,7 @@
             {
               "text": "spices.",
               "activationValue": 0.065
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51651,11 +50169,7 @@
             {
               "text": "roses.",
               "activationValue": 0.323
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51723,11 +50237,7 @@
             {
               "text": "al.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51815,11 +50325,7 @@
             {
               "text": "laurel.",
               "activationValue": 0.226
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -51967,11 +50473,7 @@
             {
               "text": "fall.",
               "activationValue": 0.297
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52087,11 +50589,7 @@
             {
               "text": "spring.",
               "activationValue": 0.33
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52187,11 +50685,7 @@
             {
               "text": "spring.",
               "activationValue": 0.277
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52383,11 +50877,7 @@
             {
               "text": "Blush’.",
               "activationValue": 0.438
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52423,11 +50913,7 @@
             {
               "text": "labellum.",
               "activationValue": 0.515
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52479,11 +50965,7 @@
             {
               "text": "leaves.",
               "activationValue": 0.104
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52635,11 +51117,7 @@
             {
               "text": "on.",
               "activationValue": 0.137
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52739,11 +51217,7 @@
             {
               "text": "blossom.",
               "activationValue": 0.367
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52823,11 +51297,7 @@
             {
               "text": "'Yelloween'.",
               "activationValue": 0.826
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -52935,11 +51405,7 @@
             {
               "text": "red.",
               "activationValue": 0.382
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -53079,11 +51545,7 @@
             {
               "text": "habit.",
               "activationValue": 0.068
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -53147,11 +51609,7 @@
             {
               "text": "Bower.\"",
               "activationValue": 0.336
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -55385,7 +53843,9 @@
           "labelOrigin": "Narrow",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 1250,
+      "positionY": 700
     },
     {
       "id": 14603,
@@ -55452,11 +53912,7 @@
             {
               "text": "California.",
               "activationValue": 0.444
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -55532,11 +53988,7 @@
             {
               "text": "Dubai.",
               "activationValue": 0.199
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -55712,11 +54164,7 @@
             {
               "text": "Dubai.",
               "activationValue": 0.3
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -55892,11 +54340,7 @@
             {
               "text": "list.",
               "activationValue": 0.363
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -55996,11 +54440,7 @@
             {
               "text": "Exchange.",
               "activationValue": 0.415
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56124,11 +54564,7 @@
             {
               "text": "2004.",
               "activationValue": 0.659
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56300,11 +54736,7 @@
             {
               "text": "Tower!",
               "activationValue": 0.376
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56396,11 +54828,7 @@
             {
               "text": "condominiums.",
               "activationValue": 0.511
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56476,11 +54904,7 @@
             {
               "text": "Francisco.",
               "activationValue": 0.627
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56592,11 +55016,7 @@
             {
               "text": "2011.",
               "activationValue": 0.768
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56764,11 +55184,7 @@
             {
               "text": "horizon.",
               "activationValue": 0.204
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56868,11 +55284,7 @@
             {
               "text": "both.",
               "activationValue": 0.188
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -56988,11 +55400,7 @@
             {
               "text": "podium.",
               "activationValue": 0.313
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57068,11 +55476,7 @@
             {
               "text": "towers.",
               "activationValue": 0.307
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57188,11 +55592,7 @@
             {
               "text": "level.",
               "activationValue": 0.236
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57360,11 +55760,7 @@
             {
               "text": "Wing.",
               "activationValue": 0.292
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57508,11 +55904,7 @@
             {
               "text": "Corp.",
               "activationValue": 0.216
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57596,11 +55988,7 @@
             {
               "text": "2013.",
               "activationValue": 0.703
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57684,11 +56072,7 @@
             {
               "text": "cellar.",
               "activationValue": 0.248
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57784,11 +56168,7 @@
             {
               "text": "amenities.",
               "activationValue": 0.393
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57868,11 +56248,7 @@
             {
               "text": "country.",
               "activationValue": 0.499
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -57996,11 +56372,7 @@
             {
               "text": "Streets.",
               "activationValue": 0.277
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58108,11 +56480,7 @@
             {
               "text": "stand.",
               "activationValue": 0.315
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58228,11 +56596,7 @@
             {
               "text": "beyond.",
               "activationValue": 0.55
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58384,11 +56748,7 @@
             {
               "text": "penthouse.",
               "activationValue": 0.331
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58496,11 +56856,7 @@
             {
               "text": "rights.",
               "activationValue": 0.114
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58612,11 +56968,7 @@
             {
               "text": "area.",
               "activationValue": 0.129
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58720,11 +57072,7 @@
             {
               "text": "Guidestones.",
               "activationValue": 0.088
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58820,11 +57168,7 @@
             {
               "text": "height.",
               "activationValue": 0.227
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -58904,11 +57248,7 @@
             {
               "text": "building.",
               "activationValue": 0.419
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59024,11 +57364,7 @@
             {
               "text": "city.",
               "activationValue": 0.225
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59148,11 +57484,7 @@
             {
               "text": "dancing.)",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59276,11 +57608,7 @@
             {
               "text": "Colombia.",
               "activationValue": 0.467
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59400,11 +57728,7 @@
             {
               "text": "Gate.",
               "activationValue": 0.399
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59544,11 +57868,7 @@
             {
               "text": "Dalton.",
               "activationValue": 0.369
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59668,11 +57988,7 @@
             {
               "text": "walls.",
               "activationValue": 0.662
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59800,11 +58116,7 @@
             {
               "text": "month.",
               "activationValue": 0.271
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -59940,11 +58252,7 @@
             {
               "text": "floor.",
               "activationValue": 0.194
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -60068,11 +58376,7 @@
             {
               "text": "fires.",
               "activationValue": 0.336
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62214,7 +60518,9 @@
           "labelOrigin": "Narrow",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 1200,
+      "positionY": 150
     },
     {
       "id": 1751,
@@ -62333,11 +60639,7 @@
             {
               "text": "children.",
               "activationValue": 0.078
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62401,11 +60703,7 @@
             {
               "text": "together!",
               "activationValue": 0.254
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62477,11 +60775,7 @@
             {
               "text": "friends.",
               "activationValue": 0.078
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62609,11 +60903,7 @@
             {
               "text": "successes.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62757,11 +61047,7 @@
             {
               "text": "players.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62881,11 +61167,7 @@
             {
               "text": "too.",
               "activationValue": 0.176
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -62973,11 +61255,7 @@
             {
               "text": "grandchildren.",
               "activationValue": 0.131
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63089,11 +61367,7 @@
             {
               "text": "kids.",
               "activationValue": 0.077
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63189,11 +61463,7 @@
             {
               "text": "\\[[@CR13]\\].",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63373,11 +61643,7 @@
             {
               "text": "Dad.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63441,11 +61707,7 @@
             {
               "text": "family.",
               "activationValue": 0.173
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63553,11 +61815,7 @@
             {
               "text": "dialing.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63633,11 +61891,7 @@
             {
               "text": "Chase.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63785,11 +62039,7 @@
             {
               "text": "Rome.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -63949,11 +62199,7 @@
             {
               "text": "revise.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64029,11 +62275,7 @@
             {
               "text": "dogs.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64157,11 +62399,7 @@
             {
               "text": "football.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64241,11 +62479,7 @@
             {
               "text": "track.",
               "activationValue": 0.18
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64385,11 +62619,7 @@
             {
               "text": "her.",
               "activationValue": 0.248
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64457,11 +62687,7 @@
             {
               "text": "family.",
               "activationValue": 0.196
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64549,11 +62775,7 @@
             {
               "text": "family.",
               "activationValue": 0.142
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64685,11 +62907,7 @@
             {
               "text": "lifetime.",
               "activationValue": 0.155
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64801,11 +63019,7 @@
             {
               "text": "vehicles.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64857,11 +63071,7 @@
             {
               "text": "one.",
               "activationValue": 0.352
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -64981,11 +63191,7 @@
             {
               "text": "friends.\"",
               "activationValue": 0.117
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65053,11 +63259,7 @@
             {
               "text": "hubs.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65201,11 +63403,7 @@
             {
               "text": "instead.",
               "activationValue": 0.091
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65277,11 +63475,7 @@
             {
               "text": "kids.",
               "activationValue": 0.308
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65409,11 +63603,7 @@
             {
               "text": "them.",
               "activationValue": 0.166
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65525,11 +63715,7 @@
             {
               "text": "family.",
               "activationValue": 0.203
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65621,11 +63807,7 @@
             {
               "text": "daughter.",
               "activationValue": 0.124
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65721,11 +63903,7 @@
             {
               "text": "love.",
               "activationValue": 0.249
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65829,11 +64007,7 @@
             {
               "text": "friends.",
               "activationValue": 0.148
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -65921,11 +64095,7 @@
             {
               "text": "development.",
               "activationValue": 0.219
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -66021,11 +64191,7 @@
             {
               "text": "time.",
               "activationValue": 0.585
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -66093,11 +64259,7 @@
             {
               "text": "better?",
               "activationValue": 0.232
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -66173,11 +64335,7 @@
             {
               "text": "together!!",
               "activationValue": 0.134
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -66273,11 +64431,7 @@
             {
               "text": "family.",
               "activationValue": 0.215
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -66417,11 +64571,7 @@
             {
               "text": "NH.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -68583,7 +66733,9 @@
           "labelOrigin": "Narrow",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 600,
+      "positionY": 300
     },
     {
       "id": 6643,
@@ -68722,11 +66874,7 @@
             {
               "text": "flavour.",
               "activationValue": 0.338
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -68822,11 +66970,7 @@
             {
               "text": "yeast.",
               "activationValue": 0.519
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -68878,11 +67022,7 @@
             {
               "text": "yeast.",
               "activationValue": 0.554
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -68946,11 +67086,7 @@
             {
               "text": "process.",
               "activationValue": 0.401
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69010,11 +67146,7 @@
             {
               "text": "brevis.",
               "activationValue": 0.653
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69186,11 +67318,7 @@
             {
               "text": "groups.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69306,11 +67434,7 @@
             {
               "text": "([@B5]).",
               "activationValue": 0.208
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69406,11 +67530,7 @@
             {
               "text": "modestly.",
               "activationValue": 0.052
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69506,11 +67626,7 @@
             {
               "text": "bacteria).",
               "activationValue": 0.391
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69610,11 +67726,7 @@
             {
               "text": "starter.",
               "activationValue": 0.539
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69690,11 +67802,7 @@
             {
               "text": "cake.",
               "activationValue": 0.485
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69806,11 +67914,7 @@
             {
               "text": "\\[[@CR9]\\].",
               "activationValue": 0.166
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -69934,11 +68038,7 @@
             {
               "text": "yeast.",
               "activationValue": 0.539
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70026,11 +68126,7 @@
             {
               "text": "Yeasts).",
               "activationValue": 0.564
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70082,11 +68178,7 @@
             {
               "text": "diets.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70210,11 +68302,7 @@
             {
               "text": "subsp.",
               "activationValue": 0.687
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70302,11 +68390,7 @@
             {
               "text": "2004-321174).",
               "activationValue": 0.076
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70370,11 +68454,7 @@
             {
               "text": "diet.",
               "activationValue": 0.414
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70414,11 +68494,7 @@
             {
               "text": "grains.",
               "activationValue": 0.29
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70506,11 +68582,7 @@
             {
               "text": "yeast.",
               "activationValue": 0.503
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70630,11 +68702,7 @@
             {
               "text": "research^[@CR31]^.",
               "activationValue": 0.085
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70702,11 +68770,7 @@
             {
               "text": "overnight.",
               "activationValue": 0.234
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70870,11 +68934,7 @@
             {
               "text": "\\[[@pone.0196440.ref021],[@pone.0196440.ref022]\\].",
               "activationValue": 0.267
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -70938,11 +68998,7 @@
             {
               "text": "plantarum.",
               "activationValue": 0.744
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71042,11 +69098,7 @@
             {
               "text": "cheese.",
               "activationValue": 0.43
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71142,11 +69194,7 @@
             {
               "text": "inhibited.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71258,11 +69306,7 @@
             {
               "text": "ferment.",
               "activationValue": 0.362
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71338,11 +69382,7 @@
             {
               "text": "shaping.",
               "activationValue": 0.145
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71466,11 +69506,7 @@
             {
               "text": "[@B21]).",
               "activationValue": 0.115
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71610,11 +69646,7 @@
             {
               "text": "hours).",
               "activationValue": 0.245
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71670,11 +69702,7 @@
             {
               "text": "musts.",
               "activationValue": 0.273
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71830,11 +69858,7 @@
             {
               "text": "[@B43]).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -71982,11 +70006,7 @@
             {
               "text": "([@B13]).",
               "activationValue": 0.11
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72034,11 +70054,7 @@
             {
               "text": "yeast.",
               "activationValue": 0.486
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72098,11 +70114,7 @@
             {
               "text": "strains.",
               "activationValue": 0.45
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72154,11 +70166,7 @@
             {
               "text": "cultures.",
               "activationValue": 0.55
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72202,11 +70210,7 @@
             {
               "text": "lacto-fermentation.",
               "activationValue": 0.873
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72266,11 +70270,7 @@
             {
               "text": "Acidophilus.",
               "activationValue": 0.689
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -72430,11 +70430,7 @@
             {
               "text": "[@bib120]).",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -74608,7 +72604,9 @@
           "labelOrigin": "Narrow",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 250,
+      "positionY": 550
     },
     {
       "id": 14407,
@@ -74691,11 +72689,7 @@
             {
               "text": "in.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -74819,11 +72813,7 @@
             {
               "text": "aside.",
               "activationValue": 0.267
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -74903,11 +72893,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.288
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75035,11 +73021,7 @@
             {
               "text": "tops.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75083,11 +73065,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.266
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75135,11 +73113,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.282
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75183,11 +73157,7 @@
             {
               "text": "sit.",
               "activationValue": 0.693
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75263,11 +73233,7 @@
             {
               "text": "vegetables.",
               "activationValue": 0.057
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75327,11 +73293,7 @@
             {
               "text": "first.",
               "activationValue": 0.191
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75383,11 +73345,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.334
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75567,11 +73525,7 @@
             {
               "text": "wish.",
               "activationValue": 0.062
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75635,11 +73589,7 @@
             {
               "text": "temperature.",
               "activationValue": 0.222
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75727,11 +73677,7 @@
             {
               "text": "rack.",
               "activationValue": 0.256
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75791,11 +73737,7 @@
             {
               "text": "baking.",
               "activationValue": 0.067
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75831,11 +73773,7 @@
             {
               "text": "icing.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -75923,11 +73861,7 @@
             {
               "text": "hour.",
               "activationValue": 0.246
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76003,11 +73937,7 @@
             {
               "text": "bit.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76143,11 +74073,7 @@
             {
               "text": "overnight.",
               "activationValue": 0.291
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76255,11 +74181,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.274
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76315,11 +74237,7 @@
             {
               "text": "hours.",
               "activationValue": 0.365
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76359,11 +74277,7 @@
             {
               "text": "cool.",
               "activationValue": 0.521
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76523,11 +74437,7 @@
             {
               "text": "deposition.",
               "activationValue": 0.154
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76595,11 +74505,7 @@
             {
               "text": "hour.",
               "activationValue": 0.317
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76659,11 +74565,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.271
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76715,11 +74617,7 @@
             {
               "text": "cool.",
               "activationValue": 0.639
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76799,11 +74697,7 @@
             {
               "text": "rack.",
               "activationValue": 0.417
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76899,11 +74793,7 @@
             {
               "text": "has.",
               "activationValue": 0.133
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76951,11 +74841,7 @@
             {
               "text": "completely.",
               "activationValue": 0.258
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -76999,11 +74885,7 @@
             {
               "text": "boil.",
               "activationValue": 0.22
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77151,11 +75033,7 @@
             {
               "text": "happens.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77195,11 +75073,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77255,11 +75129,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.282
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77387,11 +75257,7 @@
             {
               "text": "effort.",
               "activationValue": 0.0
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77447,11 +75313,7 @@
             {
               "text": "2.",
               "activationValue": 0.086
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77519,11 +75381,7 @@
             {
               "text": "preheats.",
               "activationValue": 0.172
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77607,11 +75465,7 @@
             {
               "text": "temperature.",
               "activationValue": 0.401
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77663,11 +75517,7 @@
             {
               "text": "slightly.",
               "activationValue": 0.209
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77771,11 +75621,7 @@
             {
               "text": "overnight.",
               "activationValue": 0.141
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -77843,11 +75689,7 @@
             {
               "text": "minutes.",
               "activationValue": 0.35
-            }
-          ]
-        },
-        {
-          "activationText": [
+            },
             {
               "text": "<bos>",
               "activationValue": 0.0
@@ -80085,7 +77927,9 @@
           "labelOrigin": "Broad",
           "primaryColor": "oklch(62.3% 0.214 259.815)"
         }
-      ]
+      ],
+      "positionX": 200,
+      "positionY": 400
     }
   ]
 }
