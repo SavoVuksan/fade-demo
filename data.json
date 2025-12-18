@@ -1,8 +1,8 @@
 {
-  "clarityTooltipDescription": "Add Clarity description",
-  "responsivnessTooltipDescription": "Add responsivness description",
-  "faithfulnessTooltipDescription": "Add faithfulness Description",
-  "purityTooltipDescription": "Add purity Description",
+  "clarityDimensionDescription": "Is the description clear enough to communicate the concept?",
+  "responsivnessDimensionDescription": "Does the feature respond differently to concept and non-concept samples?",
+  "faithfulnessDimensionDescription": "Can we steer the model by modifying the feature?",
+  "purityDimensionDescription": "Are strong activations of the feature purely related to the description?",
   "labelColorPalette": [
     "oklch(62.3% 0.214 259.815)",
     "oklch(64.5% 0.246 16.439)",
@@ -15,7 +15,8 @@
     {
       "id": 0,
       "name": "Narrow Descriptions",
-      "description": "example scenario. We would write something about how you can understand this scenario",
+      "description": "The description is covering a very specfic part of the encoded concept and not the entire concept",
+      "neuronSelectDescription": "Some Description 1",
       "modelName": "Gemmascope 2, layer 20",
       "neuronIds": [
         460,
@@ -32,7 +33,8 @@
     {
       "id": 1,
       "name": "Broad Descriptions",
-      "description": "example scenario. We would write something about how you can understand this scenario",
+      "description": "The description is overly broad and covers concepts not encoded by the more narrow feature",
+      "neuronSelectDescription": "Some Description 2",
       "modelName": "Gemmascope 2, layer 20",
       "neuronIds": [
         742,
@@ -44,7 +46,8 @@
     {
       "id": 2,
       "name": "Polysemantic Neurons",
-      "description": "example scenario. We would write something about how you can understand this scenario",
+      "description": "The feature encoded multiple distinct concepts but the description covers only a single part",
+      "neuronSelectDescription": "Some Description 3",
       "modelName": "Gemmascope 2",
       "neuronIds": [
         4313,
@@ -6044,6 +6047,7 @@
           "labelOrigin": "Improved"
         }
       ],
+      "insights": "Test description",
       "positionX": 50,
       "positionY": 50
     },
@@ -10114,6 +10118,7 @@
           "labelOrigin": "Polysemantic Improved"
         }
       ],
+      "insights": "",
       "positionX": 65,
       "positionY": 35
     },
@@ -14784,6 +14789,7 @@
           "labelOrigin": "Neuronpedia"
         }
       ],
+      "insights": "",
       "positionX": 90,
       "positionY": 80
     },
@@ -18942,6 +18948,7 @@
           "labelOrigin": "Improved"
         }
       ],
+      "insights": "",
       "positionX": 55,
       "positionY": 65
     },
@@ -25356,6 +25363,7 @@
           "labelOrigin": "Broad"
         }
       ],
+      "insights": "",
       "positionX": 20,
       "positionY": 10
     },
@@ -31982,6 +31990,7 @@
           "labelOrigin": "Broad"
         }
       ],
+      "insights": "",
       "positionX": 90,
       "positionY": 25
     },
@@ -36168,6 +36177,7 @@
           "labelOrigin": "Improved"
         }
       ],
+      "insights": "",
       "positionX": 75,
       "positionY": 66
     },
@@ -41838,6 +41848,7 @@
           "labelOrigin": "Broad"
         }
       ],
+      "insights": "",
       "positionX": 80,
       "positionY": 20
     },
@@ -48076,6 +48087,7 @@
           "labelOrigin": "Narrow"
         }
       ],
+      "insights": "",
       "positionX": 90,
       "positionY": 66
     },
@@ -54674,6 +54686,7 @@
           "labelOrigin": "Narrow"
         }
       ],
+      "insights": "",
       "positionX": 33,
       "positionY": 33
     },
@@ -61432,6 +61445,7 @@
           "labelOrigin": "Narrow"
         }
       ],
+      "insights": "",
       "positionX": 66,
       "positionY": 66
     },
@@ -67730,6 +67744,7 @@
           "labelOrigin": "Narrow"
         }
       ],
+      "insights": "",
       "positionX": 11,
       "positionY": 36
     },
@@ -73684,6 +73699,7 @@
           "labelOrigin": "Narrow"
         }
       ],
+      "insights": "Test description",
       "positionX": 45,
       "positionY": 66
     },
@@ -79090,6 +79106,7 @@
           "labelOrigin": "Broad"
         }
       ],
+      "insights": "",
       "positionX": 10,
       "positionY": 85
     }
